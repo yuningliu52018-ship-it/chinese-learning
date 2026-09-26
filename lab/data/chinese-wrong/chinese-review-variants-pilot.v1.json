@@ -1,0 +1,585 @@
+{
+  "schemaVersion": 1,
+  "purpose": "review-variant-quality-pilot",
+  "variants": [
+    {
+      "variantId": "zh-Q1-L1-v1",
+      "coreId": "chinese-wrong-2026-09-22-q1",
+      "sourceQuestionNo": 1,
+      "level": "L1",
+      "pool": "word",
+      "subtype": "pronunciation",
+      "targetWeakSkill": "語境判音／多音字辨識",
+      "question": "「重量／重新／重要」三個詞中的「重」，依序應讀作哪一組？",
+      "choices": {
+        "A": "ㄓㄨㄥˋ／ㄔㄨㄥˊ／ㄓㄨㄥˋ",
+        "B": "ㄓㄨㄥˋ／ㄓㄨㄥˋ／ㄔㄨㄥˊ",
+        "C": "ㄔㄨㄥˊ／ㄔㄨㄥˊ／ㄓㄨㄥˋ"
+      },
+      "correctAnswer": "A",
+      "explanation": "「重量」指物體的輕重，「重要」指具有重大影響，兩者讀 ㄓㄨㄥˋ；「重新」表示再一次，讀 ㄔㄨㄥˊ。",
+      "choiceAnalysis": {
+        "A": "三個詞的語義與讀音都對應正確。",
+        "B": "把「重新」的再一次與「重要」的重大意義混淆，後兩音都錯。",
+        "C": "「重量」不是重複的意思，第一音應為 ㄓㄨㄥˋ。"
+      },
+      "designNote": "以同字的三個常見詞語建立義音對應；不沿用原題的杓、潦、遠、否。L1 使用規格允許的三選一。",
+      "status": "pilot",
+      "qualityCheck": {
+        "sameWeakSkill": true,
+        "notSurfaceRewrite": true,
+        "singleBestAnswer": true,
+        "distractorsPlausible": true
+      }
+    },
+    {
+      "variantId": "zh-Q1-L2-v1",
+      "coreId": "chinese-wrong-2026-09-22-q1",
+      "sourceQuestionNo": 1,
+      "level": "L2",
+      "pool": "word",
+      "subtype": "pronunciation",
+      "targetWeakSkill": "語境判音／多音字辨識",
+      "question": "下列各組「同一個字」在兩個詞語中的讀音，哪一組相同？",
+      "choices": {
+        "A": "音「樂」／快「樂」",
+        "B": "校「長」／成「長」",
+        "C": "「數」字／「數」一數",
+        "D": "「好」人／愛「好」"
+      },
+      "correctAnswer": "B",
+      "explanation": "校長是學校的主管，成長是長大，兩個「長」都讀 ㄓㄤˇ。其餘三組各因詞義不同而改變讀音。",
+      "choiceAnalysis": {
+        "A": "音樂的「樂」讀 ㄩㄝˋ；快樂讀 ㄌㄜˋ，並不相同。",
+        "B": "校長、成長都讀 ㄓㄤˇ，符合題目要求。",
+        "C": "數字讀 ㄕㄨˋ；數一數表示計算，讀 ㄕㄨˇ。",
+        "D": "好人讀 ㄏㄠˇ；愛好表示喜愛，讀 ㄏㄠˋ。"
+      },
+      "designNote": "從單組辨音提升為跨四組比較；以數字／數一數、好人／愛好等常見語義轉換構成干擾。",
+      "status": "pilot",
+      "qualityCheck": {
+        "sameWeakSkill": true,
+        "notSurfaceRewrite": true,
+        "singleBestAnswer": true,
+        "distractorsPlausible": true
+      }
+    },
+    {
+      "variantId": "zh-Q1-L3-v1",
+      "coreId": "chinese-wrong-2026-09-22-q1",
+      "sourceQuestionNo": 1,
+      "level": "L3",
+      "pool": "word",
+      "subtype": "pronunciation",
+      "targetWeakSkill": "語境判音／多音字辨識",
+      "question": "工讀生指著帳本問店長：「這一『行』的帳目還要補嗎？」店長看過後答道：「這樣就『行』了，不必再補。」兩個「行」依出現順序，應讀作哪一組？",
+      "choices": {
+        "A": "ㄒㄧㄥˊ／ㄒㄧㄥˊ",
+        "B": "ㄒㄧㄥˊ／ㄏㄤˊ",
+        "C": "ㄏㄤˊ／ㄏㄤˊ",
+        "D": "ㄏㄤˊ／ㄒㄧㄥˊ"
+      },
+      "correctAnswer": "D",
+      "explanation": "前一個「行」由帳本與指示位置可知是成排的文字，讀 ㄏㄤˊ；後一個是店長表示可以、不必再補，讀 ㄒㄧㄥˊ。要先分辨所指的位置與肯定的答覆。",
+      "choiceAnalysis": {
+        "A": "前一個指帳本上一排文字，應讀 ㄏㄤˊ，不能兩字都套用「可以」的讀音。",
+        "B": "把成排文字與表示可以的讀音對調。",
+        "C": "後一個是肯定答覆，不是文字行列，應讀 ㄒㄧㄥˊ。",
+        "D": "先由帳本定位文字行列，再由「不必再補」理解肯定答覆，依序是 ㄏㄤˊ、ㄒㄧㄥˊ。"
+      },
+      "designNote": "以完整對話中的指示位置和回應判音；不提供銀行、步行等固定詞語，要從上下文辨別行列與可以兩種用義。",
+      "status": "pilot",
+      "qualityCheck": {
+        "sameWeakSkill": true,
+        "notSurfaceRewrite": true,
+        "singleBestAnswer": true,
+        "distractorsPlausible": true
+      }
+    },
+    {
+      "variantId": "zh-Q1-Boss-v1",
+      "coreId": "chinese-wrong-2026-09-22-q1",
+      "sourceQuestionNo": 1,
+      "level": "Boss",
+      "pool": "word",
+      "subtype": "pronunciation",
+      "targetWeakSkill": "語境判音／多音字辨識",
+      "question": "下列四段各有一組同字異境。「」中的字依出現順序，哪一組標音完全正確？",
+      "choices": {
+        "A": "弟弟把飯「盛」進碗裡，窗外的花正「盛」開。（ㄕㄥˋ／ㄕㄥˋ）",
+        "B": "他從夢中「覺」醒，想起昨晚睡「覺」前忘了關燈。（ㄐㄩㄝˊ／ㄐㄩㄝˊ）",
+        "C": "他先「更」換燈泡，又讀書到三「更」才休息。（ㄍㄥ／ㄍㄥ）",
+        "D": "這家店交通方「便」，售價也比別家「便」宜。（ㄅㄧㄢˋ／ㄅㄧㄢˋ）"
+      },
+      "correctAnswer": "C",
+      "explanation": "「更換」的更是改換，「三更」的更是夜間計時單位，都讀 ㄍㄥ。其餘各組都有一音因語義改變而不能沿用另一詞的讀音。",
+      "choiceAnalysis": {
+        "A": "盛飯表示裝入，讀 ㄔㄥˊ；盛開讀 ㄕㄥˋ。第一音錯。",
+        "B": "覺醒讀 ㄐㄩㄝˊ；睡覺讀 ㄐㄧㄠˋ。第二音錯。",
+        "C": "改換與夜間計時雖意義不同，但兩個更都讀 ㄍㄥ，標音完全正確。",
+        "D": "方便讀 ㄅㄧㄢˋ；便宜讀 ㄆㄧㄢˊ。第二音錯。"
+      },
+      "designNote": "整合盛、覺、更、便四組語境；各選項都需核對兩處用義與讀音，避免只認得一詞就作答。更換／三更另用來檢查「不同意思一定不同音」的誤推。",
+      "status": "pilot",
+      "qualityCheck": {
+        "sameWeakSkill": true,
+        "notSurfaceRewrite": true,
+        "singleBestAnswer": true,
+        "distractorsPlausible": true
+      }
+    },
+    {
+      "variantId": "zh-Q15-L1-v1",
+      "coreId": "chinese-wrong-2026-09-22-q15",
+      "sourceQuestionNo": 15,
+      "level": "L1",
+      "pool": "word",
+      "subtype": "idiomUsage",
+      "targetWeakSkill": "成語語義與使用情境配對",
+      "question": "下列哪個生活情境，用「雪中送炭」形容最恰當？",
+      "choices": {
+        "A": "朋友已收到許多禮物，我又送上一張賀卡。",
+        "B": "同學忘帶午餐又沒錢買，我把自己的餐點分給他。",
+        "C": "我沒有問朋友的需要，就替他選了生日禮物。",
+        "D": "大家都稱讚同學的新鞋，我也跟著稱讚。"
+      },
+      "correctAnswer": "B",
+      "explanation": "「雪中送炭」比喻在別人急需時給予幫助。同學沒有午餐也無錢購買，分餐直接解決眼前的困難。",
+      "choiceAnalysis": {
+        "A": "原本已有許多禮物，未呈現急需援助的困境。",
+        "B": "缺少午餐是眼前困難，分餐是及時且切合需要的幫助。",
+        "C": "送禮不一定符合對方急需，材料也未交代困境。",
+        "D": "稱讚新鞋是附和讚美，不是協助解決急迫困難。"
+      },
+      "designNote": "只用一個常見成語配對生活需要；以送禮、稱讚等善意行為干擾，要求辨別「幫忙」與「急需時援助」。",
+      "status": "pilot",
+      "qualityCheck": {
+        "sameWeakSkill": true,
+        "notSurfaceRewrite": true,
+        "singleBestAnswer": true,
+        "distractorsPlausible": true
+      }
+    },
+    {
+      "variantId": "zh-Q15-L2-v1",
+      "coreId": "chinese-wrong-2026-09-22-q15",
+      "sourceQuestionNo": 15,
+      "level": "L2",
+      "pool": "word",
+      "subtype": "idiomUsage",
+      "targetWeakSkill": "成語語義與使用情境配對",
+      "question": "下列四句都使用「亡羊補牢」，哪一句用法正確？",
+      "choices": {
+        "A": "比賽尚未開始，他就仔細檢查器材，真是亡羊補牢。",
+        "B": "他發現報告有錯，卻故意不改，真是亡羊補牢。",
+        "C": "隊友提醒他可能遲到，他仍照舊晚出門，真是亡羊補牢。",
+        "D": "他因忘帶作業被提醒，之後每天睡前檢查書包，真是亡羊補牢。"
+      },
+      "correctAnswer": "D",
+      "explanation": "「亡羊補牢」比喻出了差錯後設法補救，以免再犯。D 同時具備先前失誤與之後改進兩項條件。",
+      "choiceAnalysis": {
+        "A": "只有事前預防，尚未發生失誤，不符合事後補救。",
+        "B": "發現錯誤卻不改，沒有補救行動。",
+        "C": "收到提醒仍不調整，沒有避免再犯的改進。",
+        "D": "先忘帶作業，再建立檢查習慣，符合事後補救。"
+      },
+      "designNote": "同一成語比較四種情境，逐項核對「已出差錯」與「採取補救」，從單一情境辨義提升為條件判斷。",
+      "status": "pilot",
+      "qualityCheck": {
+        "sameWeakSkill": true,
+        "notSurfaceRewrite": true,
+        "singleBestAnswer": true,
+        "distractorsPlausible": true
+      }
+    },
+    {
+      "variantId": "zh-Q15-L3-v1",
+      "coreId": "chinese-wrong-2026-09-22-q15",
+      "sourceQuestionNo": 15,
+      "level": "L3",
+      "pool": "word",
+      "subtype": "idiomUsage",
+      "targetWeakSkill": "成語語義與使用情境配對",
+      "question": "下列句子表面都通順，哪一句成語的語義與使用對象完全符合情境？",
+      "choices": {
+        "A": "志工不求回報地照顧長者，這份善良真是美輪美奐。",
+        "B": "他事前充分準備，面對同學提問仍能侃侃而談，清楚說明自己的看法。",
+        "C": "他真誠幫助遇困的陌生人，這種趨炎附勢的精神值得大家學習。",
+        "D": "這座未經人工修整的天然石洞，展現了工匠巧奪天工的本領。"
+      },
+      "correctAnswer": "B",
+      "explanation": "「侃侃而談」形容理直氣壯、從容不迫地談話，符合準備充分而清楚表達的情境。其餘分別混淆讚美對象、褒貶與人工／自然。",
+      "choiceAnalysis": {
+        "A": "美輪美奐主要形容建築等的高大華美，不能拿來描述善良的品德，屬對象錯置。",
+        "B": "準備充分、從容說明看法，符合侃侃而談的語義。",
+        "C": "趨炎附勢指攀附有權勢者，帶貶義，與真誠助人且值得學習的情境衝突。",
+        "D": "巧奪天工讚美精巧的人工技藝；未經人工修整的天然洞穴不能證明工匠的本領。"
+      },
+      "designNote": "同時辨別對象限制、褒貶與情境，不再只辨成語的簡短解釋；干擾句以正面語氣掩蓋限制不合。",
+      "status": "pilot",
+      "qualityCheck": {
+        "sameWeakSkill": true,
+        "notSurfaceRewrite": true,
+        "singleBestAnswer": true,
+        "distractorsPlausible": true
+      }
+    },
+    {
+      "variantId": "zh-Q15-Boss-v1",
+      "coreId": "chinese-wrong-2026-09-22-q15",
+      "sourceQuestionNo": 15,
+      "level": "Boss",
+      "pool": "word",
+      "subtype": "idiomUsage",
+      "targetWeakSkill": "成語語義與使用情境配對",
+      "question": "下列四個情境中，哪一句成語使用完全恰當？",
+      "choices": {
+        "A": "校門一開，他第一個走進教室，老師稱讚他首當其衝。",
+        "B": "這本書令他毫無興趣，他一頁也不想看，真是讀得津津有味。",
+        "C": "兩人合作募集物資，真心幫助災民，大家讚美他們同流合污。",
+        "D": "他把全部時間用來裝飾報告封面，卻連內容中的錯誤都不查，真是捨本逐末。"
+      },
+      "correctAnswer": "D",
+      "explanation": "報告內容是根本，封面裝飾是次要；只顧裝飾而忽略內容正誤，符合「捨本逐末」。其餘各有不同的用法問題。",
+      "choiceAnalysis": {
+        "A": "首當其衝指最先受到攻擊或災難，不是單純排在第一，屬字面誤解。",
+        "B": "津津有味形容興趣濃厚；毫無興趣且不想閱讀與之矛盾，屬情境衝突。",
+        "C": "同流合污指和壞人一起做壞事，不能用來讚美真誠公益合作，屬褒貶錯置。",
+        "D": "須同時比較內容與封面的主次，以及時間分配的失衡，才能判定捨本逐末用得恰當。"
+      },
+      "designNote": "四個不同成語與四個情境；三個干擾錯因分別是字面誤解、情境衝突、褒貶錯置。正答整合主次關係與行動取捨。",
+      "status": "rejected",
+      "qualityCheck": {
+        "sameWeakSkill": true,
+        "notSurfaceRewrite": true,
+        "singleBestAnswer": true,
+        "distractorsPlausible": true
+      },
+      "rejectionReason": "distractors-too-obvious"
+    },
+    {
+      "variantId": "zh-Q15-Boss-v2",
+      "coreId": "chinese-wrong-2026-09-22-q15",
+      "sourceQuestionNo": 15,
+      "level": "Boss",
+      "pool": "word",
+      "subtype": "idiomUsage",
+      "targetWeakSkill": "成語語義與使用情境配對",
+      "question": "下列四個情境中，哪一句成語的使用最恰當？",
+      "choices": {
+        "A": "他的散文刻意省略所有標點，讓讀者自行斷句，這種「文不加點」的寫法頗具特色。",
+        "B": "這座博物館收藏的古代瓷器「汗牛充棟」，策展人依年代分批展出，供民眾欣賞。",
+        "C": "看過老師的示範，小哲依相同步驟做出同款模型，展現了「舉一反三」的學習能力。",
+        "D": "這次只有三位觀眾反映音量偏小，主辦人便認定所有觀眾都不滿意，這樣的判斷未免「以偏概全」。"
+      },
+      "correctAnswer": "D",
+      "explanation": "「以偏概全」指以局部或片面的情況推論整體。主辦人把三位觀眾對音量的意見，擴大成所有觀眾都不滿意，符合這個成語。其餘三項分別誤解「點」的意思、超出成語適用的對象，以及把照樣操作當成類推運用。",
+      "choiceAnalysis": {
+        "A": "字面誤解：「文不加點」的「點」指塗改、修改，成語形容寫文章一氣呵成，不需修改；不是不使用標點符號。省略標點不能作為這個成語的依據。",
+        "B": "適用對象限制：「汗牛充棟」形容書籍極多，不能只因收藏數量龐大，就用來形容古代瓷器。分批展出的情境自然，卻不符合成語所指的對象。",
+        "C": "使用條件錯誤：「舉一反三」須從一例推知其他同類事理。依相同步驟製作同款模型只呈現模仿，尚未呈現把原理推用到其他情況，不能據此判為舉一反三。",
+        "D": "以三位觀眾的局部意見推定全體觀眾的感受，符合以偏概全。須同時核對意見來源的範圍與結論涵蓋的範圍。"
+      },
+      "designNote": "四種情境都採自然敘述，不以明顯正反詞製造矛盾。A 誘使學生把「點」當標點；B 用收藏豐富的情境掩蓋書籍的對象限制；C 以成功仿作混淆類推遷移的成立條件。D 須整合取樣範圍與結論範圍。三個干擾分別檢查字面誤解、適用對象限制及使用條件，仍測成語語義與使用情境配對。",
+      "status": "pilot",
+      "qualityCheck": {
+        "sameWeakSkill": true,
+        "notSurfaceRewrite": true,
+        "singleBestAnswer": true,
+        "distractorsPlausible": true
+      }
+    },
+    {
+      "variantId": "zh-Q27-L1-v1",
+      "coreId": "chinese-wrong-2026-09-22-q27",
+      "sourceQuestionNo": 27,
+      "level": "L1",
+      "pool": "reading",
+      "subtype": "evidence",
+      "targetWeakSkill": "從細節找出真正功能與核心訊息",
+      "material": "班級借書時，管理員會在書本原來的位置放一張寫有座號的代書卡，方便查出書被誰借走。卡片用舊紙板製成，背面畫了插圖；還書時，就把卡片收回。",
+      "materialOrigin": "original-pilot-fiction",
+      "question": "班級借書時，管理員會在書本原來的位置放一張寫有座號的代書卡，方便查出書被誰借走。卡片用舊紙板製成，背面畫了插圖；還書時，就把卡片收回。\n\n代書卡上寫座號的主要用途是什麼？",
+      "choices": {
+        "A": "提醒讀者上次讀到哪一頁",
+        "B": "辨認是哪位同學借走書",
+        "C": "利用舊紙板減少資源浪費",
+        "D": "用插圖美化書架的外觀"
+      },
+      "correctAnswer": "B",
+      "explanation": "原文明說「方便查出書被誰借走」，直接指出座號的用途。材料、插圖是其他細節，不能替代這個功能。",
+      "choiceAnalysis": {
+        "A": "文章沒有說代書卡是閱讀書籤，也沒有記錄頁碼。",
+        "B": "「方便查出書被誰借走」直接支持辨認借閱者。",
+        "C": "舊紙板是卡片的製作材料，不是寫座號的用途。",
+        "D": "插圖是卡片外觀，並不是座號要達成的作用。"
+      },
+      "designNote": "自編校園說明材料，答案有明示證據；干擾分別取自書籤聯想、材料與外觀，不重演原題的市集聲響。",
+      "status": "pilot",
+      "qualityCheck": {
+        "sameWeakSkill": true,
+        "notSurfaceRewrite": true,
+        "singleBestAnswer": true,
+        "distractorsPlausible": true
+      }
+    },
+    {
+      "variantId": "zh-Q27-L2-v1",
+      "coreId": "chinese-wrong-2026-09-22-q27",
+      "sourceQuestionNo": 27,
+      "level": "L2",
+      "pool": "reading",
+      "subtype": "evidence",
+      "targetWeakSkill": "從細節找出真正功能與核心訊息",
+      "material": "社區設置共享冰箱，居民可放入尚能食用的食物。每份食物須貼上放入日期，志工每天依日期把較早放入的移到前排，提醒大家優先取用。冰箱外殼由學生彩繪，旁邊另有捐贈者留言板，值班表則貼在牆上。",
+      "materialOrigin": "original-pilot-fiction",
+      "question": "社區設置共享冰箱，居民可放入尚能食用的食物。每份食物須貼上放入日期，志工每天依日期把較早放入的移到前排，提醒大家優先取用。冰箱外殼由學生彩繪，旁邊另有捐贈者留言板，值班表則貼在牆上。\n\n志工依日期調整食物前後位置，主要是為了什麼？",
+      "choices": {
+        "A": "讓居民欣賞學生的彩繪作品",
+        "B": "讓捐贈者更容易看見自己的留言",
+        "C": "引導居民先取用較早放入的食物",
+        "D": "讓居民查到當天負責值班的人"
+      },
+      "correctAnswer": "C",
+      "explanation": "日期與前後位置相互配合，引導先放入的食物先被取用。彩繪、留言板、值班表都有出現，但不是調整食物位置的目的。",
+      "choiceAnalysis": {
+        "A": "彩繪位於外殼，是外觀細節，不能解釋食物的前後排序。",
+        "B": "留言板記錄留言，和依日期移動食物無關。",
+        "C": "「較早放入的移到前排」與「優先取用」共同支持這個作用。",
+        "D": "查值班人員可看牆上的值班表，不需調整食物位置。"
+      },
+      "designNote": "改用共享冰箱材料；需把操作方式和目的相連，排除文章真有提到但不對應題問的三個細節。",
+      "status": "pilot",
+      "qualityCheck": {
+        "sameWeakSkill": true,
+        "notSurfaceRewrite": true,
+        "singleBestAnswer": true,
+        "distractorsPlausible": true
+      }
+    },
+    {
+      "variantId": "zh-Q27-L3-v1",
+      "coreId": "chinese-wrong-2026-09-22-q27",
+      "sourceQuestionNo": 27,
+      "level": "L3",
+      "pool": "reading",
+      "subtype": "evidence",
+      "targetWeakSkill": "從細節找出真正功能與核心訊息",
+      "material": "公園原有一排固定長椅，早上樹蔭落在東側，下午卻移到西側，遊客常把外套蓋在頭上。管理員改放幾張可移動的椅子後，發現人們上午把椅子搬到東側，下午又搬向西側。椅子的數量沒有增加，外觀也與原先相近，但遊客用外套遮頭的情形減少了。",
+      "materialOrigin": "original-pilot-fiction",
+      "question": "公園原有一排固定長椅，早上樹蔭落在東側，下午卻移到西側，遊客常把外套蓋在頭上。管理員改放幾張可移動的椅子後，發現人們上午把椅子搬到東側，下午又搬向西側。椅子的數量沒有增加，外觀也與原先相近，但遊客用外套遮頭的情形減少了。\n\n上述觀察最能支持哪項推論？",
+      "choices": {
+        "A": "遊客更在意椅子的顏色是否好看",
+        "B": "椅子變多，使每個遊客都能坐下",
+        "C": "遊客已不需要樹蔭，也不再怕曬",
+        "D": "可移動的座椅讓遊客隨樹蔭調整位置"
+      },
+      "correctAnswer": "D",
+      "explanation": "搬椅方向隨早晚樹蔭改變，且遮頭情形減少，支持遊客藉移動座位避開日曬的推論。不能只把改善歸因於外觀或數量。",
+      "choiceAnalysis": {
+        "A": "外觀相近，材料也沒有觀察到對顏色的偏好。",
+        "B": "材料明說數量沒有增加，不能推成增加座位的效果。",
+        "C": "人們仍追隨樹蔭移動，不能推成不需要遮蔭。",
+        "D": "須結合樹蔭變化、移椅方向和遮頭減少三項觀察，才能推出這個結論。"
+      },
+      "designNote": "以觀察紀錄代替直接說明用途；從時段、位置與行為變化推論，不需要公園設計等外部知識。",
+      "status": "pilot",
+      "qualityCheck": {
+        "sameWeakSkill": true,
+        "notSurfaceRewrite": true,
+        "singleBestAnswer": true,
+        "distractorsPlausible": true
+      }
+    },
+    {
+      "variantId": "zh-Q27-Boss-v1",
+      "coreId": "chinese-wrong-2026-09-22-q27",
+      "sourceQuestionNo": 27,
+      "level": "Boss",
+      "pool": "reading",
+      "subtype": "evidence",
+      "targetWeakSkill": "從細節找出真正功能與核心訊息",
+      "material": "圖書館整修期間，借還書改在活動中心辦理。入口有一面彩色指引板，把還書、取預約書、辦借書證分成三條不同顏色的路線，地上也貼了對應色帶。板子旁展示老館照片，讓居民回顧舊館模樣；另一側公告本週說故事的時間。指引板使用回收木板製作，志工每天開館前檢查色帶是否脫落。開放一週後，同時來辦不同事情的讀者，較少排錯隊伍，也較少停下來詢問櫃臺。",
+      "materialOrigin": "original-pilot-fiction",
+      "question": "圖書館整修期間，借還書改在活動中心辦理。入口有一面彩色指引板，把還書、取預約書、辦借書證分成三條不同顏色的路線，地上也貼了對應色帶。板子旁展示老館照片，讓居民回顧舊館模樣；另一側公告本週說故事的時間。指引板使用回收木板製作，志工每天開館前檢查色帶是否脫落。開放一週後，同時來辦不同事情的讀者，較少排錯隊伍，也較少停下來詢問櫃臺。\n\n若要說明「指引板與地面色帶相互配合」的核心作用，下列哪項最符合全文？",
+      "choices": {
+        "A": "讓居民回顧老館模樣，延續對圖書館的記憶",
+        "B": "讓讀者掌握說故事時間，方便安排參與活動",
+        "C": "把辦理事項和行走路線連結，減少排錯隊伍",
+        "D": "透過回收木板製作設備，減少新材料的使用"
+      },
+      "correctAnswer": "C",
+      "explanation": "板上事項與地面同色路線相連，讀者才能找到對應隊伍；一週後較少排錯隊是效果證據。其他三項都屬文中細節，卻未回答兩者如何配合。",
+      "choiceAnalysis": {
+        "A": "老館照片確實讓居民回顧舊館，但這是照片的作用，不是色帶和指引板的合作效果。",
+        "B": "故事時間確實有公告，但時間資訊不能解釋不同事項如何分流。",
+        "C": "同時整合事項分類、同色路線以及排錯隊減少，完整回答題目所問的核心作用。",
+        "D": "回收木板確實是製作材料，但不論材料新舊，都不能單獨解釋色帶的引導效果。"
+      },
+      "designNote": "自編較長材料包含照片、活動時間、回收材料與路線等細節。三個干擾均有所本；Boss 要整合設計方式和實際效果，避免把有提到的事當成答案。",
+      "status": "pilot",
+      "qualityCheck": {
+        "sameWeakSkill": true,
+        "notSurfaceRewrite": true,
+        "singleBestAnswer": true,
+        "distractorsPlausible": true
+      }
+    },
+    {
+      "variantId": "zh-Q35-L1-v1",
+      "coreId": "chinese-wrong-2026-09-22-q35",
+      "sourceQuestionNo": 35,
+      "level": "L1",
+      "pool": "reading",
+      "subtype": "characterAction",
+      "targetWeakSkill": "人物關係、行動先後與情節理解",
+      "material": "阿禾欲借筆，問小竹：「可借我一枝乎？」小竹指桌曰：「筆在此，取之可也。」阿禾取筆，寫畢即還。",
+      "materialOrigin": "original-pilot-fiction",
+      "characters": [
+        "阿禾",
+        "小竹"
+      ],
+      "question": "阿禾欲借筆，問小竹：「可借我一枝乎？」小竹指桌曰：「筆在此，取之可也。」阿禾取筆，寫畢即還。\n\n下列哪項人物與行動的配對符合短文？",
+      "choices": {
+        "A": "阿禾向小竹借筆",
+        "B": "小竹向阿禾借筆",
+        "C": "小竹取筆寫字",
+        "D": "阿禾拒絕還筆"
+      },
+      "correctAnswer": "A",
+      "explanation": "阿禾先開口借筆，小竹同意，最後由阿禾取筆、書寫並歸還。",
+      "choiceAnalysis": {
+        "A": "「阿禾欲借筆，問小竹」直接支持這個配對。",
+        "B": "把借筆者和出借者對調；開口借筆的是阿禾。",
+        "C": "取筆書寫的是阿禾，不是小竹。",
+        "D": "「寫畢即還」表示寫完立刻歸還，並非拒絕還筆。"
+      },
+      "designNote": "自編淺白文言，兩人、一段借物對話，先辨說話者與行動者；保留文言敘事能力而不沿用原題婚姻情節。",
+      "status": "pilot",
+      "qualityCheck": {
+        "sameWeakSkill": true,
+        "notSurfaceRewrite": true,
+        "singleBestAnswer": true,
+        "distractorsPlausible": true
+      }
+    },
+    {
+      "variantId": "zh-Q35-L2-v1",
+      "coreId": "chinese-wrong-2026-09-22-q35",
+      "sourceQuestionNo": 35,
+      "level": "L2",
+      "pool": "reading",
+      "subtype": "characterAction",
+      "targetWeakSkill": "人物關係、行動先後與情節理解",
+      "material": "子明尋書不得，問阿青。阿青曰：「我昨日借與小禾，當為汝取回。」遂往小禾家。小禾自架上取書交阿青，阿青歸，還書於子明。子明受書，乃往學堂。",
+      "materialOrigin": "original-pilot-fiction",
+      "characters": [
+        "子明",
+        "阿青",
+        "小禾"
+      ],
+      "question": "子明尋書不得，問阿青。阿青曰：「我昨日借與小禾，當為汝取回。」遂往小禾家。小禾自架上取書交阿青，阿青歸，還書於子明。子明受書，乃往學堂。\n\n下列哪個行動順序符合短文？",
+      "choices": {
+        "A": "子明往學堂 → 阿青問書 → 小禾還書",
+        "B": "小禾交書給子明 → 子明轉交阿青 → 阿青歸家",
+        "C": "子明問阿青 → 阿青向小禾取書 → 阿青還子明 → 子明往學堂",
+        "D": "阿青還子明 → 小禾取書 → 子明問阿青 → 子明往學堂"
+      },
+      "correctAnswer": "C",
+      "explanation": "先因子明尋書詢問，阿青才去小禾家取回；阿青歸還後，子明才帶書往學堂。須辨清轉交人物及「遂」「歸」「乃」的先後。",
+      "choiceAnalysis": {
+        "A": "往學堂是最後一步；最初問書者是子明，不是阿青。",
+        "B": "小禾把書交給阿青，再由阿青還子明，沒有直接交子明。",
+        "C": "四個事件節點與書的傳遞方向均符合原文。",
+        "D": "把歸還排在詢問和取書之前，因果與順序顛倒。"
+      },
+      "designNote": "三人且至少四個節點，從單一行動提升為依文言承接詞追蹤完整轉交次序。",
+      "status": "pilot",
+      "qualityCheck": {
+        "sameWeakSkill": true,
+        "notSurfaceRewrite": true,
+        "singleBestAnswer": true,
+        "distractorsPlausible": true
+      }
+    },
+    {
+      "variantId": "zh-Q35-L3-v1",
+      "coreId": "chinese-wrong-2026-09-22-q35",
+      "sourceQuestionNo": 35,
+      "level": "L3",
+      "pool": "reading",
+      "subtype": "characterAction",
+      "targetWeakSkill": "人物關係、行動先後與情節理解",
+      "material": "阿寧見子安抱箱而立，問曰：「何不入室？」子安曰：「門未開，吾欲請小禾取鑰匙。」阿寧應曰：「彼正在掃庭，吾代往取。」遂至櫃前取鑰匙，開門，子安乃抱箱而入。",
+      "materialOrigin": "original-pilot-fiction",
+      "characters": [
+        "阿寧",
+        "子安",
+        "小禾"
+      ],
+      "question": "阿寧見子安抱箱而立，問曰：「何不入室？」子安曰：「門未開，吾欲請小禾取鑰匙。」阿寧應曰：「彼正在掃庭，吾代往取。」遂至櫃前取鑰匙，開門，子安乃抱箱而入。\n\n「彼正在掃庭，吾代往取」中的「彼」與「吾」分別指誰？",
+      "choices": {
+        "A": "彼指子安，吾指小禾",
+        "B": "彼指小禾，吾指阿寧",
+        "C": "彼指阿寧，吾指子安",
+        "D": "彼指小禾，吾指子安"
+      },
+      "correctAnswer": "B",
+      "explanation": "第二段回答由阿寧說出，所以「吾」是阿寧；他接續子安要請小禾的話，指出小禾正掃庭，所以「彼」指小禾。",
+      "choiceAnalysis": {
+        "A": "子安抱箱等待，不是在掃庭；這句也不是小禾說的。",
+        "B": "先找「阿寧應曰」確認說話者，再由前句被提及的人定位小禾，兩個代詞才都正確。",
+        "C": "把說話者當成「彼」，又把前一位說話者當成「吾」，混淆了對話轉換。",
+        "D": "雖找對小禾，卻沿用前一句子安的自稱，忽略這句已換阿寧回答。"
+      },
+      "designNote": "三人、兩次說話者轉換，加上省略主詞的「遂至」；必須沿上下文追蹤代詞，不能只認某個名字。",
+      "status": "pilot",
+      "qualityCheck": {
+        "sameWeakSkill": true,
+        "notSurfaceRewrite": true,
+        "singleBestAnswer": true,
+        "distractorsPlausible": true
+      }
+    },
+    {
+      "variantId": "zh-Q35-Boss-v1",
+      "coreId": "chinese-wrong-2026-09-22-q35",
+      "sourceQuestionNo": 35,
+      "level": "Boss",
+      "pool": "reading",
+      "subtype": "characterAction",
+      "targetWeakSkill": "人物關係、行動先後與情節理解",
+      "material": "書會將始，阿澄見桌上無講稿，欲往後室尋之。小羽止之曰：「稿在子安處，你先排椅，我去取。」阿澄從其言。小羽至廊下，見子安正與阿禾搬箱，便問子安稿在何處。子安指箱曰：「在箱底，待搬入室再取。」阿禾聞之，放下手中小箱，請子安先取稿。子安遂開箱交稿於小羽。小羽歸，見阿澄已排妥座椅，乃將稿置桌上，告阿澄可以請眾人入座。",
+      "materialOrigin": "original-pilot-fiction",
+      "characters": [
+        "阿澄",
+        "小羽",
+        "子安",
+        "阿禾"
+      ],
+      "question": "書會將始，阿澄見桌上無講稿，欲往後室尋之。小羽止之曰：「稿在子安處，你先排椅，我去取。」阿澄從其言。小羽至廊下，見子安正與阿禾搬箱，便問子安稿在何處。子安指箱曰：「在箱底，待搬入室再取。」阿禾聞之，放下手中小箱，請子安先取稿。子安遂開箱交稿於小羽。小羽歸，見阿澄已排妥座椅，乃將稿置桌上，告阿澄可以請眾人入座。\n\n下列哪項敘述完全符合短文的人物關係與事件先後？",
+      "choices": {
+        "A": "子安叫阿澄先排椅；阿禾搬完箱後，子安才取出講稿。",
+        "B": "小羽請阿禾先排椅；阿澄替子安搬箱，才使小羽拿到講稿。",
+        "C": "阿澄先把講稿放上桌，小羽才去廊下；眾人入座後阿禾才請子安取稿。",
+        "D": "小羽先請阿澄排椅，再到廊下問子安；阿禾請子安先取稿後，小羽把稿帶回。"
+      },
+      "correctAnswer": "D",
+      "explanation": "小羽把排椅交給阿澄，自己找子安；阿禾提出先取稿，子安才提前開箱交稿。小羽帶回時椅子已排好，最後才請眾人入座。",
+      "choiceAnalysis": {
+        "A": "叫阿澄排椅的是小羽，不是子安，屬說話者錯置；也把子安原先「搬入再取」的計畫當成後來實際順序。",
+        "B": "排椅的受話者是阿澄，不是阿禾；阿澄沒有替子安搬箱，取稿是因阿禾提議提前辦理，亦有因果錯置。",
+        "C": "取稿後才把稿放桌並請人入座；選項把前後顛倒，且放稿者是小羽。",
+        "D": "同時對應最初的工作分配、阿禾造成的計畫改變與最後交稿動作，人物及順序皆正確。"
+      },
+      "designNote": "四人、三段引語與交錯行動；需區分原定計畫與實際改變，再追蹤交付講稿。三個干擾合計涵蓋說話者、受話者、順序及因果錯置。",
+      "status": "pilot",
+      "qualityCheck": {
+        "sameWeakSkill": true,
+        "notSurfaceRewrite": true,
+        "singleBestAnswer": true,
+        "distractorsPlausible": true
+      }
+    }
+  ]
+}

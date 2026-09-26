@@ -1,0 +1,692 @@
+{
+  "version": "v1",
+  "totalApproved": 98,
+  "approvedQuestions": [
+    {
+      "questionId": "ext-b13-q001",
+      "knowledgePointId": "dry-kp-25d4409b64",
+      "sourceFile": "public/lab/data/chinese-extended/chinese-daily-mission-extended-bank.v1.json",
+      "approved": true,
+      "approvalType": "data-audit"
+    },
+    {
+      "questionId": "ext-b13-q002",
+      "knowledgePointId": "dry-kp-05aeaa9063",
+      "sourceFile": "public/lab/data/chinese-extended/chinese-daily-mission-extended-bank.v1.json",
+      "approved": true,
+      "approvalType": "data-audit"
+    },
+    {
+      "questionId": "ext-b13-q003",
+      "knowledgePointId": "dry-kp-9c2304651c",
+      "sourceFile": "public/lab/data/chinese-extended/chinese-daily-mission-extended-bank.v1.json",
+      "approved": true,
+      "approvalType": "data-audit"
+    },
+    {
+      "questionId": "ext-b13-q004",
+      "knowledgePointId": "dry-kp-38ade50b89",
+      "sourceFile": "public/lab/data/chinese-extended/chinese-daily-mission-extended-bank.v1.json",
+      "approved": true,
+      "approvalType": "data-audit"
+    },
+    {
+      "questionId": "ext-b13-q005",
+      "knowledgePointId": "dry-kp-005a8aed84",
+      "sourceFile": "public/lab/data/chinese-extended/chinese-daily-mission-extended-bank.v1.json",
+      "approved": true,
+      "approvalType": "data-audit"
+    },
+    {
+      "questionId": "ext-b13-q006",
+      "knowledgePointId": "dry-kp-3752e6ed80",
+      "sourceFile": "public/lab/data/chinese-extended/chinese-daily-mission-extended-bank.v1.json",
+      "approved": true,
+      "approvalType": "data-audit"
+    },
+    {
+      "questionId": "ext-b13-q007",
+      "knowledgePointId": "dry-kp-33204c5440",
+      "sourceFile": "public/lab/data/chinese-extended/chinese-daily-mission-extended-bank.v1.json",
+      "approved": true,
+      "approvalType": "data-audit"
+    },
+    {
+      "questionId": "ext-b13-q008",
+      "knowledgePointId": "dry-kp-d1b534b655",
+      "sourceFile": "public/lab/data/chinese-extended/chinese-daily-mission-extended-bank.v1.json",
+      "approved": true,
+      "approvalType": "data-audit"
+    },
+    {
+      "questionId": "ext-b13-q009",
+      "knowledgePointId": "dry-kp-352120b56c",
+      "sourceFile": "public/lab/data/chinese-extended/chinese-daily-mission-extended-bank.v1.json",
+      "approved": true,
+      "approvalType": "data-audit"
+    },
+    {
+      "questionId": "ext-b13-q010",
+      "knowledgePointId": "dry-kp-14f5d287ff",
+      "sourceFile": "public/lab/data/chinese-extended/chinese-daily-mission-extended-bank.v1.json",
+      "approved": true,
+      "approvalType": "data-audit"
+    },
+    {
+      "questionId": "ext-b13-q011",
+      "knowledgePointId": "dry-kp-258162552f",
+      "sourceFile": "public/lab/data/chinese-extended/chinese-daily-mission-extended-bank.v1.json",
+      "approved": true,
+      "approvalType": "data-audit"
+    },
+    {
+      "questionId": "ext-b13-q012",
+      "knowledgePointId": "dry-kp-1d2a0c2a37",
+      "sourceFile": "public/lab/data/chinese-extended/chinese-daily-mission-extended-bank.v1.json",
+      "approved": true,
+      "approvalType": "data-audit"
+    },
+    {
+      "questionId": "ext-b13-q013",
+      "knowledgePointId": "dry-kp-2a29470c93",
+      "sourceFile": "public/lab/data/chinese-extended/chinese-daily-mission-extended-bank.v1.json",
+      "approved": true,
+      "approvalType": "data-audit"
+    },
+    {
+      "questionId": "ext-b13-q014",
+      "knowledgePointId": "dry-kp-c6d96121b1",
+      "sourceFile": "public/lab/data/chinese-extended/chinese-daily-mission-extended-bank.v1.json",
+      "approved": true,
+      "approvalType": "data-audit"
+    },
+    {
+      "questionId": "ext-b13-q015",
+      "knowledgePointId": "dry-kp-2651087620",
+      "sourceFile": "public/lab/data/chinese-extended/chinese-daily-mission-extended-bank.v1.json",
+      "approved": true,
+      "approvalType": "data-audit"
+    },
+    {
+      "questionId": "ext-b13-q016",
+      "knowledgePointId": "dry-kp-1cae353175",
+      "sourceFile": "public/lab/data/chinese-extended/chinese-daily-mission-extended-bank.v1.json",
+      "approved": true,
+      "approvalType": "data-audit"
+    },
+    {
+      "questionId": "ext-b13-q017",
+      "knowledgePointId": "dry-kp-f4cafd8d38",
+      "sourceFile": "public/lab/data/chinese-extended/chinese-daily-mission-extended-bank.v1.json",
+      "approved": true,
+      "approvalType": "data-audit"
+    },
+    {
+      "questionId": "ext-b13-q018",
+      "knowledgePointId": "dry-kp-64600f3332",
+      "sourceFile": "public/lab/data/chinese-extended/chinese-daily-mission-extended-bank.v1.json",
+      "approved": true,
+      "approvalType": "data-audit"
+    },
+    {
+      "questionId": "ext-b13-q019",
+      "knowledgePointId": "dry-kp-8ca4f058c8",
+      "sourceFile": "public/lab/data/chinese-extended/chinese-daily-mission-extended-bank.v1.json",
+      "approved": true,
+      "approvalType": "data-audit"
+    },
+    {
+      "questionId": "ext-b13-q020",
+      "knowledgePointId": "dry-kp-fda5a29808",
+      "sourceFile": "public/lab/data/chinese-extended/chinese-daily-mission-extended-bank.v1.json",
+      "approved": true,
+      "approvalType": "data-audit"
+    },
+    {
+      "questionId": "ext-b13-q021",
+      "knowledgePointId": "dry-kp-2f08668802",
+      "sourceFile": "public/lab/data/chinese-extended/chinese-daily-mission-extended-bank.v1.json",
+      "approved": true,
+      "approvalType": "data-audit"
+    },
+    {
+      "questionId": "ext-b13-q022",
+      "knowledgePointId": "dry-kp-44d66e81e5",
+      "sourceFile": "public/lab/data/chinese-extended/chinese-daily-mission-extended-bank.v1.json",
+      "approved": true,
+      "approvalType": "data-audit"
+    },
+    {
+      "questionId": "ext-b13-q023",
+      "knowledgePointId": "dry-kp-94fc2b177d",
+      "sourceFile": "public/lab/data/chinese-extended/chinese-daily-mission-extended-bank.v1.json",
+      "approved": true,
+      "approvalType": "data-audit"
+    },
+    {
+      "questionId": "ext-b13-q024",
+      "knowledgePointId": "dry-kp-f1294bd51b",
+      "sourceFile": "public/lab/data/chinese-extended/chinese-daily-mission-extended-bank.v1.json",
+      "approved": true,
+      "approvalType": "data-audit"
+    },
+    {
+      "questionId": "ext-b13-q025",
+      "knowledgePointId": "dry-kp-bcb7d80ef8",
+      "sourceFile": "public/lab/data/chinese-extended/chinese-daily-mission-extended-bank.v1.json",
+      "approved": true,
+      "approvalType": "data-audit"
+    },
+    {
+      "questionId": "ext-b13-q026",
+      "knowledgePointId": "dry-kp-4cfaf47f50",
+      "sourceFile": "public/lab/data/chinese-extended/chinese-daily-mission-extended-bank.v1.json",
+      "approved": true,
+      "approvalType": "data-audit"
+    },
+    {
+      "questionId": "ext-b13-q027",
+      "knowledgePointId": "dry-kp-82ddd29a46",
+      "sourceFile": "public/lab/data/chinese-extended/chinese-daily-mission-extended-bank.v1.json",
+      "approved": true,
+      "approvalType": "data-audit"
+    },
+    {
+      "questionId": "ext-b13-q028",
+      "knowledgePointId": "dry-kp-f6cf02cc2d",
+      "sourceFile": "public/lab/data/chinese-extended/chinese-daily-mission-extended-bank.v1.json",
+      "approved": true,
+      "approvalType": "data-audit"
+    },
+    {
+      "questionId": "ext-b13-q029",
+      "knowledgePointId": "dry-kp-f10c10f20c",
+      "sourceFile": "public/lab/data/chinese-extended/chinese-daily-mission-extended-bank.v1.json",
+      "approved": true,
+      "approvalType": "data-audit"
+    },
+    {
+      "questionId": "ext-b13-q030",
+      "knowledgePointId": "dry-kp-7fc4726891",
+      "sourceFile": "public/lab/data/chinese-extended/chinese-daily-mission-extended-bank.v1.json",
+      "approved": true,
+      "approvalType": "data-audit"
+    },
+    {
+      "questionId": "ext-b13-q031",
+      "knowledgePointId": "dry-kp-756ab71b3d",
+      "sourceFile": "public/lab/data/chinese-extended/chinese-daily-mission-extended-bank.v1.json",
+      "approved": true,
+      "approvalType": "data-audit"
+    },
+    {
+      "questionId": "ext-b13-q032",
+      "knowledgePointId": "dry-kp-bf18b42a01",
+      "sourceFile": "public/lab/data/chinese-extended/chinese-daily-mission-extended-bank.v1.json",
+      "approved": true,
+      "approvalType": "data-audit"
+    },
+    {
+      "questionId": "ext-b13-q033",
+      "knowledgePointId": "dry-kp-ee25fb888a",
+      "sourceFile": "public/lab/data/chinese-extended/chinese-daily-mission-extended-bank.v1.json",
+      "approved": true,
+      "approvalType": "data-audit"
+    },
+    {
+      "questionId": "ext-b13-q034",
+      "knowledgePointId": "dry-kp-179b77837a",
+      "sourceFile": "public/lab/data/chinese-extended/chinese-daily-mission-extended-bank.v1.json",
+      "approved": true,
+      "approvalType": "data-audit"
+    },
+    {
+      "questionId": "ext-b13-q035",
+      "knowledgePointId": "dry-kp-7b577c06c6",
+      "sourceFile": "public/lab/data/chinese-extended/chinese-daily-mission-extended-bank.v1.json",
+      "approved": true,
+      "approvalType": "data-audit"
+    },
+    {
+      "questionId": "ext-b13-q036",
+      "knowledgePointId": "dry-kp-3104177e72",
+      "sourceFile": "public/lab/data/chinese-extended/chinese-daily-mission-extended-bank.v1.json",
+      "approved": true,
+      "approvalType": "data-audit"
+    },
+    {
+      "questionId": "ext-b13-q037",
+      "knowledgePointId": "dry-kp-35f0d04a82",
+      "sourceFile": "public/lab/data/chinese-extended/chinese-daily-mission-extended-bank.v1.json",
+      "approved": true,
+      "approvalType": "data-audit"
+    },
+    {
+      "questionId": "ext-b13-q038",
+      "knowledgePointId": "dry-kp-fe6023614f",
+      "sourceFile": "public/lab/data/chinese-extended/chinese-daily-mission-extended-bank.v1.json",
+      "approved": true,
+      "approvalType": "data-audit"
+    },
+    {
+      "questionId": "ext-b13-q039",
+      "knowledgePointId": "dry-kp-18cc78fd3f",
+      "sourceFile": "public/lab/data/chinese-extended/chinese-daily-mission-extended-bank.v1.json",
+      "approved": true,
+      "approvalType": "data-audit"
+    },
+    {
+      "questionId": "ext-b13-q040",
+      "knowledgePointId": "dry-kp-590a4aedd7",
+      "sourceFile": "public/lab/data/chinese-extended/chinese-daily-mission-extended-bank.v1.json",
+      "approved": true,
+      "approvalType": "data-audit"
+    },
+    {
+      "questionId": "ext-b13-q041",
+      "knowledgePointId": "dry-kp-c09e8426c5",
+      "sourceFile": "public/lab/data/chinese-extended/chinese-daily-mission-extended-bank.v1.json",
+      "approved": true,
+      "approvalType": "data-audit"
+    },
+    {
+      "questionId": "ext-b13-q042",
+      "knowledgePointId": "dry-kp-d1d2eba08a",
+      "sourceFile": "public/lab/data/chinese-extended/chinese-daily-mission-extended-bank.v1.json",
+      "approved": true,
+      "approvalType": "data-audit"
+    },
+    {
+      "questionId": "ext-b13-q043",
+      "knowledgePointId": "dry-kp-ff813c66b4",
+      "sourceFile": "public/lab/data/chinese-extended/chinese-daily-mission-extended-bank.v1.json",
+      "approved": true,
+      "approvalType": "data-audit"
+    },
+    {
+      "questionId": "ext-b13-q044",
+      "knowledgePointId": "dry-kp-70ec939aee",
+      "sourceFile": "public/lab/data/chinese-extended/chinese-daily-mission-extended-bank.v1.json",
+      "approved": true,
+      "approvalType": "data-audit"
+    },
+    {
+      "questionId": "ext-b13-q045",
+      "knowledgePointId": "dry-kp-c8fb3b22ed",
+      "sourceFile": "public/lab/data/chinese-extended/chinese-daily-mission-extended-bank.v1.json",
+      "approved": true,
+      "approvalType": "data-audit"
+    },
+    {
+      "questionId": "ext-b13-q046",
+      "knowledgePointId": "dry-kp-ea0b64d179",
+      "sourceFile": "public/lab/data/chinese-extended/chinese-daily-mission-extended-bank.v1.json",
+      "approved": true,
+      "approvalType": "data-audit"
+    },
+    {
+      "questionId": "ext-b13-q047",
+      "knowledgePointId": "dry-kp-1a94afd5cd",
+      "sourceFile": "public/lab/data/chinese-extended/chinese-daily-mission-extended-bank.v1.json",
+      "approved": true,
+      "approvalType": "data-audit"
+    },
+    {
+      "questionId": "ext-b13-q048",
+      "knowledgePointId": "dry-kp-0cfd2aea19",
+      "sourceFile": "public/lab/data/chinese-extended/chinese-daily-mission-extended-bank.v1.json",
+      "approved": true,
+      "approvalType": "data-audit"
+    },
+    {
+      "questionId": "ext-b13-q049",
+      "knowledgePointId": "dry-kp-5b0cb83ef4",
+      "sourceFile": "public/lab/data/chinese-extended/chinese-daily-mission-extended-bank.v1.json",
+      "approved": true,
+      "approvalType": "data-audit"
+    },
+    {
+      "questionId": "ext-b13-q050",
+      "knowledgePointId": "dry-kp-916944d64c",
+      "sourceFile": "public/lab/data/chinese-extended/chinese-daily-mission-extended-bank.v1.json",
+      "approved": true,
+      "approvalType": "data-audit"
+    },
+    {
+      "questionId": "ext-b46-q001",
+      "knowledgePointId": "dry-kp-ba72a4ee84",
+      "sourceFile": "public/lab/data/chinese-extended/chinese-daily-mission-extended-bank.v1.json",
+      "approved": true,
+      "approvalType": "data-audit"
+    },
+    {
+      "questionId": "ext-b46-q002",
+      "knowledgePointId": "dry-kp-83f6f5ff6d",
+      "sourceFile": "public/lab/data/chinese-extended/chinese-daily-mission-extended-bank.v1.json",
+      "approved": true,
+      "approvalType": "data-audit"
+    },
+    {
+      "questionId": "ext-b46-q003",
+      "knowledgePointId": "dry-kp-4c8adebb5a",
+      "sourceFile": "public/lab/data/chinese-extended/chinese-daily-mission-extended-bank.v1.json",
+      "approved": true,
+      "approvalType": "data-audit"
+    },
+    {
+      "questionId": "ext-b46-q004",
+      "knowledgePointId": "dry-kp-2f16eaad43",
+      "sourceFile": "public/lab/data/chinese-extended/chinese-daily-mission-extended-bank.v1.json",
+      "approved": true,
+      "approvalType": "data-audit"
+    },
+    {
+      "questionId": "ext-b46-q005",
+      "knowledgePointId": "dry-kp-30b93bec92",
+      "sourceFile": "public/lab/data/chinese-extended/chinese-daily-mission-extended-bank.v1.json",
+      "approved": true,
+      "approvalType": "data-audit"
+    },
+    {
+      "questionId": "ext-b46-q006",
+      "knowledgePointId": "dry-kp-4b29140e95",
+      "sourceFile": "public/lab/data/chinese-extended/chinese-daily-mission-extended-bank.v1.json",
+      "approved": true,
+      "approvalType": "data-audit"
+    },
+    {
+      "questionId": "ext-b46-q007",
+      "knowledgePointId": "dry-kp-51c4ad4d69",
+      "sourceFile": "public/lab/data/chinese-extended/chinese-daily-mission-extended-bank.v1.json",
+      "approved": true,
+      "approvalType": "data-audit"
+    },
+    {
+      "questionId": "ext-b46-q009",
+      "knowledgePointId": "dry-kp-bfe6aae80f",
+      "sourceFile": "public/lab/data/chinese-extended/chinese-daily-mission-extended-bank.v1.json",
+      "approved": true,
+      "approvalType": "data-audit"
+    },
+    {
+      "questionId": "ext-b46-q010",
+      "knowledgePointId": "dry-kp-bcc1ace429",
+      "sourceFile": "public/lab/data/chinese-extended/chinese-daily-mission-extended-bank.v1.json",
+      "approved": true,
+      "approvalType": "data-audit"
+    },
+    {
+      "questionId": "ext-b46-q011",
+      "knowledgePointId": "dry-kp-11d666c67c",
+      "sourceFile": "public/lab/data/chinese-extended/chinese-daily-mission-extended-bank.v1.json",
+      "approved": true,
+      "approvalType": "data-audit"
+    },
+    {
+      "questionId": "ext-b46-q012",
+      "knowledgePointId": "dry-kp-3843ee2905",
+      "sourceFile": "public/lab/data/chinese-extended/chinese-daily-mission-extended-bank.v1.json",
+      "approved": true,
+      "approvalType": "data-audit"
+    },
+    {
+      "questionId": "ext-b46-q013",
+      "knowledgePointId": "dry-kp-db11b2bd4a",
+      "sourceFile": "public/lab/data/chinese-extended/chinese-daily-mission-extended-bank.v1.json",
+      "approved": true,
+      "approvalType": "data-audit"
+    },
+    {
+      "questionId": "ext-b46-q014",
+      "knowledgePointId": "dry-kp-ec19b4e9bc",
+      "sourceFile": "public/lab/data/chinese-extended/chinese-daily-mission-extended-bank.v1.json",
+      "approved": true,
+      "approvalType": "data-audit"
+    },
+    {
+      "questionId": "ext-b46-q015",
+      "knowledgePointId": "dry-kp-551795738c",
+      "sourceFile": "public/lab/data/chinese-extended/chinese-daily-mission-extended-bank.v1.json",
+      "approved": true,
+      "approvalType": "data-audit"
+    },
+    {
+      "questionId": "ext-b46-q016",
+      "knowledgePointId": "dry-kp-666073ffdf",
+      "sourceFile": "public/lab/data/chinese-extended/chinese-daily-mission-extended-bank.v1.json",
+      "approved": true,
+      "approvalType": "data-audit"
+    },
+    {
+      "questionId": "ext-b46-q017",
+      "knowledgePointId": "dry-kp-833abcd2bf",
+      "sourceFile": "public/lab/data/chinese-extended/chinese-daily-mission-extended-bank.v1.json",
+      "approved": true,
+      "approvalType": "data-audit"
+    },
+    {
+      "questionId": "ext-b46-q018",
+      "knowledgePointId": "dry-kp-02172f9d65",
+      "sourceFile": "public/lab/data/chinese-extended/chinese-daily-mission-extended-bank.v1.json",
+      "approved": true,
+      "approvalType": "data-audit"
+    },
+    {
+      "questionId": "ext-b46-q019",
+      "knowledgePointId": "dry-kp-c8c6c28e57",
+      "sourceFile": "public/lab/data/chinese-extended/chinese-daily-mission-extended-bank.v1.json",
+      "approved": true,
+      "approvalType": "data-audit"
+    },
+    {
+      "questionId": "ext-b46-q020",
+      "knowledgePointId": "dry-kp-30b71b6ac2",
+      "sourceFile": "public/lab/data/chinese-extended/chinese-daily-mission-extended-bank.v1.json",
+      "approved": true,
+      "approvalType": "data-audit"
+    },
+    {
+      "questionId": "ext-b46-q021",
+      "knowledgePointId": "dry-kp-08fe5954ee",
+      "sourceFile": "public/lab/data/chinese-extended/chinese-daily-mission-extended-bank.v1.json",
+      "approved": true,
+      "approvalType": "data-audit"
+    },
+    {
+      "questionId": "ext-b46-q022",
+      "knowledgePointId": "dry-kp-4f7d04521b",
+      "sourceFile": "public/lab/data/chinese-extended/chinese-daily-mission-extended-bank.v1.json",
+      "approved": true,
+      "approvalType": "data-audit"
+    },
+    {
+      "questionId": "ext-b46-q023",
+      "knowledgePointId": "dry-kp-f6826dc96e",
+      "sourceFile": "public/lab/data/chinese-extended/chinese-daily-mission-extended-bank.v1.json",
+      "approved": true,
+      "approvalType": "data-audit"
+    },
+    {
+      "questionId": "ext-b46-q024",
+      "knowledgePointId": "dry-kp-9bfe65ef77",
+      "sourceFile": "public/lab/data/chinese-extended/chinese-daily-mission-extended-bank.v1.json",
+      "approved": true,
+      "approvalType": "data-audit"
+    },
+    {
+      "questionId": "ext-b46-q025",
+      "knowledgePointId": "dry-kp-c9885339dd",
+      "sourceFile": "public/lab/data/chinese-extended/chinese-daily-mission-extended-bank.v1.json",
+      "approved": true,
+      "approvalType": "data-audit"
+    },
+    {
+      "questionId": "ext-b46-q026",
+      "knowledgePointId": "dry-kp-bdb7505483",
+      "sourceFile": "public/lab/data/chinese-extended/chinese-daily-mission-extended-bank.v1.json",
+      "approved": true,
+      "approvalType": "data-audit"
+    },
+    {
+      "questionId": "ext-b46-q027",
+      "knowledgePointId": "dry-kp-1675475649",
+      "sourceFile": "public/lab/data/chinese-extended/chinese-daily-mission-extended-bank.v1.json",
+      "approved": true,
+      "approvalType": "data-audit"
+    },
+    {
+      "questionId": "ext-b46-q028",
+      "knowledgePointId": "dry-kp-c19543af7b",
+      "sourceFile": "public/lab/data/chinese-extended/chinese-daily-mission-extended-bank.v1.json",
+      "approved": true,
+      "approvalType": "data-audit"
+    },
+    {
+      "questionId": "ext-b46-q029",
+      "knowledgePointId": "dry-kp-009cc955d1",
+      "sourceFile": "public/lab/data/chinese-extended/chinese-daily-mission-extended-bank.v1.json",
+      "approved": true,
+      "approvalType": "data-audit"
+    },
+    {
+      "questionId": "ext-b46-q030",
+      "knowledgePointId": "dry-kp-aacfeafb4e",
+      "sourceFile": "public/lab/data/chinese-extended/chinese-daily-mission-extended-bank.v1.json",
+      "approved": true,
+      "approvalType": "data-audit"
+    },
+    {
+      "questionId": "ext-b46-q031",
+      "knowledgePointId": "dry-kp-c656c81456",
+      "sourceFile": "public/lab/data/chinese-extended/chinese-daily-mission-extended-bank.v1.json",
+      "approved": true,
+      "approvalType": "data-audit"
+    },
+    {
+      "questionId": "ext-b46-q032",
+      "knowledgePointId": "dry-kp-3c1f08e95e",
+      "sourceFile": "public/lab/data/chinese-extended/chinese-daily-mission-extended-bank.v1.json",
+      "approved": true,
+      "approvalType": "data-audit"
+    },
+    {
+      "questionId": "ext-b46-q033",
+      "knowledgePointId": "dry-kp-6ada4a487b",
+      "sourceFile": "public/lab/data/chinese-extended/chinese-daily-mission-extended-bank.v1.json",
+      "approved": true,
+      "approvalType": "data-audit"
+    },
+    {
+      "questionId": "ext-b46-q035",
+      "knowledgePointId": "dry-kp-e498b23d49",
+      "sourceFile": "public/lab/data/chinese-extended/chinese-daily-mission-extended-bank.v1.json",
+      "approved": true,
+      "approvalType": "data-audit"
+    },
+    {
+      "questionId": "ext-b46-q036",
+      "knowledgePointId": "dry-kp-879da7e8f2",
+      "sourceFile": "public/lab/data/chinese-extended/chinese-daily-mission-extended-bank.v1.json",
+      "approved": true,
+      "approvalType": "data-audit"
+    },
+    {
+      "questionId": "ext-b46-q037",
+      "knowledgePointId": "dry-kp-affe5af532",
+      "sourceFile": "public/lab/data/chinese-extended/chinese-daily-mission-extended-bank.v1.json",
+      "approved": true,
+      "approvalType": "data-audit"
+    },
+    {
+      "questionId": "ext-b46-q038",
+      "knowledgePointId": "dry-kp-5a38fcd8e3",
+      "sourceFile": "public/lab/data/chinese-extended/chinese-daily-mission-extended-bank.v1.json",
+      "approved": true,
+      "approvalType": "data-audit"
+    },
+    {
+      "questionId": "ext-b46-q039",
+      "knowledgePointId": "dry-kp-3f9f37ca2b",
+      "sourceFile": "public/lab/data/chinese-extended/chinese-daily-mission-extended-bank.v1.json",
+      "approved": true,
+      "approvalType": "data-audit"
+    },
+    {
+      "questionId": "ext-b46-q040",
+      "knowledgePointId": "dry-kp-caf76fd61a",
+      "sourceFile": "public/lab/data/chinese-extended/chinese-daily-mission-extended-bank.v1.json",
+      "approved": true,
+      "approvalType": "data-audit"
+    },
+    {
+      "questionId": "ext-b46-q041",
+      "knowledgePointId": "dry-kp-a2fb31b5b9",
+      "sourceFile": "public/lab/data/chinese-extended/chinese-daily-mission-extended-bank.v1.json",
+      "approved": true,
+      "approvalType": "data-audit"
+    },
+    {
+      "questionId": "ext-b46-q042",
+      "knowledgePointId": "dry-kp-5e252e501c",
+      "sourceFile": "public/lab/data/chinese-extended/chinese-daily-mission-extended-bank.v1.json",
+      "approved": true,
+      "approvalType": "data-audit"
+    },
+    {
+      "questionId": "ext-b46-q043",
+      "knowledgePointId": "dry-kp-e969dfe56c",
+      "sourceFile": "public/lab/data/chinese-extended/chinese-daily-mission-extended-bank.v1.json",
+      "approved": true,
+      "approvalType": "data-audit"
+    },
+    {
+      "questionId": "ext-b46-q044",
+      "knowledgePointId": "dry-kp-605e639053",
+      "sourceFile": "public/lab/data/chinese-extended/chinese-daily-mission-extended-bank.v1.json",
+      "approved": true,
+      "approvalType": "data-audit"
+    },
+    {
+      "questionId": "ext-b46-q045",
+      "knowledgePointId": "dry-kp-6456651023",
+      "sourceFile": "public/lab/data/chinese-extended/chinese-daily-mission-extended-bank.v1.json",
+      "approved": true,
+      "approvalType": "data-audit"
+    },
+    {
+      "questionId": "ext-b46-q046",
+      "knowledgePointId": "dry-kp-4cc749a8c3",
+      "sourceFile": "public/lab/data/chinese-extended/chinese-daily-mission-extended-bank.v1.json",
+      "approved": true,
+      "approvalType": "data-audit"
+    },
+    {
+      "questionId": "ext-b46-q047",
+      "knowledgePointId": "dry-kp-ca873da5db",
+      "sourceFile": "public/lab/data/chinese-extended/chinese-daily-mission-extended-bank.v1.json",
+      "approved": true,
+      "approvalType": "data-audit"
+    },
+    {
+      "questionId": "ext-b46-q048",
+      "knowledgePointId": "dry-kp-8f99c579c3",
+      "sourceFile": "public/lab/data/chinese-extended/chinese-daily-mission-extended-bank.v1.json",
+      "approved": true,
+      "approvalType": "data-audit"
+    },
+    {
+      "questionId": "ext-b46-q049",
+      "knowledgePointId": "dry-kp-13e18af660",
+      "sourceFile": "public/lab/data/chinese-extended/chinese-daily-mission-extended-bank.v1.json",
+      "approved": true,
+      "approvalType": "data-audit"
+    },
+    {
+      "questionId": "ext-b46-q050",
+      "knowledgePointId": "dry-kp-87bdb6e95c",
+      "sourceFile": "public/lab/data/chinese-extended/chinese-daily-mission-extended-bank.v1.json",
+      "approved": true,
+      "approvalType": "data-audit"
+    }
+  ]
+}

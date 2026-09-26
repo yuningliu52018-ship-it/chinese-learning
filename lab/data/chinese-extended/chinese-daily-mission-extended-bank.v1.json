@@ -1,0 +1,3442 @@
+{
+  "version": "v1",
+  "subject": "chinese",
+  "integrationStatus": "not-connected",
+  "questions": [
+    {
+      "questionId": "ext-b13-q001",
+      "sourceId": "dry-1-3-001",
+      "sourceFile": "public/lab/data/dry-run/questions-001-100.json",
+      "source": {
+        "bookGroup": "1-3",
+        "questionNo": 1,
+        "page": 1,
+        "document": "03_第1-3冊_會考形音義_教用卷.pdf"
+      },
+      "sourceTextSha256": "72be899da7fa33faa6f4040125d8235af0671a71733c5e403c7364e0ecea4be5",
+      "question": "下列選項 「」 中的字， 何者用字完全正確？",
+      "prompt": "下列選項 「」 中的字， 何者用字完全正確？",
+      "choices": {
+        "A": "「頑」 劣不堪／呵護 「備」 至",
+        "B": "玩笑「嘻」戲／鬼「迷」心竅",
+        "C": "湖「畔」小屋／「起」蒙老師",
+        "D": "寬「敞」 潔淨／「誅」連九族。"
+      },
+      "correctAnswer": "A",
+      "type": "shape",
+      "knowledgePointId": "dry-kp-25d4409b64",
+      "target": "頑／備",
+      "tags": [
+        "shape",
+        "字形",
+        "第1-3冊群"
+      ],
+      "explanation": "（Ｂ）玩笑「嬉」戲 （Ｃ）「啟」蒙老師 （Ｄ）「株」連九族",
+      "memoryWall": null,
+      "validation": {
+        "status": "approved",
+        "approvalType": "data-audit"
+      }
+    },
+    {
+      "questionId": "ext-b13-q002",
+      "sourceId": "dry-1-3-002",
+      "sourceFile": "public/lab/data/dry-run/questions-001-100.json",
+      "source": {
+        "bookGroup": "1-3",
+        "questionNo": 2,
+        "page": 1,
+        "document": "03_第1-3冊_會考形音義_教用卷.pdf"
+      },
+      "sourceTextSha256": "c794b91c40ba159c3f74ea5eca30ee83f3688d0227cd56eb2edd481a65ffce58",
+      "question": "下列選項「」中的字，何者意思前後相同？",
+      "prompt": "下列選項「」中的字，何者意思前後相同？",
+      "choices": {
+        "A": "村「莊」／「莊」嚴肅穆",
+        "B": "「闔」 上眼睛／ 「闔」 府光臨",
+        "C": "「滾」 著火輪子／ 「滾」 雪球",
+        "D": "椰子樹 「梢」／喜上眉「梢」。"
+      },
+      "correctAnswer": "C",
+      "type": "meaning",
+      "knowledgePointId": "dry-kp-05aeaa9063",
+      "target": "滾",
+      "tags": [
+        "meaning",
+        "字義",
+        "第1-3冊群"
+      ],
+      "explanation": "（Ａ）田舍、村落／嚴肅 （Ｂ）閉合／全部 （Ｃ）翻轉 （Ｄ）樹枝的末端／事物的末尾",
+      "memoryWall": null,
+      "validation": {
+        "status": "approved",
+        "approvalType": "data-audit"
+      }
+    },
+    {
+      "questionId": "ext-b13-q003",
+      "sourceId": "dry-1-3-003",
+      "sourceFile": "public/lab/data/dry-run/questions-001-100.json",
+      "source": {
+        "bookGroup": "1-3",
+        "questionNo": 3,
+        "page": 1,
+        "document": "03_第1-3冊_會考形音義_教用卷.pdf"
+      },
+      "sourceTextSha256": "f5fda464b010fdcd5063a910460cbebda99b7ee6a0dc2ecc28c5c926221cda7a",
+      "question": "關於通同字的說明， 下列何者正確？",
+      "prompt": "關於通同字的說明， 下列何者正確？",
+      "choices": {
+        "A": "學而時習之， 不亦 「說」 乎： 通 「悅」",
+        "B": "人不知而不「慍」，不亦君子乎：通「蘊」",
+        "C": "有一「言」而可以終身行之者乎： 通「研」",
+        "D": "譬如為山，未成一「簣」：通「匱」。"
+      },
+      "correctAnswer": "A",
+      "type": "confusable",
+      "knowledgePointId": "dry-kp-9c2304651c",
+      "target": "說／悅",
+      "tags": [
+        "confusable",
+        "易混字",
+        "第1-3冊群"
+      ],
+      "explanation": "",
+      "memoryWall": null,
+      "validation": {
+        "status": "approved",
+        "approvalType": "data-audit"
+      }
+    },
+    {
+      "questionId": "ext-b13-q004",
+      "sourceId": "dry-1-3-004",
+      "sourceFile": "public/lab/data/dry-run/questions-001-100.json",
+      "source": {
+        "bookGroup": "1-3",
+        "questionNo": 4,
+        "page": 1,
+        "document": "03_第1-3冊_會考形音義_教用卷.pdf"
+      },
+      "sourceTextSha256": "e07ed6e292c687af6b57f16162565377f1e6bdcf248d457e669079ba185ca558",
+      "question": "下列選項「」中的字，何者的音義說明完全正確？",
+      "prompt": "下列選項「」中的字，何者的音義說明完全正確？",
+      "choices": {
+        "A": "「昂」首：音ㄧㄤˇ，抬高",
+        "B": "項為之 「強」： 音ㄐㄧㄤˋ， 僵硬",
+        "C": "「素」 帳： 音ㄙㄨˋ， 樸素的",
+        "D": "土「礫」：音ㄌㄜˋ，小石子。"
+      },
+      "correctAnswer": "B",
+      "type": "pronunciation",
+      "knowledgePointId": "dry-kp-38ade50b89",
+      "target": "強",
+      "tags": [
+        "pronunciation",
+        "字音",
+        "字義",
+        "第1-3冊群"
+      ],
+      "explanation": "（Ａ）ㄤˊ （Ｃ）白色的 （Ｄ）ㄌㄧˋ",
+      "memoryWall": null,
+      "validation": {
+        "status": "approved",
+        "approvalType": "data-audit"
+      }
+    },
+    {
+      "questionId": "ext-b13-q005",
+      "sourceId": "dry-1-3-005",
+      "sourceFile": "public/lab/data/dry-run/questions-001-100.json",
+      "source": {
+        "bookGroup": "1-3",
+        "questionNo": 5,
+        "page": 1,
+        "document": "03_第1-3冊_會考形音義_教用卷.pdf"
+      },
+      "sourceTextSha256": "9cbc707135a1c5f33c80466052038d79c5ab38873aa80768ae61d0c35f4713ed",
+      "question": "下列文句「」中的字，何者解釋錯誤？",
+      "prompt": "下列文句「」中的字，何者解釋錯誤？",
+      "choices": {
+        "A": "上頭「繫」上鐵絲：綁、結",
+        "B": "撿根小竹子「拎」著：提",
+        "C": "「擔」不起這麼重的禮：用肩膀挑東西",
+        "D": "以小人之心「揣」度：忖度、猜想。"
+      },
+      "correctAnswer": "C",
+      "type": "meaning",
+      "knowledgePointId": "dry-kp-005a8aed84",
+      "target": "擔",
+      "tags": [
+        "meaning",
+        "字義",
+        "第1-3冊群"
+      ],
+      "explanation": "（Ｃ）負責、承當",
+      "memoryWall": null,
+      "validation": {
+        "status": "approved",
+        "approvalType": "data-audit"
+      }
+    },
+    {
+      "questionId": "ext-b13-q006",
+      "sourceId": "dry-1-3-006",
+      "sourceFile": "public/lab/data/dry-run/questions-001-100.json",
+      "source": {
+        "bookGroup": "1-3",
+        "questionNo": 6,
+        "page": 1,
+        "document": "03_第1-3冊_會考形音義_教用卷.pdf"
+      },
+      "sourceTextSha256": "88f5942570bab28909d97f65dd607a0e4ee8845dbc5c30a35dbfff3c1499491b",
+      "question": "下列文句， 何者用字完全正確？",
+      "prompt": "下列文句， 何者用字完全正確？",
+      "choices": {
+        "A": "反而彎下身來採了一小把野雛菊花弄成一束",
+        "B": "不可抑阨的淚水從她的老花眼鏡背後潸潸流下",
+        "C": "她肥胖年麥的身體，在夕陽的港口邊顯得礙手礙腳",
+        "D": "這是我在希臘旅行，補捉到的最美麗的一幅風景。"
+      },
+      "correctAnswer": "A",
+      "type": "shape",
+      "knowledgePointId": "dry-kp-3752e6ed80",
+      "target": "反而彎下身來採了一小把野雛菊花弄成一束",
+      "tags": [
+        "shape",
+        "字形",
+        "第1-3冊群"
+      ],
+      "explanation": "（Ｂ）抑「遏」 （Ｃ）年「邁」 （Ｄ）「捕」捉",
+      "memoryWall": null,
+      "validation": {
+        "status": "approved",
+        "approvalType": "data-audit"
+      }
+    },
+    {
+      "questionId": "ext-b13-q007",
+      "sourceId": "dry-1-3-007",
+      "sourceFile": "public/lab/data/dry-run/questions-001-100.json",
+      "source": {
+        "bookGroup": "1-3",
+        "questionNo": 7,
+        "page": 1,
+        "document": "03_第1-3冊_會考形音義_教用卷.pdf"
+      },
+      "sourceTextSha256": "ef6b418512aaaed1d3c55291f5c37f385cde64f7c99b5795d021e976d52cb87b",
+      "question": "下列選項， 何者用字完全正確？",
+      "prompt": "下列選項， 何者用字完全正確？",
+      "choices": {
+        "A": "哈利波特從小父母雙亡， 是他最大的遺撼",
+        "B": "太陽從田儔遠處的地平線緩緩升起",
+        "C": "他的動作抒緩到讓人幾乎感覺不到他在動",
+        "D": "風聲呼嘯，更增加夜的寂寥之感。"
+      },
+      "correctAnswer": "D",
+      "type": "shape",
+      "knowledgePointId": "dry-kp-33204c5440",
+      "target": "風聲呼嘯，更增加夜的寂寥之感。",
+      "tags": [
+        "shape",
+        "字形",
+        "第1-3冊群"
+      ],
+      "explanation": "（Ａ）遺「憾」 （Ｂ）田「疇」 （Ｃ）「舒」緩",
+      "memoryWall": null,
+      "validation": {
+        "status": "approved",
+        "approvalType": "data-audit"
+      }
+    },
+    {
+      "questionId": "ext-b13-q008",
+      "sourceId": "dry-1-3-008",
+      "sourceFile": "public/lab/data/dry-run/questions-001-100.json",
+      "source": {
+        "bookGroup": "1-3",
+        "questionNo": 8,
+        "page": 2,
+        "document": "03_第1-3冊_會考形音義_教用卷.pdf"
+      },
+      "sourceTextSha256": "0b29d60e3b8a532a83d4e9679172f31d78d291e2c95bcc20e2a996c9754b1218",
+      "question": "下列形似字，何組讀音完全相同？",
+      "prompt": "下列形似字，何組讀音完全相同？",
+      "choices": {
+        "A": "遂／逐／隧",
+        "B": "績／蹟／積",
+        "C": "殆／迨／怡",
+        "D": "廷／庭／挺。"
+      },
+      "correctAnswer": "B",
+      "type": "confusable",
+      "knowledgePointId": "dry-kp-d1b534b655",
+      "target": "績／蹟／積",
+      "tags": [
+        "confusable",
+        "易混字",
+        "第1-3冊群"
+      ],
+      "explanation": "（Ａ）ㄙㄨㄟˋ／ㄓㄨˊ／ㄙㄨㄟˋ （Ｂ）ㄐㄧ （Ｃ）ㄉㄞˋ／ㄉㄞˋ／ㄧˊ （Ｄ） ㄊㄧㄥˊ／ㄊㄧㄥˊ／ㄊㄧㄥˇ",
+      "memoryWall": null,
+      "validation": {
+        "status": "approved",
+        "approvalType": "data-audit"
+      }
+    },
+    {
+      "questionId": "ext-b13-q009",
+      "sourceId": "dry-1-3-009",
+      "sourceFile": "public/lab/data/dry-run/questions-001-100.json",
+      "source": {
+        "bookGroup": "1-3",
+        "questionNo": 9,
+        "page": 2,
+        "document": "03_第1-3冊_會考形音義_教用卷.pdf"
+      },
+      "sourceTextSha256": "f79220c1779ff041e2d2b249d18212dc07ad34d96eda4ef8fab7b1151708ef48",
+      "question": "下列文句，何者用字完全正確？",
+      "prompt": "下列文句，何者用字完全正確？",
+      "choices": {
+        "A": "他的腦子也不小，但他的記性卻不很精明，他的思想也不細蜜",
+        "B": "先生問他：「直棣省的西邊是哪一省？」他說是陜西",
+        "C": "他笑嬉嬉地賠小心道：「千字比十字只多一小撇，不是差不多嗎？」",
+        "D": "大家都很稱讚差不多先生樣樣事情看得破，想得通。"
+      },
+      "correctAnswer": "D",
+      "type": "shape",
+      "knowledgePointId": "dry-kp-352120b56c",
+      "target": "大家都很稱讚差不多先生樣樣事情看得破，想得通。",
+      "tags": [
+        "shape",
+        "字形",
+        "第1-3冊群"
+      ],
+      "explanation": "（Ａ）細「密」 （Ｂ）直「隸」省 （Ｃ）笑「嘻嘻」",
+      "memoryWall": null,
+      "validation": {
+        "status": "approved",
+        "approvalType": "data-audit"
+      }
+    },
+    {
+      "questionId": "ext-b13-q010",
+      "sourceId": "dry-1-3-010",
+      "sourceFile": "public/lab/data/dry-run/questions-001-100.json",
+      "source": {
+        "bookGroup": "1-3",
+        "questionNo": 10,
+        "page": 2,
+        "document": "03_第1-3冊_會考形音義_教用卷.pdf"
+      },
+      "sourceTextSha256": "5b425c999a5fe7dd2bc0490688e7371eec502c0c618075abb1c00789baa2d894",
+      "question": "下列詞語「」中的字形，何者正確？ （甲）支離破「碎」／（乙）出類拔「瘁」／ （丙） 酩酊大 「醉」／ （丁） 鞠躬盡 「萃」／ （戊） 發揚國 「粹」",
+      "prompt": "下列詞語「」中的字形，何者正確？ （甲）支離破「碎」／（乙）出類拔「瘁」／ （丙） 酩酊大 「醉」／ （丁） 鞠躬盡 「萃」／ （戊） 發揚國 「粹」",
+      "choices": {
+        "A": "甲乙丙",
+        "B": "甲丙戊",
+        "C": "甲丙丁",
+        "D": "乙丙丁。"
+      },
+      "correctAnswer": "B",
+      "type": "shape",
+      "knowledgePointId": "dry-kp-14f5d287ff",
+      "target": "碎",
+      "tags": [
+        "shape",
+        "字形",
+        "第1-3冊群"
+      ],
+      "explanation": "（乙） 瘁→萃 （丁） 萃→瘁。鞠躬盡瘁：指不辭辛勞，盡力於國事。鞠躬，彎身以示敬慎。 盡瘁，竭盡辛勞",
+      "memoryWall": null,
+      "validation": {
+        "status": "approved",
+        "approvalType": "data-audit"
+      }
+    },
+    {
+      "questionId": "ext-b13-q011",
+      "sourceId": "dry-1-3-011",
+      "sourceFile": "public/lab/data/dry-run/questions-001-100.json",
+      "source": {
+        "bookGroup": "1-3",
+        "questionNo": 11,
+        "page": 2,
+        "document": "03_第1-3冊_會考形音義_教用卷.pdf"
+      },
+      "sourceTextSha256": "617f07a3790be8f215c52e7e7c9c1dccfbb94fc84dc8d504a72fb0179f5ae515",
+      "question": "下列文句「」中的字，何者用字正確？",
+      "prompt": "下列文句「」中的字，何者用字正確？",
+      "choices": {
+        "A": "一下課，學生們都迫不「急」待往福利社跑",
+        "B": "面對危機，他總是不「急」不徐，神色自若",
+        "C": "孔子的德行，就如巍峨的高山，是可望而不可「集」的",
+        "D": "她的態度若「即」若離，令人不知所措。"
+      },
+      "correctAnswer": "D",
+      "type": "shape",
+      "knowledgePointId": "dry-kp-258162552f",
+      "target": "即",
+      "tags": [
+        "shape",
+        "字形",
+        "第1-3冊群"
+      ],
+      "explanation": "（Ａ）及 （Ｂ）疾 （Ｃ）即",
+      "memoryWall": null,
+      "validation": {
+        "status": "approved",
+        "approvalType": "data-audit"
+      }
+    },
+    {
+      "questionId": "ext-b13-q012",
+      "sourceId": "dry-1-3-012",
+      "sourceFile": "public/lab/data/dry-run/questions-001-100.json",
+      "source": {
+        "bookGroup": "1-3",
+        "questionNo": 12,
+        "page": 2,
+        "document": "03_第1-3冊_會考形音義_教用卷.pdf"
+      },
+      "sourceTextSha256": "c717c2d7d3ada5fbedd6785b6b93db2ee81e9c453ef078a8594842f36275e467",
+      "question": "「白」 字在辭典裡有： 「白色的、彰明、不付代價而得到好處、表示輕視或不滿的動作」 等意思，下列「白」字，何者解釋為「彰明」？",
+      "prompt": "「白」 字在辭典裡有： 「白色的、彰明、不付代價而得到好處、表示輕視或不滿的動作」 等意思，下列「白」字，何者解釋為「彰明」？",
+      "choices": {
+        "A": "真相大「白」",
+        "B": "「白」 糖紅糖",
+        "C": "「白」吃白喝",
+        "D": "「白」了一眼。"
+      },
+      "correctAnswer": "A",
+      "type": "polysemy",
+      "knowledgePointId": "dry-kp-1d2a0c2a37",
+      "target": "白",
+      "tags": [
+        "polysemy",
+        "一字多義",
+        "第1-3冊群"
+      ],
+      "explanation": "（Ｂ）白色的 （Ｃ）不付代價而得到好處 （Ｄ）表示輕視或不滿的動作",
+      "memoryWall": null,
+      "validation": {
+        "status": "approved",
+        "approvalType": "data-audit"
+      }
+    },
+    {
+      "questionId": "ext-b13-q013",
+      "sourceId": "dry-1-3-013",
+      "sourceFile": "public/lab/data/dry-run/questions-001-100.json",
+      "source": {
+        "bookGroup": "1-3",
+        "questionNo": 13,
+        "page": 2,
+        "document": "03_第1-3冊_會考形音義_教用卷.pdf"
+      },
+      "sourceTextSha256": "3d29f95e4154518481da0f67bc29ccc5bcd7ec83fd9d0fead3600c6b16f5ade4",
+      "question": "下列選項 「」 中的字， 何者形音義完全正確？",
+      "prompt": "下列選項 「」 中的字， 何者形音義完全正確？",
+      "choices": {
+        "A": "洗 「滌」：ㄉㄧˊ，洗",
+        "B": "「擁」 有： ㄩㄥ， 抱持",
+        "C": "十指 「纖」 纖：ㄒㄧㄢ， 粗大",
+        "D": "「殭」 硬：ㄐㄧㄤ， 硬化、 不靈活。"
+      },
+      "correctAnswer": "A",
+      "type": "confusable",
+      "knowledgePointId": "dry-kp-2a29470c93",
+      "target": "滌",
+      "tags": [
+        "confusable",
+        "形音義綜合",
+        "第1-3冊群"
+      ],
+      "explanation": "（Ｂ）ㄩㄥˇ，占有、據有 （Ｃ）柔美細長 （Ｄ）僵",
+      "memoryWall": null,
+      "validation": {
+        "status": "approved",
+        "approvalType": "data-audit"
+      }
+    },
+    {
+      "questionId": "ext-b13-q014",
+      "sourceId": "dry-1-3-014",
+      "sourceFile": "public/lab/data/dry-run/questions-001-100.json",
+      "source": {
+        "bookGroup": "1-3",
+        "questionNo": 14,
+        "page": 2,
+        "document": "03_第1-3冊_會考形音義_教用卷.pdf"
+      },
+      "sourceTextSha256": "6d0a1c71ab5cbdb7cd1dadfb160f9d5636572fd02e8a260fea3ac6f89afe8021",
+      "question": "下列選項「」中的形近字，何者讀音完全相同？",
+      "prompt": "下列選項「」中的形近字，何者讀音完全相同？",
+      "choices": {
+        "A": "賠／焙／剖",
+        "B": "甫／葡／圃",
+        "C": "博／薄／搏",
+        "D": "績／積／債。"
+      },
+      "correctAnswer": "C",
+      "type": "confusable",
+      "knowledgePointId": "dry-kp-c6d96121b1",
+      "target": "博／薄／搏",
+      "tags": [
+        "confusable",
+        "易混字",
+        "第1-3冊群"
+      ],
+      "explanation": "（Ａ）ㄆㄟˊ／ㄅㄟˋ／ㄆㄡˇ （Ｂ）ㄈㄨˇ／ㄆㄨˊ／ㄆㄨˇ （Ｃ）ㄅㄛˊ （Ｄ） ㄐㄧ／ㄐㄧ／ㄓㄞˋ",
+      "memoryWall": null,
+      "validation": {
+        "status": "approved",
+        "approvalType": "data-audit"
+      }
+    },
+    {
+      "questionId": "ext-b13-q015",
+      "sourceId": "dry-1-3-015",
+      "sourceFile": "public/lab/data/dry-run/questions-001-100.json",
+      "source": {
+        "bookGroup": "1-3",
+        "questionNo": 15,
+        "page": 2,
+        "document": "03_第1-3冊_會考形音義_教用卷.pdf"
+      },
+      "sourceTextSha256": "4524515e11793f098c5c0ec92a47bb306731276a20f1d0184a257958cdf3e29a",
+      "question": "「□冰如命的他，面對色彩□紛的各式冰品，只能乾□著眼，猛吞口水，無限□思。」 句中缺空處應填入的字，依序為下列何者？",
+      "prompt": "「□冰如命的他，面對色彩□紛的各式冰品，只能乾□著眼，猛吞口水，無限□思。」 句中缺空處應填入的字，依序為下列何者？",
+      "choices": {
+        "A": "舐／濱／蹬／暇",
+        "B": "嗜／繽／ 蹬／遐",
+        "C": "嗜／繽／瞪／遐",
+        "D": "舐／濱／瞪／暇。"
+      },
+      "correctAnswer": "C",
+      "type": "shape",
+      "knowledgePointId": "dry-kp-2651087620",
+      "target": "嗜／繽／瞪／遐",
+      "tags": [
+        "shape",
+        "字形",
+        "第1-3冊群"
+      ],
+      "explanation": "",
+      "memoryWall": null,
+      "validation": {
+        "status": "approved",
+        "approvalType": "data-audit"
+      }
+    },
+    {
+      "questionId": "ext-b13-q016",
+      "sourceId": "dry-1-3-016",
+      "sourceFile": "public/lab/data/dry-run/questions-001-100.json",
+      "source": {
+        "bookGroup": "1-3",
+        "questionNo": 16,
+        "page": 3,
+        "document": "03_第1-3冊_會考形音義_教用卷.pdf"
+      },
+      "sourceTextSha256": "800d114d95197df5a64dc11c3c280e8ae3c03dbeca7d7d210665dbf86a9c6cfd",
+      "question": "「家家戶戶睡覺蓋的，通常是祖傳的老棉被，又硬又重。」 句中的 「蓋」 字，是 「覆蓋、 遮蔽」 的意思。下列 「蓋」 字，何者意思與此相同？",
+      "prompt": "「家家戶戶睡覺蓋的，通常是祖傳的老棉被，又硬又重。」 句中的 「蓋」 字，是 「覆蓋、 遮蔽」 的意思。下列 「蓋」 字，何者意思與此相同？",
+      "choices": {
+        "A": "「蓋」 世英雄",
+        "B": "「蓋」 上手印",
+        "C": "烏雲「蓋」日",
+        "D": "「蓋」停車場。"
+      },
+      "correctAnswer": "C",
+      "type": "polysemy",
+      "knowledgePointId": "dry-kp-1cae353175",
+      "target": "蓋",
+      "tags": [
+        "polysemy",
+        "一字多義",
+        "第1-3冊群"
+      ],
+      "explanation": "（Ａ）超越 （Ｂ）加上去、加在上面 （Ｄ）搭建、構築",
+      "memoryWall": null,
+      "validation": {
+        "status": "approved",
+        "approvalType": "data-audit"
+      }
+    },
+    {
+      "questionId": "ext-b13-q017",
+      "sourceId": "dry-1-3-017",
+      "sourceFile": "public/lab/data/dry-run/questions-001-100.json",
+      "source": {
+        "bookGroup": "1-3",
+        "questionNo": 17,
+        "page": 3,
+        "document": "03_第1-3冊_會考形音義_教用卷.pdf"
+      },
+      "sourceTextSha256": "53ec6b6aeff235ef6e59257778ee8919fbc9d01a18c36702141951f34464bac9",
+      "question": "下列選項 「」 中的字，何者讀音前後相同？",
+      "prompt": "下列選項 「」 中的字，何者讀音前後相同？",
+      "choices": {
+        "A": "「纖」 維／抽 「籤」",
+        "B": "「熾」 烈／旗「幟」",
+        "C": "油「垢」／邂「逅」",
+        "D": "徜「徉」／「佯」裝。"
+      },
+      "correctAnswer": "D",
+      "type": "pronunciation",
+      "knowledgePointId": "dry-kp-f4cafd8d38",
+      "target": "徉／佯",
+      "tags": [
+        "pronunciation",
+        "字音",
+        "第1-3冊群"
+      ],
+      "explanation": "（Ａ）ㄒㄧㄢ／ㄑㄧㄢ （Ｂ）ㄔˋ／ㄓˋ （Ｃ）ㄍㄡˋ／ㄏㄡˋ （Ｄ）ㄧㄤˊ",
+      "memoryWall": {
+        "set": "002",
+        "q": 7
+      },
+      "validation": {
+        "status": "approved",
+        "approvalType": "data-audit"
+      }
+    },
+    {
+      "questionId": "ext-b13-q018",
+      "sourceId": "dry-1-3-018",
+      "sourceFile": "public/lab/data/dry-run/questions-001-100.json",
+      "source": {
+        "bookGroup": "1-3",
+        "questionNo": 18,
+        "page": 3,
+        "document": "03_第1-3冊_會考形音義_教用卷.pdf"
+      },
+      "sourceTextSha256": "e466ec78903611da2b0a089a60f70140fe5a03299dc30d4f5cf3a16f6dbf9d73",
+      "question": "下列「」中的字，何者讀音皆正確？",
+      "prompt": "下列「」中的字，何者讀音皆正確？",
+      "choices": {
+        "A": "手「腕」：ㄨㄢˇ／皮「靴」：ㄒㄩㄝ",
+        "B": "「熹」微：ㄒㄧ／吱「嗒」：ㄉㄚˋ",
+        "C": "打「轉」：ㄓㄨㄢˋ／起「勁」： ㄐㄧㄥˋ",
+        "D": "湖「畔」：ㄅㄢˋ／亮「晃」晃：ㄏㄨㄤˇ。"
+      },
+      "correctAnswer": "C",
+      "type": "pronunciation",
+      "knowledgePointId": "dry-kp-64600f3332",
+      "target": "轉／勁",
+      "tags": [
+        "pronunciation",
+        "字音",
+        "第1-3冊群"
+      ],
+      "explanation": "（Ａ）手「腕」：ㄨㄢˋ （Ｂ）吱「嗒」：ㄉㄚ （Ｄ）湖「畔」：ㄆㄢˋ",
+      "memoryWall": null,
+      "validation": {
+        "status": "approved",
+        "approvalType": "data-audit"
+      }
+    },
+    {
+      "questionId": "ext-b13-q019",
+      "sourceId": "dry-1-3-019",
+      "sourceFile": "public/lab/data/dry-run/questions-001-100.json",
+      "source": {
+        "bookGroup": "1-3",
+        "questionNo": 19,
+        "page": 3,
+        "document": "03_第1-3冊_會考形音義_教用卷.pdf"
+      },
+      "sourceTextSha256": "620d9650ea41ffcf7026e8602ee82dec50b7c203e012df8c16f88a6a93087f7f",
+      "question": "下列選項「」中的字，何者讀音說明正確？",
+      "prompt": "下列選項「」中的字，何者讀音說明正確？",
+      "choices": {
+        "A": "他將這首曲子「詮」釋得很好： ㄑㄩㄢˊ",
+        "B": "這顆珍珠煥發出「絢」麗光彩：ㄒㄩㄣˋ",
+        "C": "颱風帶來的豪雨使溪水暴「漲」：ㄓㄤˋ",
+        "D": "縱使失敗，他也毫不氣「餒」，再接再厲：ㄨㄟˇ。"
+      },
+      "correctAnswer": "A",
+      "type": "pronunciation",
+      "knowledgePointId": "dry-kp-8ca4f058c8",
+      "target": "詮",
+      "tags": [
+        "pronunciation",
+        "字音",
+        "第1-3冊群"
+      ],
+      "explanation": "（Ｂ）ㄒㄩㄢˋ （Ｃ）ㄓㄤˇ （Ｄ）ㄋㄟˇ",
+      "memoryWall": null,
+      "validation": {
+        "status": "approved",
+        "approvalType": "data-audit"
+      }
+    },
+    {
+      "questionId": "ext-b13-q020",
+      "sourceId": "dry-1-3-020",
+      "sourceFile": "public/lab/data/dry-run/questions-001-100.json",
+      "source": {
+        "bookGroup": "1-3",
+        "questionNo": 20,
+        "page": 3,
+        "document": "03_第1-3冊_會考形音義_教用卷.pdf"
+      },
+      "sourceTextSha256": "55f684b0ce86d57f993cb35666833512e1de533ae2f1f5d5146a8100e76345a1",
+      "question": "下列選項「」中的字經替換後，何者意思改變？",
+      "prompt": "下列選項「」中的字經替換後，何者意思改變？",
+      "choices": {
+        "A": "花色「斑」雜者，形態怪異者→班",
+        "B": "「甫」經下水即遭沉沒者→才",
+        "C": "或「比」肩齊步→並",
+        "D": "年 「事」稍長後才能體會出來→齡。"
+      },
+      "correctAnswer": "A",
+      "type": "meaning",
+      "knowledgePointId": "dry-kp-fda5a29808",
+      "target": "斑",
+      "tags": [
+        "meaning",
+        "字義",
+        "第1-3冊群"
+      ],
+      "explanation": "（Ａ）灰白。顏色雜而不純／工作或學習人員的分組組別",
+      "memoryWall": null,
+      "validation": {
+        "status": "approved",
+        "approvalType": "data-audit"
+      }
+    },
+    {
+      "questionId": "ext-b13-q021",
+      "sourceId": "dry-1-3-021",
+      "sourceFile": "public/lab/data/dry-run/questions-001-100.json",
+      "source": {
+        "bookGroup": "1-3",
+        "questionNo": 21,
+        "page": 3,
+        "document": "03_第1-3冊_會考形音義_教用卷.pdf"
+      },
+      "sourceTextSha256": "fa3b5b37035a290d772a9abc8b0dbbb431f5705916d40f238da3a8b778dadd64",
+      "question": "下列「」中的注音寫成國字後，何者字形前後相同？",
+      "prompt": "下列「」中的注音寫成國字後，何者字形前後相同？",
+      "choices": {
+        "A": "湖「ㄆㄢˋ」／「ㄆㄢˋ」望",
+        "B": "「ㄏㄢˋ」煙袋／凶「ㄏㄢˋ」",
+        "C": "「ㄇㄧ」眼／笑「ㄇㄧㄇㄧ」",
+        "D": "手「ㄨㄢˋ」／壯士斷「ㄨㄢˋ」。"
+      },
+      "correctAnswer": "D",
+      "type": "shape",
+      "knowledgePointId": "dry-kp-2f08668802",
+      "target": "ㄨㄢˋ",
+      "tags": [
+        "shape",
+        "字形",
+        "第1-3冊群"
+      ],
+      "explanation": "（Ａ）畔／盼 （Ｂ）旱／悍 （Ｃ）瞇／咪 （Ｄ）腕",
+      "memoryWall": null,
+      "validation": {
+        "status": "approved",
+        "approvalType": "data-audit"
+      }
+    },
+    {
+      "questionId": "ext-b13-q022",
+      "sourceId": "dry-1-3-022",
+      "sourceFile": "public/lab/data/dry-run/questions-001-100.json",
+      "source": {
+        "bookGroup": "1-3",
+        "questionNo": 22,
+        "page": 3,
+        "document": "03_第1-3冊_會考形音義_教用卷.pdf"
+      },
+      "sourceTextSha256": "c5dabdd31f3bf4fa89ba4325c3f66454a5bd7546cd1e96714a36208eea568eff",
+      "question": "下列選項中的 「習」 字， 何者的意思為 「熟悉、 通曉」？",
+      "prompt": "下列選項中的 「習」 字， 何者的意思為 「熟悉、 通曉」？",
+      "choices": {
+        "A": "好好溫 「習」 課業",
+        "B": "你真是積「習」難改",
+        "C": "他早就「習」於人事之變化",
+        "D": "研「習」是教師重要的進修管道。"
+      },
+      "correctAnswer": "C",
+      "type": "polysemy",
+      "knowledgePointId": "dry-kp-44d66e81e5",
+      "target": "習",
+      "tags": [
+        "polysemy",
+        "一字多義",
+        "第1-3冊群"
+      ],
+      "explanation": "（Ａ）（Ｄ）反覆演練、鑽研 （Ｂ）積久養成的慣性行為",
+      "memoryWall": null,
+      "validation": {
+        "status": "approved",
+        "approvalType": "data-audit"
+      }
+    },
+    {
+      "questionId": "ext-b13-q023",
+      "sourceId": "dry-1-3-023",
+      "sourceFile": "public/lab/data/dry-run/questions-001-100.json",
+      "source": {
+        "bookGroup": "1-3",
+        "questionNo": 23,
+        "page": 3,
+        "document": "03_第1-3冊_會考形音義_教用卷.pdf"
+      },
+      "sourceTextSha256": "3be8e6347b7192da1084dadd4e808e3557d658c7d368a0eef603ae71b738b106",
+      "question": "下列文句，何者用字完全正確？",
+      "prompt": "下列文句，何者用字完全正確？",
+      "choices": {
+        "A": "向圖書館借閱的書籍，應按時規還",
+        "B": "縱容壞人，無異於陷害好人",
+        "C": "多年的等侍，終成泡影",
+        "D": "初次見面，就鬨了大笑話。"
+      },
+      "correctAnswer": "B",
+      "type": "shape",
+      "knowledgePointId": "dry-kp-94fc2b177d",
+      "target": "縱容壞人，無異於陷害好人",
+      "tags": [
+        "shape",
+        "字形",
+        "第1-3冊群"
+      ],
+      "explanation": "（Ａ）規→歸 （Ｃ）侍→待 （Ｄ）鬨→鬧",
+      "memoryWall": null,
+      "validation": {
+        "status": "approved",
+        "approvalType": "data-audit"
+      }
+    },
+    {
+      "questionId": "ext-b13-q024",
+      "sourceId": "dry-1-3-024",
+      "sourceFile": "public/lab/data/dry-run/questions-001-100.json",
+      "source": {
+        "bookGroup": "1-3",
+        "questionNo": 24,
+        "page": 4,
+        "document": "03_第1-3冊_會考形音義_教用卷.pdf"
+      },
+      "sourceTextSha256": "0b65e368f55c7bfce920cb2a6d4f6313cb92dafb6a8bd8b45951d3533e119a7d",
+      "question": "下列選項，何者用字完全正確？",
+      "prompt": "下列選項，何者用字完全正確？",
+      "choices": {
+        "A": "心詔不宣",
+        "B": "惠質蘭心",
+        "C": "撲朔迷離",
+        "D": "星火撩原。"
+      },
+      "correctAnswer": "C",
+      "type": "shape",
+      "knowledgePointId": "dry-kp-f1294bd51b",
+      "target": "撲朔迷離",
+      "tags": [
+        "shape",
+        "字形",
+        "第1-3冊群"
+      ],
+      "explanation": "（Ａ）心「照」不宣 （Ｂ）「蕙」質蘭心 （Ｄ）星火「燎」原",
+      "memoryWall": null,
+      "validation": {
+        "status": "approved",
+        "approvalType": "data-audit"
+      }
+    },
+    {
+      "questionId": "ext-b13-q025",
+      "sourceId": "dry-1-3-025",
+      "sourceFile": "public/lab/data/dry-run/questions-001-100.json",
+      "source": {
+        "bookGroup": "1-3",
+        "questionNo": 25,
+        "page": 4,
+        "document": "03_第1-3冊_會考形音義_教用卷.pdf"
+      },
+      "sourceTextSha256": "a17d62d5e202bf82f89f345d9f6e7ee20f86cc3f6523b6f383a5aa9a0ba191a7",
+      "question": "下列選項「」中的字，何者讀音正確？",
+      "prompt": "下列選項「」中的字，何者讀音正確？",
+      "choices": {
+        "A": "父親的「膀」子受傷，必須就醫：ㄅㄤˋ",
+        "B": "我無法完成這項 「差」 使：ㄔㄚ",
+        "C": "對於老闆交辦的事情，務必要妥 「帖」 處理： ㄊㄧㄝ",
+        "D": "外國友人對舉「箸」夾取食物很感興趣，大家都躍躍欲試：ㄓㄨㄛˊ。"
+      },
+      "correctAnswer": "C",
+      "type": "pronunciation",
+      "knowledgePointId": "dry-kp-bcb7d80ef8",
+      "target": "帖",
+      "tags": [
+        "pronunciation",
+        "字音",
+        "第1-3冊群"
+      ],
+      "explanation": "（Ａ）ㄅㄤˇ （Ｂ）ㄔㄞ （Ｄ）ㄓㄨˋ",
+      "memoryWall": null,
+      "validation": {
+        "status": "approved",
+        "approvalType": "data-audit"
+      }
+    },
+    {
+      "questionId": "ext-b13-q026",
+      "sourceId": "dry-1-3-026",
+      "sourceFile": "public/lab/data/dry-run/questions-001-100.json",
+      "source": {
+        "bookGroup": "1-3",
+        "questionNo": 26,
+        "page": 4,
+        "document": "03_第1-3冊_會考形音義_教用卷.pdf"
+      },
+      "sourceTextSha256": "3a9dc5b560ed9ef496d1596ad5492058a80a4df10f8d4613c62a3c41a75c52da",
+      "question": "下列成語， 何者用字正確？",
+      "prompt": "下列成語， 何者用字正確？",
+      "choices": {
+        "A": "宛轉有至",
+        "B": "抑陽頓挫",
+        "C": "此起彼落",
+        "D": "一塵不變。"
+      },
+      "correctAnswer": "C",
+      "type": "shape",
+      "knowledgePointId": "dry-kp-4cfaf47f50",
+      "target": "此起彼落",
+      "tags": [
+        "shape",
+        "字形",
+        "第1-3冊群"
+      ],
+      "explanation": "（Ａ）至→致 （Ｂ）陽→揚 （Ｄ）塵→成",
+      "memoryWall": null,
+      "validation": {
+        "status": "approved",
+        "approvalType": "data-audit"
+      }
+    },
+    {
+      "questionId": "ext-b13-q027",
+      "sourceId": "dry-1-3-027",
+      "sourceFile": "public/lab/data/dry-run/questions-001-100.json",
+      "source": {
+        "bookGroup": "1-3",
+        "questionNo": 27,
+        "page": 4,
+        "document": "03_第1-3冊_會考形音義_教用卷.pdf"
+      },
+      "sourceTextSha256": "97237360be5037eec7a6a9ca48cd0cf5ab4f651582bc3e02a4ad70008c03dd75",
+      "question": "「當那龍頭『頷』首時，可別傻傻的『杵』在那兒，要稍稍避一避，人可是擔不起這麼重的禮。」 這段文句 『』 中的字， 意思依序應為下列何者？",
+      "prompt": "「當那龍頭『頷』首時，可別傻傻的『杵』在那兒，要稍稍避一避，人可是擔不起這麼重的禮。」 這段文句 『』 中的字， 意思依序應為下列何者？",
+      "choices": {
+        "A": "下巴／圓木棒",
+        "B": "點頭／圓木棒",
+        "C": "點頭／呆立不動",
+        "D": "下巴／呆立不動。"
+      },
+      "correctAnswer": "C",
+      "type": "meaning",
+      "knowledgePointId": "dry-kp-82ddd29a46",
+      "target": "杵",
+      "tags": [
+        "meaning",
+        "字義",
+        "第1-3冊群"
+      ],
+      "explanation": "",
+      "memoryWall": null,
+      "validation": {
+        "status": "approved",
+        "approvalType": "data-audit"
+      }
+    },
+    {
+      "questionId": "ext-b13-q028",
+      "sourceId": "dry-1-3-028",
+      "sourceFile": "public/lab/data/dry-run/questions-001-100.json",
+      "source": {
+        "bookGroup": "1-3",
+        "questionNo": 28,
+        "page": 4,
+        "document": "03_第1-3冊_會考形音義_教用卷.pdf"
+      },
+      "sourceTextSha256": "73ba800c8e3762959e0709f0679c5f777b7f04e0466cf80b744f59259f2305ee",
+      "question": "下列文句，何者用字完全正確？",
+      "prompt": "下列文句，何者用字完全正確？",
+      "choices": {
+        "A": "清道婦護衛街道和巷弄，就像兵士們護衛彊土一樣",
+        "B": "端著長長的掃把，去追趕一個被風吹跑的空朔膠袋",
+        "C": "她們默默的表現著一個勞動者那種敦厚僕實的風範",
+        "D": "馬路上遍地是黃黃的泥巴，她們總是不厭其煩的清掃。"
+      },
+      "correctAnswer": "D",
+      "type": "shape",
+      "knowledgePointId": "dry-kp-f6cf02cc2d",
+      "target": "馬路上遍地是黃黃的泥巴，她們總是不厭其煩的清掃。",
+      "tags": [
+        "shape",
+        "字形",
+        "第1-3冊群"
+      ],
+      "explanation": "（Ａ）彊→疆 （Ｂ）朔→塑 （Ｃ）僕→樸",
+      "memoryWall": null,
+      "validation": {
+        "status": "approved",
+        "approvalType": "data-audit"
+      }
+    },
+    {
+      "questionId": "ext-b13-q029",
+      "sourceId": "dry-1-3-029",
+      "sourceFile": "public/lab/data/dry-run/questions-001-100.json",
+      "source": {
+        "bookGroup": "1-3",
+        "questionNo": 29,
+        "page": 4,
+        "document": "03_第1-3冊_會考形音義_教用卷.pdf"
+      },
+      "sourceTextSha256": "c4358a8b75c53a8df773e48e531655623dfb542c14c496aa55196bc654c3e6a5",
+      "question": "下列疊字成語，何者字形前後相同？",
+      "prompt": "下列疊字成語，何者字形前後相同？",
+      "choices": {
+        "A": "「ㄇㄛˋ ㄇㄛˋ」 無語／含情 「ㄇㄛˋ ㄇㄛˋ」",
+        "B": "小心「ㄧˋ ㄧˋ」／神采「ㄧˋ ㄧˋ」",
+        "C": "戰戰「ㄐㄧㄥㄐㄧㄥ」／「ㄐㄧㄥㄐㄧㄥ」業業",
+        "D": "「ㄧㄠˊ ㄧㄠˊ」欲墜／「ㄧㄠˊ ㄧㄠˊ」 無期。"
+      },
+      "correctAnswer": "C",
+      "type": "shape",
+      "knowledgePointId": "dry-kp-f10c10f20c",
+      "target": "ㄐㄧㄥㄐㄧㄥ",
+      "tags": [
+        "shape",
+        "字形",
+        "第1-3冊群"
+      ],
+      "explanation": "（Ａ）默默／脈脈 （Ｂ）翼翼／奕奕 （Ｃ）兢兢 （Ｄ）搖搖／遙遙",
+      "memoryWall": null,
+      "validation": {
+        "status": "approved",
+        "approvalType": "data-audit"
+      }
+    },
+    {
+      "questionId": "ext-b13-q030",
+      "sourceId": "dry-1-3-030",
+      "sourceFile": "public/lab/data/dry-run/questions-001-100.json",
+      "source": {
+        "bookGroup": "1-3",
+        "questionNo": 30,
+        "page": 4,
+        "document": "03_第1-3冊_會考形音義_教用卷.pdf"
+      },
+      "sourceTextSha256": "3f3a7a98a99c29f102d8721642f5210e1e2625243b34465b31a7cbc31773c7dc",
+      "question": "下列「」中的字，何組讀音前後相同？",
+      "prompt": "下列「」中的字，何組讀音前後相同？",
+      "choices": {
+        "A": "晨光「熹」微／「嘻」皮笑臉",
+        "B": "玫瑰花「瓣」／結成髮「辮」",
+        "C": "隨波「漂」流／虛無「縹」緲",
+        "D": "「瞇」著眼睛／猜「謎」遊戲。"
+      },
+      "correctAnswer": "A",
+      "type": "pronunciation",
+      "knowledgePointId": "dry-kp-7fc4726891",
+      "target": "熹／嘻",
+      "tags": [
+        "pronunciation",
+        "字音",
+        "第1-3冊群"
+      ],
+      "explanation": "（Ａ）ㄒㄧ （Ｂ）ㄅㄢˋ／ㄅㄧㄢˋ （Ｃ）ㄆㄧㄠ／ㄆㄧㄠˇ （Ｄ）ㄇㄧ／ㄇㄧˊ",
+      "memoryWall": null,
+      "validation": {
+        "status": "approved",
+        "approvalType": "data-audit"
+      }
+    },
+    {
+      "questionId": "ext-b13-q031",
+      "sourceId": "dry-1-3-031",
+      "sourceFile": "public/lab/data/dry-run/questions-001-100.json",
+      "source": {
+        "bookGroup": "1-3",
+        "questionNo": 31,
+        "page": 4,
+        "document": "03_第1-3冊_會考形音義_教用卷.pdf"
+      },
+      "sourceTextSha256": "113361a1da4bd5ee1d25f871aa0f994383b23e2a977fce028092d50e86d1eecf",
+      "question": "下列選項「」 中的字， 何者意思前後相同？",
+      "prompt": "下列選項「」 中的字， 何者意思前後相同？",
+      "choices": {
+        "A": "不亦 「樂」 乎／ 「樂」 於助人",
+        "B": "三人 「行」，必有我師焉／寸步難 「行」",
+        "C": "必 「有」 我師焉／相當富 「有」",
+        "D": "己所不「欲」，勿施於人／搖搖「欲」墜。"
+      },
+      "correctAnswer": "B",
+      "type": "meaning",
+      "knowledgePointId": "dry-kp-756ab71b3d",
+      "target": "行",
+      "tags": [
+        "meaning",
+        "字義",
+        "第1-3冊群"
+      ],
+      "explanation": "（Ａ）歡喜、愉悅／喜愛 （Ｂ）走、走路 （Ｃ）表事實、狀況的正面存在，與「無」相對／豐足、富裕 （Ｄ）期望、希求／將要",
+      "memoryWall": null,
+      "validation": {
+        "status": "approved",
+        "approvalType": "data-audit"
+      }
+    },
+    {
+      "questionId": "ext-b13-q032",
+      "sourceId": "dry-1-3-032",
+      "sourceFile": "public/lab/data/dry-run/questions-001-100.json",
+      "source": {
+        "bookGroup": "1-3",
+        "questionNo": 32,
+        "page": 5,
+        "document": "03_第1-3冊_會考形音義_教用卷.pdf"
+      },
+      "sourceTextSha256": "720abebd7f4beb43524fc6081102f89b67137f30769bf7b064c46cac51e6c848",
+      "question": "下列選項「」中的字，何者讀音完全相同？",
+      "prompt": "下列選項「」中的字，何者讀音完全相同？",
+      "choices": {
+        "A": "擬／凝／礙",
+        "B": "礫／爍／櫟",
+        "C": "唳／淚／捩",
+        "D": "驅／軀／嶇。"
+      },
+      "correctAnswer": "D",
+      "type": "pronunciation",
+      "knowledgePointId": "dry-kp-bf18b42a01",
+      "target": "驅／軀／嶇。",
+      "tags": [
+        "pronunciation",
+        "字音",
+        "第1-3冊群"
+      ],
+      "explanation": "（Ａ）ㄋㄧˇ／ㄋㄧㄥˊ／ㄞˋ （Ｂ）ㄌㄧˋ／ㄕㄨㄛˋ／ㄌㄧˋ （Ｃ）ㄌㄧˋ／ㄌㄟˋ／ㄌㄧㄝˋ （Ｄ）ㄑㄩ",
+      "memoryWall": null,
+      "validation": {
+        "status": "approved",
+        "approvalType": "data-audit"
+      }
+    },
+    {
+      "questionId": "ext-b13-q033",
+      "sourceId": "dry-1-3-033",
+      "sourceFile": "public/lab/data/dry-run/questions-001-100.json",
+      "source": {
+        "bookGroup": "1-3",
+        "questionNo": 33,
+        "page": 5,
+        "document": "03_第1-3冊_會考形音義_教用卷.pdf"
+      },
+      "sourceTextSha256": "989fff3ce0e6881f2ed3ebae8deea1e841470e50aaa9975e73a0a0b75af1d3d1",
+      "question": "下列詞語中的 「如」 字，何者意思與 「如虎添翼」 的 「如」 字相同？",
+      "prompt": "下列詞語中的 「如」 字，何者意思與 「如虎添翼」 的 「如」 字相同？",
+      "choices": {
+        "A": "遠親不 「如」 近鄰",
+        "B": "「如」法炮製",
+        "C": "「如」夢初醒",
+        "D": "「如」願以償。"
+      },
+      "correctAnswer": "C",
+      "type": "polysemy",
+      "knowledgePointId": "dry-kp-ee25fb888a",
+      "target": "如",
+      "tags": [
+        "polysemy",
+        "一字多義",
+        "第1-3冊群"
+      ],
+      "explanation": "題幹與（Ｃ）如同、好像 （Ａ）及、比得上 （Ｂ）（Ｄ）順從、依照",
+      "memoryWall": null,
+      "validation": {
+        "status": "approved",
+        "approvalType": "data-audit"
+      }
+    },
+    {
+      "questionId": "ext-b13-q034",
+      "sourceId": "dry-1-3-034",
+      "sourceFile": "public/lab/data/dry-run/questions-001-100.json",
+      "source": {
+        "bookGroup": "1-3",
+        "questionNo": 34,
+        "page": 5,
+        "document": "03_第1-3冊_會考形音義_教用卷.pdf"
+      },
+      "sourceTextSha256": "78a50e1616127d71d101f67084e8a11a4a29ba097f18029f56ae308dc4eb4a4a",
+      "question": "下列選項 「」 中的字， 何者意思前後相同？",
+      "prompt": "下列選項 「」 中的字， 何者意思前後相同？",
+      "choices": {
+        "A": "「扭」 乾衣服／ 「扭」 腰擺臀",
+        "B": "百思不 「解」／ 「解」 開繩子",
+        "C": "耳鬢 「廝」 磨／ 長相 「廝」 守",
+        "D": "「挨」 近／ 「挨」 打。"
+      },
+      "correctAnswer": "C",
+      "type": "meaning",
+      "knowledgePointId": "dry-kp-179b77837a",
+      "target": "廝",
+      "tags": [
+        "meaning",
+        "字義",
+        "第1-3冊群"
+      ],
+      "explanation": "：（Ａ） 手握緊東西而旋轉／身體左右搖擺 （Ｂ） 曉悟、 明白、 清楚／打開、 鬆開、 鬆脫 （Ｃ） 互相 （Ｄ）靠近、迫近／忍受、遭受",
+      "memoryWall": null,
+      "validation": {
+        "status": "approved",
+        "approvalType": "data-audit"
+      }
+    },
+    {
+      "questionId": "ext-b13-q035",
+      "sourceId": "dry-1-3-035",
+      "sourceFile": "public/lab/data/dry-run/questions-001-100.json",
+      "source": {
+        "bookGroup": "1-3",
+        "questionNo": 35,
+        "page": 5,
+        "document": "03_第1-3冊_會考形音義_教用卷.pdf"
+      },
+      "sourceTextSha256": "544af186ed21a798ff612fe8e684e73337877316ebd03dca264683d1709f7cef",
+      "question": "下列選項「」中的字，何者讀音前後不同？",
+      "prompt": "下列選項「」中的字，何者讀音前後不同？",
+      "choices": {
+        "A": "來「訪」／「紡」織",
+        "B": "修 「剪」／「翦」敵",
+        "C": "隔「壁」人家／「避」不見面",
+        "D": "搖頭「晃」腦／「恍」 然大悟。"
+      },
+      "correctAnswer": "D",
+      "type": "pronunciation",
+      "knowledgePointId": "dry-kp-7b577c06c6",
+      "target": "晃／恍",
+      "tags": [
+        "pronunciation",
+        "字音",
+        "第1-3冊群"
+      ],
+      "explanation": "（Ａ）ㄈㄤˇ （Ｂ）ㄐㄧㄢˇ （Ｃ）ㄅㄧˋ （Ｄ）ㄏㄨㄤˋ／ㄏㄨㄤˇ",
+      "memoryWall": null,
+      "validation": {
+        "status": "approved",
+        "approvalType": "data-audit"
+      }
+    },
+    {
+      "questionId": "ext-b13-q036",
+      "sourceId": "dry-1-3-036",
+      "sourceFile": "public/lab/data/dry-run/questions-001-100.json",
+      "source": {
+        "bookGroup": "1-3",
+        "questionNo": 36,
+        "page": 5,
+        "document": "03_第1-3冊_會考形音義_教用卷.pdf"
+      },
+      "sourceTextSha256": "946e368604304fab5827ab1808a6f95029d5b8e87b1de627991f54a0d4b2902f",
+      "question": "下列選項「」中的字，何者讀音說明錯誤？",
+      "prompt": "下列選項「」中的字，何者讀音說明錯誤？",
+      "choices": {
+        "A": "為了達成建立民主憲政國家的理想，國父革命推翻滿清，百折不「撓」，才獲得最終的勝利：ㄖㄠˊ",
+        "B": "弟弟不斷的求「饒」，大家才原諒他的惡作劇行為：ㄖㄠˊ",
+        "C": "繡球花瓣「繞」著小木船打轉，一起向前流：ㄖㄠˋ",
+        "D": "她的家位在臺北近郊的山下，四周有綠樹圍「遶」， 景致非常的優美：ㄖㄠˋ。"
+      },
+      "correctAnswer": "A",
+      "type": "pronunciation",
+      "knowledgePointId": "dry-kp-3104177e72",
+      "target": "撓",
+      "tags": [
+        "pronunciation",
+        "字音",
+        "第1-3冊群"
+      ],
+      "explanation": "（Ａ）ㄋㄠˊ",
+      "memoryWall": null,
+      "validation": {
+        "status": "approved",
+        "approvalType": "data-audit"
+      }
+    },
+    {
+      "questionId": "ext-b13-q037",
+      "sourceId": "dry-1-3-037",
+      "sourceFile": "public/lab/data/dry-run/questions-001-100.json",
+      "source": {
+        "bookGroup": "1-3",
+        "questionNo": 37,
+        "page": 5,
+        "document": "03_第1-3冊_會考形音義_教用卷.pdf"
+      },
+      "sourceTextSha256": "84cd6133ff17d257ab703612a2b8fa80e6c55b99c4cb2c4bd87ece3c96c78178",
+      "question": "下列文句，何者用字完全正確？",
+      "prompt": "下列文句，何者用字完全正確？",
+      "choices": {
+        "A": "她有些胖，穿著過時的花襯衫，行動笨拙是她留給我的印象",
+        "B": "她拿著照相機對准我，偷拍了一張後趕快跑開",
+        "C": "我有一點兒羞赦，不太敢接近景仰已久的她",
+        "D": "手上拿著野芻菊作為送給她的禮物。"
+      },
+      "correctAnswer": "A",
+      "type": "shape",
+      "knowledgePointId": "dry-kp-35f0d04a82",
+      "target": "她有些胖，穿著過時的花襯衫，行動笨拙是她留給我的印象",
+      "tags": [
+        "shape",
+        "字形",
+        "第1-3冊群"
+      ],
+      "explanation": "（Ｂ）對「準」 （Ｃ）羞「赧」 （Ｄ）「雛」菊",
+      "memoryWall": null,
+      "validation": {
+        "status": "approved",
+        "approvalType": "data-audit"
+      }
+    },
+    {
+      "questionId": "ext-b13-q038",
+      "sourceId": "dry-1-3-038",
+      "sourceFile": "public/lab/data/dry-run/questions-001-100.json",
+      "source": {
+        "bookGroup": "1-3",
+        "questionNo": 38,
+        "page": 5,
+        "document": "03_第1-3冊_會考形音義_教用卷.pdf"
+      },
+      "sourceTextSha256": "9cc573d4302db7e1d40d840ae6192b6193ff7c30348092af2cef4ab4c4f44d0f",
+      "question": "下列詞語，何者用字完全正確？",
+      "prompt": "下列詞語，何者用字完全正確？",
+      "choices": {
+        "A": "謙亦、嫌棄、道歉",
+        "B": "擅長、顫抖、腥羶",
+        "C": "輾新、斬首、暫且",
+        "D": "峽窄、豪俠、挾持。"
+      },
+      "correctAnswer": "B",
+      "type": "shape",
+      "knowledgePointId": "dry-kp-fe6023614f",
+      "target": "擅長、顫抖、腥羶",
+      "tags": [
+        "shape",
+        "字形",
+        "第1-3冊群"
+      ],
+      "explanation": "（Ａ）謙抑 （Ｃ）嶄新 （Ｄ）狹窄",
+      "memoryWall": null,
+      "validation": {
+        "status": "approved",
+        "approvalType": "data-audit"
+      }
+    },
+    {
+      "questionId": "ext-b13-q039",
+      "sourceId": "dry-1-3-039",
+      "sourceFile": "public/lab/data/dry-run/questions-001-100.json",
+      "source": {
+        "bookGroup": "1-3",
+        "questionNo": 39,
+        "page": 5,
+        "document": "03_第1-3冊_會考形音義_教用卷.pdf"
+      },
+      "sourceTextSha256": "9371c9f79695b22c452e238b1ca212e6f1bc17e54dc703acc8a87c58554ea496",
+      "question": "下列文句，何者用字完全正確？",
+      "prompt": "下列文句，何者用字完全正確？",
+      "choices": {
+        "A": "警方這次逮捕人犯的計畫無懈可繫",
+        "B": "這位少年詩人以寫作泳物詩聞名",
+        "C": "他喜歡在淺白的文字中寄遇人生的哲理",
+        "D": "許多基督徒會在週日到教堂吟唱讚美詩。"
+      },
+      "correctAnswer": "D",
+      "type": "shape",
+      "knowledgePointId": "dry-kp-18cc78fd3f",
+      "target": "許多基督徒會在週日到教堂吟唱讚美詩。",
+      "tags": [
+        "shape",
+        "字形",
+        "第1-3冊群"
+      ],
+      "explanation": "（Ａ）繫→擊 （Ｂ）泳→詠 （Ｃ）遇→寓",
+      "memoryWall": null,
+      "validation": {
+        "status": "approved",
+        "approvalType": "data-audit"
+      }
+    },
+    {
+      "questionId": "ext-b13-q040",
+      "sourceId": "dry-1-3-040",
+      "sourceFile": "public/lab/data/dry-run/questions-001-100.json",
+      "source": {
+        "bookGroup": "1-3",
+        "questionNo": 40,
+        "page": 6,
+        "document": "03_第1-3冊_會考形音義_教用卷.pdf"
+      },
+      "sourceTextSha256": "ca634293857b9bfdb5fcb4e1f6c64e13d64ea14c0a6e49e4c639e233b4141049",
+      "question": "下列選項中的「窩」字，何者與「整天窩在家裡」的「窩」意思相同？",
+      "prompt": "下列選項中的「窩」字，何者與「整天窩在家裡」的「窩」意思相同？",
+      "choices": {
+        "A": "蜂「窩」",
+        "B": "微笑酒「窩」",
+        "C": "「窩」著悶氣",
+        "D": "「窩」進被窩。"
+      },
+      "correctAnswer": "D",
+      "type": "polysemy",
+      "knowledgePointId": "dry-kp-590a4aedd7",
+      "target": "窩",
+      "tags": [
+        "polysemy",
+        "一字多義",
+        "第1-3冊群"
+      ],
+      "explanation": "題幹與（Ｄ）停留、蜷伏。（Ａ）鳥獸昆蟲等的巢穴 （Ｂ）凹陷的地方 （Ｃ）鬱積",
+      "memoryWall": null,
+      "validation": {
+        "status": "approved",
+        "approvalType": "data-audit"
+      }
+    },
+    {
+      "questionId": "ext-b13-q041",
+      "sourceId": "dry-1-3-041",
+      "sourceFile": "public/lab/data/dry-run/questions-001-100.json",
+      "source": {
+        "bookGroup": "1-3",
+        "questionNo": 41,
+        "page": 6,
+        "document": "03_第1-3冊_會考形音義_教用卷.pdf"
+      },
+      "sourceTextSha256": "0b520e15bc797cf80abae75f5ceb4da0db5afa0e449b1e7fe2c40354b9ee5df4",
+      "question": "（甲）「萌」芽：ㄇㄥˊ （乙）「軋」入：ㄍㄚ （丙）「碾」壓：ㄓㄢˇ （丁） 「傾」聽：ㄑㄧㄥ （戊）「剔」透：ㄊㄧ （己）「混」合：ㄏㄨㄣˇ。以上「」 中的字，哪些讀音說明正確？",
+      "prompt": "（甲）「萌」芽：ㄇㄥˊ （乙）「軋」入：ㄍㄚ （丙）「碾」壓：ㄓㄢˇ （丁） 「傾」聽：ㄑㄧㄥ （戊）「剔」透：ㄊㄧ （己）「混」合：ㄏㄨㄣˇ。以上「」 中的字，哪些讀音說明正確？",
+      "choices": {
+        "A": "甲丙己",
+        "B": "乙丙戊",
+        "C": "乙丁己",
+        "D": "甲丁戊。"
+      },
+      "correctAnswer": "D",
+      "type": "pronunciation",
+      "knowledgePointId": "dry-kp-c09e8426c5",
+      "target": "萌",
+      "tags": [
+        "pronunciation",
+        "字音",
+        "第1-3冊群"
+      ],
+      "explanation": "（乙）ㄧㄚˋ （丙）ㄋㄧㄢˇ （己）ㄏㄨㄣˋ",
+      "memoryWall": null,
+      "validation": {
+        "status": "approved",
+        "approvalType": "data-audit"
+      }
+    },
+    {
+      "questionId": "ext-b13-q042",
+      "sourceId": "dry-1-3-042",
+      "sourceFile": "public/lab/data/dry-run/questions-001-100.json",
+      "source": {
+        "bookGroup": "1-3",
+        "questionNo": 42,
+        "page": 6,
+        "document": "03_第1-3冊_會考形音義_教用卷.pdf"
+      },
+      "sourceTextSha256": "4fce8fc97fbe1ba7fbdaf5fb0fed17289284cf4def1df383d59acdad76d0c9e4",
+      "question": "「單就口味而言」 句中的 「單」 字意思是 「僅、只」，下列何者與之相同？",
+      "prompt": "「單就口味而言」 句中的 「單」 字意思是 「僅、只」，下列何者與之相同？",
+      "choices": {
+        "A": "「單」 槍匹馬",
+        "B": "「單」打獨鬥",
+        "C": "「單」說不做",
+        "D": "形「單」影隻。"
+      },
+      "correctAnswer": "C",
+      "type": "polysemy",
+      "knowledgePointId": "dry-kp-d1d2eba08a",
+      "target": "單",
+      "tags": [
+        "polysemy",
+        "一字多義",
+        "第1-3冊群"
+      ],
+      "explanation": "（Ａ）（Ｄ）單獨、一個 （Ｂ）孤獨的、獨自一人的",
+      "memoryWall": null,
+      "validation": {
+        "status": "approved",
+        "approvalType": "data-audit"
+      }
+    },
+    {
+      "questionId": "ext-b13-q043",
+      "sourceId": "dry-1-3-043",
+      "sourceFile": "public/lab/data/dry-run/questions-001-100.json",
+      "source": {
+        "bookGroup": "1-3",
+        "questionNo": 43,
+        "page": 6,
+        "document": "03_第1-3冊_會考形音義_教用卷.pdf"
+      },
+      "sourceTextSha256": "e208f588f2f224894e0a140b86171298f82445fdde7d0608635b438ab424eb09",
+      "question": "下列選項「」中的字，何者音義完全正確？",
+      "prompt": "下列選項「」中的字，何者音義完全正確？",
+      "choices": {
+        "A": "一絲不「苟」：ㄍㄡˇ，草率、 隨便",
+        "B": "巷「弄」：ㄋㄨㄥˋ，小巷",
+        "C": "「惹」人厭：ㄖㄜˇ，討厭",
+        "D": "「予」以清除：ㄩˊ，給，通「與」。"
+      },
+      "correctAnswer": "A",
+      "type": "pronunciation",
+      "knowledgePointId": "dry-kp-ff813c66b4",
+      "target": "苟",
+      "tags": [
+        "pronunciation",
+        "字音",
+        "字義",
+        "第1-3冊群"
+      ],
+      "explanation": "（Ｂ）ㄌㄨㄥˋ （Ｃ）招引 （Ｄ）ㄩˇ",
+      "memoryWall": null,
+      "validation": {
+        "status": "approved",
+        "approvalType": "data-audit"
+      }
+    },
+    {
+      "questionId": "ext-b13-q044",
+      "sourceId": "dry-1-3-044",
+      "sourceFile": "public/lab/data/dry-run/questions-001-100.json",
+      "source": {
+        "bookGroup": "1-3",
+        "questionNo": 44,
+        "page": 6,
+        "document": "03_第1-3冊_會考形音義_教用卷.pdf"
+      },
+      "sourceTextSha256": "1ffb9d548495cd025089eb0e1c1bc1d6be3143140c1a9e6d31e3dc8863dd06b8",
+      "question": "「一『行』白鷺上青天」的「行」字是量詞，請問下列「行」字何者也是量詞？",
+      "prompt": "「一『行』白鷺上青天」的「行」字是量詞，請問下列「行」字何者也是量詞？",
+      "choices": {
+        "A": "「行」些小費",
+        "B": "一「行」文字",
+        "C": "一間銀「行」",
+        "D": "「行行」出狀元。"
+      },
+      "correctAnswer": "B",
+      "type": "polysemy",
+      "knowledgePointId": "dry-kp-70ec939aee",
+      "target": "行",
+      "tags": [
+        "polysemy",
+        "一字多義",
+        "第1-3冊群"
+      ],
+      "explanation": "（Ａ）此指給付 （Ｂ）量詞 （Ｃ）營業交易的機構 （Ｄ）職業",
+      "memoryWall": null,
+      "validation": {
+        "status": "approved",
+        "approvalType": "data-audit"
+      }
+    },
+    {
+      "questionId": "ext-b13-q045",
+      "sourceId": "dry-1-3-045",
+      "sourceFile": "public/lab/data/dry-run/questions-001-100.json",
+      "source": {
+        "bookGroup": "1-3",
+        "questionNo": 45,
+        "page": 6,
+        "document": "03_第1-3冊_會考形音義_教用卷.pdf"
+      },
+      "sourceTextSha256": "b12ba48779815f86581ea86071cf6a8e2c5c168c5008f22cd9ae634d515d156c",
+      "question": "下列文句，何者用字完全正確？",
+      "prompt": "下列文句，何者用字完全正確？",
+      "choices": {
+        "A": "有些像是飛鳥晾過天邊，漸去漸遠",
+        "B": "我們住的是低矮簡漏的農舍，簷下無排水溝",
+        "C": "這些紙船大都出自母親的巧思和那雙粗糙不堪、結著厚繭的手",
+        "D": "而今早已年過而立，自然不再是涎著臉要求母親摺紙船的年記。"
+      },
+      "correctAnswer": "C",
+      "type": "shape",
+      "knowledgePointId": "dry-kp-c8fb3b22ed",
+      "target": "這些紙船大都出自母親的巧思和那雙粗糙不堪、結著厚繭的手",
+      "tags": [
+        "shape",
+        "字形",
+        "第1-3冊群"
+      ],
+      "explanation": "（Ａ）晾→掠 （Ｂ）漏→陋 （Ｄ）記→紀",
+      "memoryWall": null,
+      "validation": {
+        "status": "approved",
+        "approvalType": "data-audit"
+      }
+    },
+    {
+      "questionId": "ext-b13-q046",
+      "sourceId": "dry-1-3-046",
+      "sourceFile": "public/lab/data/dry-run/questions-001-100.json",
+      "source": {
+        "bookGroup": "1-3",
+        "questionNo": 46,
+        "page": 6,
+        "document": "03_第1-3冊_會考形音義_教用卷.pdf"
+      },
+      "sourceTextSha256": "d7b304a6ea6d829ea88d9f383a80d6c0cc56744a103a9812beb7996e2edc4924",
+      "question": "下列選項「」中的字經替換後，何者意思改變？",
+      "prompt": "下列選項「」中的字經替換後，何者意思改變？",
+      "choices": {
+        "A": "妥「帖」→貼",
+        "B": "「直」 是→真",
+        "C": "「尚」不大難→還",
+        "D": "一股「腦」兒→惱。"
+      },
+      "correctAnswer": "D",
+      "type": "meaning",
+      "knowledgePointId": "dry-kp-ea0b64d179",
+      "target": "腦",
+      "tags": [
+        "meaning",
+        "字義",
+        "第1-3冊群"
+      ],
+      "explanation": "",
+      "memoryWall": null,
+      "validation": {
+        "status": "approved",
+        "approvalType": "data-audit"
+      }
+    },
+    {
+      "questionId": "ext-b13-q047",
+      "sourceId": "dry-1-3-047",
+      "sourceFile": "public/lab/data/dry-run/questions-001-100.json",
+      "source": {
+        "bookGroup": "1-3",
+        "questionNo": 47,
+        "page": 6,
+        "document": "03_第1-3冊_會考形音義_教用卷.pdf"
+      },
+      "sourceTextSha256": "88db989d6d2ed661e2eb489b8589cacf5ea73c53e527b373da8a39c9e4c86455",
+      "question": "「長豆架下還插著空兒點了一些辣椒秧子和青蔥。」 句中的 「點」 字， 意思為何？",
+      "prompt": "「長豆架下還插著空兒點了一些辣椒秧子和青蔥。」 句中的 「點」 字， 意思為何？",
+      "choices": {
+        "A": "穿插",
+        "B": "種植",
+        "C": "生長",
+        "D": "點綴。"
+      },
+      "correctAnswer": "B",
+      "type": "meaning",
+      "knowledgePointId": "dry-kp-1a94afd5cd",
+      "target": "點",
+      "tags": [
+        "meaning",
+        "字義",
+        "第1-3冊群"
+      ],
+      "explanation": "",
+      "memoryWall": null,
+      "validation": {
+        "status": "approved",
+        "approvalType": "data-audit"
+      }
+    },
+    {
+      "questionId": "ext-b13-q048",
+      "sourceId": "dry-1-3-048",
+      "sourceFile": "public/lab/data/dry-run/questions-001-100.json",
+      "source": {
+        "bookGroup": "1-3",
+        "questionNo": 48,
+        "page": 6,
+        "document": "03_第1-3冊_會考形音義_教用卷.pdf"
+      },
+      "sourceTextSha256": "50385b26b8b314e33ed92875e11f1cedfec71a08823798777bf541040242db5e",
+      "question": "下列選項「」中的字，何組意思前後相同？",
+      "prompt": "下列選項「」中的字，何組意思前後相同？",
+      "choices": {
+        "A": "「策」略／「策」馬",
+        "B": "麵 「攤」／地「攤」",
+        "C": "「籠」罩／牢「籠」",
+        "D": "「浮」現微笑／人「浮」於事。"
+      },
+      "correctAnswer": "B",
+      "type": "meaning",
+      "knowledgePointId": "dry-kp-0cfd2aea19",
+      "target": "攤",
+      "tags": [
+        "meaning",
+        "字義",
+        "第1-3冊群"
+      ],
+      "explanation": "（Ａ）計謀／鞭打、驅使 （Ｂ）設於路旁、夜市等地，簡單的貨物零售處 （Ｃ）遮住、 覆蓋／關住鳥獸或拘禁人犯的器物 （Ｄ）顯現／超過",
+      "memoryWall": null,
+      "validation": {
+        "status": "approved",
+        "approvalType": "data-audit"
+      }
+    },
+    {
+      "questionId": "ext-b13-q049",
+      "sourceId": "dry-1-3-049",
+      "sourceFile": "public/lab/data/dry-run/questions-001-100.json",
+      "source": {
+        "bookGroup": "1-3",
+        "questionNo": 49,
+        "page": 7,
+        "document": "03_第1-3冊_會考形音義_教用卷.pdf"
+      },
+      "sourceTextSha256": "e77c0a377d8f9001ba5639d76a0677aaa03db9a36059b583495163c03d5f6049",
+      "question": "「儼」字在辭典裡有：「莊重、整齊、好像」等意思，下列「儼」字，何者解釋為「整齊」 最適合？",
+      "prompt": "「儼」字在辭典裡有：「莊重、整齊、好像」等意思，下列「儼」字，何者解釋為「整齊」 最適合？",
+      "choices": {
+        "A": "望之 「儼」 然",
+        "B": "屋舍 「儼」 然",
+        "C": "氣派 「儼」 然",
+        "D": "「儼」然成形。"
+      },
+      "correctAnswer": "B",
+      "type": "polysemy",
+      "knowledgePointId": "dry-kp-5b0cb83ef4",
+      "target": "儼",
+      "tags": [
+        "polysemy",
+        "一字多義",
+        "第1-3冊群"
+      ],
+      "explanation": "（Ａ）（Ｃ）莊重 （Ｄ）好像",
+      "memoryWall": null,
+      "validation": {
+        "status": "approved",
+        "approvalType": "data-audit"
+      }
+    },
+    {
+      "questionId": "ext-b13-q050",
+      "sourceId": "dry-1-3-050",
+      "sourceFile": "public/lab/data/dry-run/questions-001-100.json",
+      "source": {
+        "bookGroup": "1-3",
+        "questionNo": 50,
+        "page": 7,
+        "document": "03_第1-3冊_會考形音義_教用卷.pdf"
+      },
+      "sourceTextSha256": "9e14ff98d81f77e54b05299581dcb52489811bcf91b09fb4c63286a6c40cb215",
+      "question": "下列選項「」中的字，何者讀音標示錯誤？",
+      "prompt": "下列選項「」中的字，何者讀音標示錯誤？",
+      "choices": {
+        "A": "「懺」悔：ㄔㄢˋ",
+        "B": "一語成「讖」：ㄔㄣ",
+        "C": "抽「籤」：ㄑㄧㄢ",
+        "D": "「殲」滅：ㄐㄧㄢ。"
+      },
+      "correctAnswer": "B",
+      "type": "pronunciation",
+      "knowledgePointId": "dry-kp-916944d64c",
+      "target": "讖",
+      "tags": [
+        "pronunciation",
+        "字音",
+        "第1-3冊群"
+      ],
+      "explanation": "（Ｂ）ㄔㄣˋ",
+      "memoryWall": null,
+      "validation": {
+        "status": "approved",
+        "approvalType": "data-audit"
+      }
+    },
+    {
+      "questionId": "ext-b46-q001",
+      "sourceId": "dry-4-6-001",
+      "sourceFile": "public/lab/data/dry-run/questions-001-100.json",
+      "source": {
+        "bookGroup": "4-6",
+        "questionNo": 1,
+        "page": 1,
+        "document": "03_第4-6冊_會考形音義_教用卷.pdf"
+      },
+      "sourceTextSha256": "6e53d73910188c82eb7fda2260b46152a8f226f0946178af69eae6eb8c6b561f",
+      "question": "下列選項 「」 中的字， 何者意思前後相同？",
+      "prompt": "下列選項 「」 中的字， 何者意思前後相同？",
+      "choices": {
+        "A": "木蘭「當」 戶織／不敢 「當」",
+        "B": "「惟」 聞女嘆息／ 「唯」 見長江天際流",
+        "C": "磨刀霍霍 「向」 豬羊／人心 「向」 背",
+        "D": "「著」我舊時裳／「著」陸。"
+      },
+      "correctAnswer": "B",
+      "type": "meaning",
+      "knowledgePointId": "dry-kp-ba72a4ee84",
+      "target": "惟／唯",
+      "tags": [
+        "meaning",
+        "字義",
+        "第4-6冊群"
+      ],
+      "explanation": "（Ａ）對著／承受 （Ｂ）僅、獨、只有 （Ｃ）對著／崇尚、景仰 （Ｄ）穿上／及、到",
+      "memoryWall": null,
+      "validation": {
+        "status": "approved",
+        "approvalType": "data-audit"
+      }
+    },
+    {
+      "questionId": "ext-b46-q002",
+      "sourceId": "dry-4-6-002",
+      "sourceFile": "public/lab/data/dry-run/questions-001-100.json",
+      "source": {
+        "bookGroup": "4-6",
+        "questionNo": 2,
+        "page": 1,
+        "document": "03_第4-6冊_會考形音義_教用卷.pdf"
+      },
+      "sourceTextSha256": "515918c8884947fac77bb89d28314f05645dd2fa1052f96a731a02aafbfc5401",
+      "question": "下列選項「」 中的注音寫成國字後，何者正確？",
+      "prompt": "下列選項「」 中的注音寫成國字後，何者正確？",
+      "choices": {
+        "A": "翻「ㄧˋ」：釋",
+        "B": "「ㄔㄨㄟˊ」鍊：鎚",
+        "C": "「ㄇㄧㄡˋ」思：妙",
+        "D": "巨「ㄅㄛˋ」：擘。"
+      },
+      "correctAnswer": "D",
+      "type": "shape",
+      "knowledgePointId": "dry-kp-83f6f5ff6d",
+      "target": "ㄅㄛˋ",
+      "tags": [
+        "shape",
+        "字形",
+        "第4-6冊群"
+      ],
+      "explanation": "（Ａ）譯 （Ｂ）錘 （Ｃ）繆",
+      "memoryWall": null,
+      "validation": {
+        "status": "approved",
+        "approvalType": "data-audit"
+      }
+    },
+    {
+      "questionId": "ext-b46-q003",
+      "sourceId": "dry-4-6-003",
+      "sourceFile": "public/lab/data/dry-run/questions-001-100.json",
+      "source": {
+        "bookGroup": "4-6",
+        "questionNo": 3,
+        "page": 1,
+        "document": "03_第4-6冊_會考形音義_教用卷.pdf"
+      },
+      "sourceTextSha256": "8dbfab0de2dd0abb04170000ffb0d04cd11629eb6557347f9ba1907d54d5cc03",
+      "question": "下列選項「」中的字，何者用後者替換後意思不變？",
+      "prompt": "下列選項「」中的字，何者用後者替換後意思不變？",
+      "choices": {
+        "A": "陰山「動」：落",
+        "B": "龍門「開」：闔",
+        "C": "「豪」笑：獰",
+        "D": "不止不「休」：停。"
+      },
+      "correctAnswer": "D",
+      "type": "meaning",
+      "knowledgePointId": "dry-kp-4c8adebb5a",
+      "target": "休",
+      "tags": [
+        "meaning",
+        "字義",
+        "第4-6冊群"
+      ],
+      "explanation": "（Ａ）動：事物改變原來位置或脫離靜止狀態。與「靜」相對 （Ｂ）開：啟、張 （Ｃ） 豪：爽快、沒有拘束的",
+      "memoryWall": null,
+      "validation": {
+        "status": "approved",
+        "approvalType": "data-audit"
+      }
+    },
+    {
+      "questionId": "ext-b46-q004",
+      "sourceId": "dry-4-6-004",
+      "sourceFile": "public/lab/data/dry-run/questions-001-100.json",
+      "source": {
+        "bookGroup": "4-6",
+        "questionNo": 4,
+        "page": 1,
+        "document": "03_第4-6冊_會考形音義_教用卷.pdf"
+      },
+      "sourceTextSha256": "4be8c6a7aa1f98a885d57197e9b586ab412513575977087c7bf2245b6474552b",
+      "question": "下列選項，何者用字完全正確？",
+      "prompt": "下列選項，何者用字完全正確？",
+      "choices": {
+        "A": "連棉不絕",
+        "B": "堅不可催",
+        "C": "飛沙走石",
+        "D": "冒險氾難。"
+      },
+      "correctAnswer": "C",
+      "type": "shape",
+      "knowledgePointId": "dry-kp-2f16eaad43",
+      "target": "飛沙走石",
+      "tags": [
+        "shape",
+        "字形",
+        "第4-6冊群"
+      ],
+      "explanation": "（Ａ）棉→綿 （Ｂ）催→摧 （Ｄ）氾→犯",
+      "memoryWall": null,
+      "validation": {
+        "status": "approved",
+        "approvalType": "data-audit"
+      }
+    },
+    {
+      "questionId": "ext-b46-q005",
+      "sourceId": "dry-4-6-005",
+      "sourceFile": "public/lab/data/dry-run/questions-001-100.json",
+      "source": {
+        "bookGroup": "4-6",
+        "questionNo": 5,
+        "page": 1,
+        "document": "03_第4-6冊_會考形音義_教用卷.pdf"
+      },
+      "sourceTextSha256": "ebb577de869e7cbc8e847f664254c2ded57a3c55a0e9619b31bd1615fb39de07",
+      "question": "下列「」中的字，何組讀音前後相同？",
+      "prompt": "下列「」中的字，何組讀音前後相同？",
+      "choices": {
+        "A": "「刻」畫／「苛」求",
+        "B": "絲「綢」／「躊」躇",
+        "C": "嬌「嗔」／「珍」寶",
+        "D": "「累」世／「纍」纍。"
+      },
+      "correctAnswer": "B",
+      "type": "pronunciation",
+      "knowledgePointId": "dry-kp-30b93bec92",
+      "target": "綢／躊",
+      "tags": [
+        "pronunciation",
+        "字音",
+        "第4-6冊群"
+      ],
+      "explanation": "（Ａ）ㄎㄜˋ／ㄎㄜ （Ｂ）ㄔㄡˊ （Ｃ）ㄔㄣ／ㄓㄣ （Ｄ）ㄌㄟˇ／ㄌㄟˊ",
+      "memoryWall": null,
+      "validation": {
+        "status": "approved",
+        "approvalType": "data-audit"
+      }
+    },
+    {
+      "questionId": "ext-b46-q006",
+      "sourceId": "dry-4-6-006",
+      "sourceFile": "public/lab/data/dry-run/questions-001-100.json",
+      "source": {
+        "bookGroup": "4-6",
+        "questionNo": 6,
+        "page": 1,
+        "document": "03_第4-6冊_會考形音義_教用卷.pdf"
+      },
+      "sourceTextSha256": "2e918bb00bc982ae10f505f6a857c75ed9910a877567e2868f3b85e29e6210cc",
+      "question": "下列選項 「」 中的字，何者意思說明正確？",
+      "prompt": "下列選項 「」 中的字，何者意思說明正確？",
+      "choices": {
+        "A": "物殷俗 「阜」：豐厚",
+        "B": "「砌」 的白石像玉：切割",
+        "C": "傾「軋」：結交",
+        "D": "顛「覆」：遮蓋。"
+      },
+      "correctAnswer": "A",
+      "type": "meaning",
+      "knowledgePointId": "dry-kp-4b29140e95",
+      "target": "阜",
+      "tags": [
+        "meaning",
+        "字義",
+        "第4-6冊群"
+      ],
+      "explanation": "（Ｂ）堆疊 （Ｃ）排擠 （Ｄ）毀滅、消滅",
+      "memoryWall": null,
+      "validation": {
+        "status": "approved",
+        "approvalType": "data-audit"
+      }
+    },
+    {
+      "questionId": "ext-b46-q007",
+      "sourceId": "dry-4-6-007",
+      "sourceFile": "public/lab/data/dry-run/questions-001-100.json",
+      "source": {
+        "bookGroup": "4-6",
+        "questionNo": 7,
+        "page": 1,
+        "document": "03_第4-6冊_會考形音義_教用卷.pdf"
+      },
+      "sourceTextSha256": "8b051de650c5f39fb8704c50d5e42542f96ef7a35974eeb7096cd62199ccb39f",
+      "question": "下列文句，何者用字完全正確？",
+      "prompt": "下列文句，何者用字完全正確？",
+      "choices": {
+        "A": "曹植七步成詩，才高八斗",
+        "B": "劉備三故茅廬，求才若渴",
+        "C": "呂布武功蓋事，有勇無謀",
+        "D": "孔明用兵緊慎，料事如神。"
+      },
+      "correctAnswer": "A",
+      "type": "shape",
+      "knowledgePointId": "dry-kp-51c4ad4d69",
+      "target": "曹植七步成詩，才高八斗",
+      "tags": [
+        "shape",
+        "字形",
+        "第4-6冊群"
+      ],
+      "explanation": "（Ｂ）三「顧」茅廬 （Ｃ）武功蓋「世」 （Ｄ）「謹」慎",
+      "memoryWall": null,
+      "validation": {
+        "status": "approved",
+        "approvalType": "data-audit"
+      }
+    },
+    {
+      "questionId": "ext-b46-q009",
+      "sourceId": "dry-4-6-009",
+      "sourceFile": "public/lab/data/dry-run/questions-001-100.json",
+      "source": {
+        "bookGroup": "4-6",
+        "questionNo": 9,
+        "page": 1,
+        "document": "03_第4-6冊_會考形音義_教用卷.pdf"
+      },
+      "sourceTextSha256": "72baf2499193ba6fd13cec50358e8ea7d04341c39940449bc4c14d2a8f2216a0",
+      "question": "下列選項 「」 中的字，何者意思前後相同？",
+      "prompt": "下列選項 「」 中的字，何者意思前後相同？",
+      "choices": {
+        "A": "訴 「苦」／ 「苦」 境",
+        "B": "「順」 道／「順」心",
+        "C": "「碰」撞／「碰」見",
+        "D": "恢「復」／康「復」。"
+      },
+      "correctAnswer": "D",
+      "type": "meaning",
+      "knowledgePointId": "dry-kp-bfe6aae80f",
+      "target": "復",
+      "tags": [
+        "meaning",
+        "字義",
+        "第4-6冊群"
+      ],
+      "explanation": "（Ａ）難以忍受的境況／艱辛、難受 （Ｂ）趁便／適合、不違逆 （Ｃ）物與物相撞擊／ 遇到 （Ｄ）還原，再回到原來的樣子",
+      "memoryWall": null,
+      "validation": {
+        "status": "approved",
+        "approvalType": "data-audit"
+      }
+    },
+    {
+      "questionId": "ext-b46-q010",
+      "sourceId": "dry-4-6-010",
+      "sourceFile": "public/lab/data/dry-run/questions-001-100.json",
+      "source": {
+        "bookGroup": "4-6",
+        "questionNo": 10,
+        "page": 2,
+        "document": "03_第4-6冊_會考形音義_教用卷.pdf"
+      },
+      "sourceTextSha256": "c9f724e4327d9143065592200630635cbe81b355311ce94fb941346def16223c",
+      "question": "下列選項「」中的字詞，何者意思正確？",
+      "prompt": "下列選項「」中的字詞，何者意思正確？",
+      "choices": {
+        "A": "水皆「縹碧」：深黑色",
+        "B": "互相軒「邈」：遠",
+        "C": "「嚶嚶」成韻：形容嘴小如櫻桃",
+        "D": "「經綸」世務：破壞。"
+      },
+      "correctAnswer": "B",
+      "type": "meaning",
+      "knowledgePointId": "dry-kp-bcc1ace429",
+      "target": "邈",
+      "tags": [
+        "meaning",
+        "字義",
+        "第4-6冊群"
+      ],
+      "explanation": "（Ａ）青綠色 （Ｃ）形容禽鳥和鳴的聲音 （Ｄ）治理、規畫",
+      "memoryWall": null,
+      "validation": {
+        "status": "approved",
+        "approvalType": "data-audit"
+      }
+    },
+    {
+      "questionId": "ext-b46-q011",
+      "sourceId": "dry-4-6-011",
+      "sourceFile": "public/lab/data/dry-run/questions-001-100.json",
+      "source": {
+        "bookGroup": "4-6",
+        "questionNo": 11,
+        "page": 2,
+        "document": "03_第4-6冊_會考形音義_教用卷.pdf"
+      },
+      "sourceTextSha256": "6185df17b532a664ee783b0951e0184efb28424f856a4b7c1c567d350f8735ae",
+      "question": "湖心亭看雪一文中，出現許多次「余」字，是指「我」的意思，替換為下列何者後意思改變？",
+      "prompt": "湖心亭看雪一文中，出現許多次「余」字，是指「我」的意思，替換為下列何者後意思改變？",
+      "choices": {
+        "A": "爾",
+        "B": "吾",
+        "C": "予",
+        "D": "俺。"
+      },
+      "correctAnswer": "A",
+      "type": "meaning",
+      "knowledgePointId": "dry-kp-11d666c67c",
+      "target": "余",
+      "tags": [
+        "meaning",
+        "字義",
+        "第4-6冊群"
+      ],
+      "explanation": "（Ａ）第二人稱代名詞，相當於「汝」、「你」",
+      "memoryWall": null,
+      "validation": {
+        "status": "approved",
+        "approvalType": "data-audit"
+      }
+    },
+    {
+      "questionId": "ext-b46-q012",
+      "sourceId": "dry-4-6-012",
+      "sourceFile": "public/lab/data/dry-run/questions-001-100.json",
+      "source": {
+        "bookGroup": "4-6",
+        "questionNo": 12,
+        "page": 2,
+        "document": "03_第4-6冊_會考形音義_教用卷.pdf"
+      },
+      "sourceTextSha256": "33acc542c611c472f23f87a1f1631246cfb1830f29946e25a6edccd6a4d5ab0e",
+      "question": "下列選項 「」 中的注音寫成國字後， 何者字形正確？",
+      "prompt": "下列選項 「」 中的注音寫成國字後， 何者字形正確？",
+      "choices": {
+        "A": "一本初 「ㄓㄨㄥ」： 忠",
+        "B": "溫和質「ㄆㄨˊ」：樸",
+        "C": "驚「ㄏㄨㄥˊ」一瞥：虹",
+        "D": "「ㄕㄨˋ」忽即逝：述。"
+      },
+      "correctAnswer": "B",
+      "type": "shape",
+      "knowledgePointId": "dry-kp-3843ee2905",
+      "target": "ㄆㄨˊ",
+      "tags": [
+        "shape",
+        "字形",
+        "第4-6冊群"
+      ],
+      "explanation": "（Ａ）衷 （Ｃ）鴻 （Ｄ）倏",
+      "memoryWall": null,
+      "validation": {
+        "status": "approved",
+        "approvalType": "data-audit"
+      }
+    },
+    {
+      "questionId": "ext-b46-q013",
+      "sourceId": "dry-4-6-013",
+      "sourceFile": "public/lab/data/dry-run/questions-001-100.json",
+      "source": {
+        "bookGroup": "4-6",
+        "questionNo": 13,
+        "page": 2,
+        "document": "03_第4-6冊_會考形音義_教用卷.pdf"
+      },
+      "sourceTextSha256": "be89ebee8c5dc6274b6b1fa8540658a938f6f4922ecc21a8c98a307ca4d6b6d4",
+      "question": "下列「」中的注音寫成國字後，何組字形兩兩相同？",
+      "prompt": "下列「」中的注音寫成國字後，何組字形兩兩相同？",
+      "choices": {
+        "A": "視若無「ㄉㄨˇ」／觀者如「ㄉㄨˇ」",
+        "B": "「ㄒㄧˊ」不暇暖／「ㄒㄧˊ」地而坐",
+        "C": "「ㄔㄡˊ」悵失意／地狹人「ㄔㄡˊ」",
+        "D": "「ㄕˋ」俗之見／「ㄕˋ」非分明。"
+      },
+      "correctAnswer": "B",
+      "type": "shape",
+      "knowledgePointId": "dry-kp-db11b2bd4a",
+      "target": "ㄒㄧˊ",
+      "tags": [
+        "shape",
+        "字形",
+        "第4-6冊群"
+      ],
+      "explanation": "（Ａ）睹／堵 （Ｂ）席 （Ｃ）惆／稠 （Ｄ）世／是",
+      "memoryWall": null,
+      "validation": {
+        "status": "approved",
+        "approvalType": "data-audit"
+      }
+    },
+    {
+      "questionId": "ext-b46-q014",
+      "sourceId": "dry-4-6-014",
+      "sourceFile": "public/lab/data/dry-run/questions-001-100.json",
+      "source": {
+        "bookGroup": "4-6",
+        "questionNo": 14,
+        "page": 2,
+        "document": "03_第4-6冊_會考形音義_教用卷.pdf"
+      },
+      "sourceTextSha256": "848ff0ac0eaa1c058b3efd93bcb2b4f5319c7182c39db466ff340b5f711e0089",
+      "question": "下列文句，何者用字完全正確？",
+      "prompt": "下列文句，何者用字完全正確？",
+      "choices": {
+        "A": "這篇文章不只探就味覺之事，也述說了人生道理",
+        "B": "看到好友為錢翻臉，互不往來，總給人無限概嘆",
+        "C": "你是我不可獲缺的助手， 望來年還能有你的相助",
+        "D": "促銷消息一出， 婆婆媽媽們唯恐不及的趕赴搶購。"
+      },
+      "correctAnswer": "D",
+      "type": "shape",
+      "knowledgePointId": "dry-kp-ec19b4e9bc",
+      "target": "促銷消息一出， 婆婆媽媽們唯恐不及的趕赴搶購。",
+      "tags": [
+        "shape",
+        "字形",
+        "第4-6冊群"
+      ],
+      "explanation": "（Ａ）就→究 （Ｂ）概→慨 （Ｃ）獲→或",
+      "memoryWall": null,
+      "validation": {
+        "status": "approved",
+        "approvalType": "data-audit"
+      }
+    },
+    {
+      "questionId": "ext-b46-q015",
+      "sourceId": "dry-4-6-015",
+      "sourceFile": "public/lab/data/dry-run/questions-001-100.json",
+      "source": {
+        "bookGroup": "4-6",
+        "questionNo": 15,
+        "page": 2,
+        "document": "03_第4-6冊_會考形音義_教用卷.pdf"
+      },
+      "sourceTextSha256": "1ce9b8fda987196c0e3d5a2486507f3a00d307d4386595e7107c05a81153f79c",
+      "question": "下列選項 「」 中的字，何組讀音兩兩相同？",
+      "prompt": "下列選項 「」 中的字，何組讀音兩兩相同？",
+      "choices": {
+        "A": "沒 「著」 落╱生活無 「著」",
+        "B": "「供」養父母╱「供」不應求",
+        "C": "漁翁「得」利╱這事「得」費些功夫",
+        "D": "改弦「更」張╱「更」勝一籌。"
+      },
+      "correctAnswer": "A",
+      "type": "pronunciation",
+      "knowledgePointId": "dry-kp-551795738c",
+      "target": "著",
+      "tags": [
+        "pronunciation",
+        "字音",
+        "第4-6冊群"
+      ],
+      "explanation": "（Ａ）ㄓㄨㄛˊ （Ｂ）ㄍㄨㄥˋ╱ㄍㄨㄥ （Ｃ）ㄉㄜˊ╱ㄉㄟˇ （Ｄ）ㄍㄥ╱ㄍㄥˋ",
+      "memoryWall": null,
+      "validation": {
+        "status": "approved",
+        "approvalType": "data-audit"
+      }
+    },
+    {
+      "questionId": "ext-b46-q016",
+      "sourceId": "dry-4-6-016",
+      "sourceFile": "public/lab/data/dry-run/questions-001-100.json",
+      "source": {
+        "bookGroup": "4-6",
+        "questionNo": 16,
+        "page": 2,
+        "document": "03_第4-6冊_會考形音義_教用卷.pdf"
+      },
+      "sourceTextSha256": "32a7ba8aaebe1d5f7bc5b8cfde5581ed296494b7f94563ea5ee017065b5b7a8f",
+      "question": "下列選項「」中以「复」字為偏旁的字，何者讀音與其他三者不同？",
+      "prompt": "下列選項「」中以「复」字為偏旁的字，何者讀音與其他三者不同？",
+      "choices": {
+        "A": "「復」 活",
+        "B": "剖「腹」",
+        "C": "剛「愎」",
+        "D": "「馥」郁。"
+      },
+      "correctAnswer": "C",
+      "type": "confusable",
+      "knowledgePointId": "dry-kp-666073ffdf",
+      "target": "愎",
+      "tags": [
+        "confusable",
+        "易混字",
+        "第4-6冊群"
+      ],
+      "explanation": "（Ａ）（Ｂ）（Ｄ）ㄈㄨˋ （Ｃ）ㄅㄧˋ",
+      "memoryWall": null,
+      "validation": {
+        "status": "approved",
+        "approvalType": "data-audit"
+      }
+    },
+    {
+      "questionId": "ext-b46-q017",
+      "sourceId": "dry-4-6-017",
+      "sourceFile": "public/lab/data/dry-run/questions-001-100.json",
+      "source": {
+        "bookGroup": "4-6",
+        "questionNo": 17,
+        "page": 2,
+        "document": "03_第4-6冊_會考形音義_教用卷.pdf"
+      },
+      "sourceTextSha256": "a50540027e6ff17f32ed4ffea0d6247e9891f417ca044c8f3958b5b132f02963",
+      "question": "下列選項「」中的字，何組讀音前後相同？",
+      "prompt": "下列選項「」中的字，何組讀音前後相同？",
+      "choices": {
+        "A": "「僧」侶／面目可「憎」",
+        "B": "五「羖」大夫／五「穀」雜糧",
+        "C": "不「著」痕跡／「著」作權",
+        "D": "「逞」強好勝／嚴厲「懲」罰。"
+      },
+      "correctAnswer": "B",
+      "type": "pronunciation",
+      "knowledgePointId": "dry-kp-833abcd2bf",
+      "target": "羖／穀",
+      "tags": [
+        "pronunciation",
+        "字音",
+        "第4-6冊群"
+      ],
+      "explanation": "（Ａ）ㄙㄥ／ㄗㄥ （Ｂ）ㄍㄨˇ （Ｃ）ㄓㄨㄛˊ／ㄓㄨˋ （Ｄ）ㄔㄥˇ／ㄔㄥˊ",
+      "memoryWall": null,
+      "validation": {
+        "status": "approved",
+        "approvalType": "data-audit"
+      }
+    },
+    {
+      "questionId": "ext-b46-q018",
+      "sourceId": "dry-4-6-018",
+      "sourceFile": "public/lab/data/dry-run/questions-001-100.json",
+      "source": {
+        "bookGroup": "4-6",
+        "questionNo": 18,
+        "page": 2,
+        "document": "03_第4-6冊_會考形音義_教用卷.pdf"
+      },
+      "sourceTextSha256": "4117471e30d850bf4786c6d49c77b7f87c50e339d454aa92d891b3866b906d6c",
+      "question": "下列選項「」中的字，何者使用正確？",
+      "prompt": "下列選項「」中的字，何者使用正確？",
+      "choices": {
+        "A": "不「逕」而走",
+        "B": "羊腸小「脛」",
+        "C": "「徑」自生火",
+        "D": "全身「痙」攣。"
+      },
+      "correctAnswer": "D",
+      "type": "shape",
+      "knowledgePointId": "dry-kp-02172f9d65",
+      "target": "痙",
+      "tags": [
+        "shape",
+        "字形",
+        "第4-6冊群"
+      ],
+      "explanation": "（Ａ）逕→脛 （Ｂ）脛→徑 （Ｃ）徑→逕",
+      "memoryWall": null,
+      "validation": {
+        "status": "approved",
+        "approvalType": "data-audit"
+      }
+    },
+    {
+      "questionId": "ext-b46-q019",
+      "sourceId": "dry-4-6-019",
+      "sourceFile": "public/lab/data/dry-run/questions-001-100.json",
+      "source": {
+        "bookGroup": "4-6",
+        "questionNo": 19,
+        "page": 3,
+        "document": "03_第4-6冊_會考形音義_教用卷.pdf"
+      },
+      "sourceTextSha256": "a3fe09b14e629e3de2a602e02679fdbd05e6b9db96779b946ed8b76f77d7f1c9",
+      "question": "下列選項「」中的字，何者讀音正確？",
+      "prompt": "下列選項「」中的字，何者讀音正確？",
+      "choices": {
+        "A": "乘「輿」馬驚：ㄩˊ",
+        "B": "「屬」 之廷尉：ㄕㄨˇ",
+        "C": "廷尉奏「當」：ㄉㄤˋ",
+        "D": "「傾」家蕩產：ㄑㄧㄥˇ。"
+      },
+      "correctAnswer": "A",
+      "type": "pronunciation",
+      "knowledgePointId": "dry-kp-c8c6c28e57",
+      "target": "輿",
+      "tags": [
+        "pronunciation",
+        "字音",
+        "第4-6冊群"
+      ],
+      "explanation": "（Ｂ）ㄓㄨˇ （Ｃ）ㄉㄤ （Ｄ）ㄑㄧㄥ",
+      "memoryWall": null,
+      "validation": {
+        "status": "approved",
+        "approvalType": "data-audit"
+      }
+    },
+    {
+      "questionId": "ext-b46-q020",
+      "sourceId": "dry-4-6-020",
+      "sourceFile": "public/lab/data/dry-run/questions-001-100.json",
+      "source": {
+        "bookGroup": "4-6",
+        "questionNo": 20,
+        "page": 3,
+        "document": "03_第4-6冊_會考形音義_教用卷.pdf"
+      },
+      "sourceTextSha256": "48110b12a7a1219ee85e44a200ff909ad8ccef5ae828183822293b1326de2bfc",
+      "question": "下列文句，何者用字完全正確？",
+      "prompt": "下列文句，何者用字完全正確？",
+      "choices": {
+        "A": "弗曉時分，父親將我搖醒，要我去為母親準備早餐",
+        "B": "如果在這裡挖一條小渠，這附近幾公畝的地都能受惠",
+        "C": "這篇論文旁徽博引， 語言精練， 真是一篇不可多得的佳作",
+        "D": "如果能夠將別人的經驗加以吸收、 內化，是對自己大有裨溢的事。"
+      },
+      "correctAnswer": "B",
+      "type": "shape",
+      "knowledgePointId": "dry-kp-30b71b6ac2",
+      "target": "如果在這裡挖一條小渠，這附近幾公畝的地都能受惠",
+      "tags": [
+        "shape",
+        "字形",
+        "第4-6冊群"
+      ],
+      "explanation": "（Ａ）弗→拂 （Ｃ）徽→徵 （Ｄ）溢→益",
+      "memoryWall": null,
+      "validation": {
+        "status": "approved",
+        "approvalType": "data-audit"
+      }
+    },
+    {
+      "questionId": "ext-b46-q021",
+      "sourceId": "dry-4-6-021",
+      "sourceFile": "public/lab/data/dry-run/questions-001-100.json",
+      "source": {
+        "bookGroup": "4-6",
+        "questionNo": 21,
+        "page": 3,
+        "document": "03_第4-6冊_會考形音義_教用卷.pdf"
+      },
+      "sourceTextSha256": "be46fbcd0630336cdf857eb8b94d17af5bba4224a443cf5f511f0c0c52c2d694",
+      "question": "下列文句「」中的字，何者讀音說明正確？",
+      "prompt": "下列文句「」中的字，何者讀音說明正確？",
+      "choices": {
+        "A": "園子裡花團錦簇，散發濃「郁」 的花香：ㄩˇ",
+        "B": "這生死不「渝」的感情，支持他倆度過生命裡的種種難關：ㄩˊ",
+        "C": "春天時，農人們會翻起田底「沃」腴的新泥，準備插秧：ㄨㄛˇ",
+        "D": "「硫」 磺溫泉可以改善肌膚問題，許多遊客慕名而來：ㄌㄧㄡˋ。"
+      },
+      "correctAnswer": "B",
+      "type": "pronunciation",
+      "knowledgePointId": "dry-kp-08fe5954ee",
+      "target": "渝",
+      "tags": [
+        "pronunciation",
+        "字音",
+        "第4-6冊群"
+      ],
+      "explanation": "（Ａ）ㄩˋ （Ｃ）ㄨㄛˋ （Ｄ）ㄌㄧㄡˊ",
+      "memoryWall": null,
+      "validation": {
+        "status": "approved",
+        "approvalType": "data-audit"
+      }
+    },
+    {
+      "questionId": "ext-b46-q022",
+      "sourceId": "dry-4-6-022",
+      "sourceFile": "public/lab/data/dry-run/questions-001-100.json",
+      "source": {
+        "bookGroup": "4-6",
+        "questionNo": 22,
+        "page": 3,
+        "document": "03_第4-6冊_會考形音義_教用卷.pdf"
+      },
+      "sourceTextSha256": "f0ead59855a8248b6231faa6262aad94862ac85504266a9c7015040b896157f9",
+      "question": "下列選項 「」 中的字， 何者讀音說明正確？",
+      "prompt": "下列選項 「」 中的字， 何者讀音說明正確？",
+      "choices": {
+        "A": "雲母屏風 「燭」 影深：ㄓㄨˇ",
+        "B": "長河漸落曉星「沉」：ㄔㄣˊ",
+        "C": "嫦娥應「悔」偷靈藥：ㄏㄨㄟˋ",
+        "D": "「碧」 海青天夜夜心：ㄅㄧˇ。"
+      },
+      "correctAnswer": "B",
+      "type": "pronunciation",
+      "knowledgePointId": "dry-kp-4f7d04521b",
+      "target": "沉",
+      "tags": [
+        "pronunciation",
+        "字音",
+        "第4-6冊群"
+      ],
+      "explanation": "（Ａ）ㄓㄨˊ （Ｃ）ㄏㄨㄟˇ （Ｄ）ㄅㄧˋ",
+      "memoryWall": null,
+      "validation": {
+        "status": "approved",
+        "approvalType": "data-audit"
+      }
+    },
+    {
+      "questionId": "ext-b46-q023",
+      "sourceId": "dry-4-6-023",
+      "sourceFile": "public/lab/data/dry-run/questions-001-100.json",
+      "source": {
+        "bookGroup": "4-6",
+        "questionNo": 23,
+        "page": 3,
+        "document": "03_第4-6冊_會考形音義_教用卷.pdf"
+      },
+      "sourceTextSha256": "9901585585761e43539b4c3b51db02909108d9026ac7ebbb37764aa13f2fcd98",
+      "question": "下列選項「」中的字，何者讀音說明正確？",
+      "prompt": "下列選項「」中的字，何者讀音說明正確？",
+      "choices": {
+        "A": "後「悔」：ㄏㄨㄟˇ",
+        "B": "教 「誨」：ㄏㄨㄟˇ",
+        "C": "風雨如「晦」：ㄏㄨㄟˇ",
+        "D": "欺「侮」：ㄏㄨㄟˇ。"
+      },
+      "correctAnswer": "A",
+      "type": "pronunciation",
+      "knowledgePointId": "dry-kp-f6826dc96e",
+      "target": "悔",
+      "tags": [
+        "pronunciation",
+        "字音",
+        "第4-6冊群"
+      ],
+      "explanation": "（Ｂ）（Ｃ）ㄏㄨㄟˋ （Ｄ）ㄨˇ",
+      "memoryWall": null,
+      "validation": {
+        "status": "approved",
+        "approvalType": "data-audit"
+      }
+    },
+    {
+      "questionId": "ext-b46-q024",
+      "sourceId": "dry-4-6-024",
+      "sourceFile": "public/lab/data/dry-run/questions-001-100.json",
+      "source": {
+        "bookGroup": "4-6",
+        "questionNo": 24,
+        "page": 3,
+        "document": "03_第4-6冊_會考形音義_教用卷.pdf"
+      },
+      "sourceTextSha256": "7e1c940441b8e6a4a9c498e16480256c34f3ab3f6e0edd703114652926a92f26",
+      "question": "下列選項 「」中的字，何者讀音與其他三者不同？",
+      "prompt": "下列選項 「」中的字，何者讀音與其他三者不同？",
+      "choices": {
+        "A": "「泠」 泠作響",
+        "B": "「玲」 瓏剔透",
+        "C": "身陷「囹」圄",
+        "D": "「拎」隻狐狸。"
+      },
+      "correctAnswer": "D",
+      "type": "pronunciation",
+      "knowledgePointId": "dry-kp-9bfe65ef77",
+      "target": "拎",
+      "tags": [
+        "pronunciation",
+        "字音",
+        "第4-6冊群"
+      ],
+      "explanation": "（Ａ）（Ｂ）（Ｃ）ㄌㄧㄥˊ （Ｄ）ㄌㄧㄥ",
+      "memoryWall": null,
+      "validation": {
+        "status": "approved",
+        "approvalType": "data-audit"
+      }
+    },
+    {
+      "questionId": "ext-b46-q025",
+      "sourceId": "dry-4-6-025",
+      "sourceFile": "public/lab/data/dry-run/questions-001-100.json",
+      "source": {
+        "bookGroup": "4-6",
+        "questionNo": 25,
+        "page": 3,
+        "document": "03_第4-6冊_會考形音義_教用卷.pdf"
+      },
+      "sourceTextSha256": "ec982ecba59c5140c12f0a7a4e20a3655c5cb766ec461d4cdd296c8e7767d6fe",
+      "question": "「相對於多數好萊塢電影都是從『投』彈者觀點出發，他的聲音雕刻從受害者觀點出發，更添了悲情色彩。」 句中的 「投」 字是 「扔、 擲」 的意思。 下列 「投」 字， 何者意思與此相同？",
+      "prompt": "「相對於多數好萊塢電影都是從『投』彈者觀點出發，他的聲音雕刻從受害者觀點出發，更添了悲情色彩。」 句中的 「投」 字是 「扔、 擲」 的意思。 下列 「投」 字， 何者意思與此相同？",
+      "choices": {
+        "A": "自「投」羅網",
+        "B": "走「投」無路",
+        "C": "「投」石問路",
+        "D": "「投」其所好。"
+      },
+      "correctAnswer": "C",
+      "type": "polysemy",
+      "knowledgePointId": "dry-kp-c9885339dd",
+      "target": "投",
+      "tags": [
+        "polysemy",
+        "一字多義",
+        "第4-6冊群"
+      ],
+      "explanation": "（Ａ）跳進去 （Ｂ）奔靠 （Ｄ）迎合",
+      "memoryWall": null,
+      "validation": {
+        "status": "approved",
+        "approvalType": "data-audit"
+      }
+    },
+    {
+      "questionId": "ext-b46-q026",
+      "sourceId": "dry-4-6-026",
+      "sourceFile": "public/lab/data/dry-run/questions-001-100.json",
+      "source": {
+        "bookGroup": "4-6",
+        "questionNo": 26,
+        "page": 3,
+        "document": "03_第4-6冊_會考形音義_教用卷.pdf"
+      },
+      "sourceTextSha256": "2f08619b19d4e406b481da27af6d1cf420cc98be651cd567ca42c78d8ccc75ad",
+      "question": "下列「」中的字，何者意思前後相同？",
+      "prompt": "下列「」中的字，何者意思前後相同？",
+      "choices": {
+        "A": "「重」色輕友／庫房「重」地",
+        "B": "滾滾紅「塵」／「塵」封已久",
+        "C": "必「經」之路／荒誕不「經」",
+        "D": "一「望」 無際／「望」洋興嘆。"
+      },
+      "correctAnswer": "D",
+      "type": "meaning",
+      "knowledgePointId": "dry-kp-bdb7505483",
+      "target": "望",
+      "tags": [
+        "meaning",
+        "字義",
+        "第4-6冊群"
+      ],
+      "explanation": "（Ａ）偏好／要緊的 （Ｂ）世俗／久遠、長久 （Ｃ）歷、過／平常、尋常 （Ｄ）向遠處或高處看",
+      "memoryWall": null,
+      "validation": {
+        "status": "approved",
+        "approvalType": "data-audit"
+      }
+    },
+    {
+      "questionId": "ext-b46-q027",
+      "sourceId": "dry-4-6-027",
+      "sourceFile": "public/lab/data/dry-run/questions-001-100.json",
+      "source": {
+        "bookGroup": "4-6",
+        "questionNo": 27,
+        "page": 4,
+        "document": "03_第4-6冊_會考形音義_教用卷.pdf"
+      },
+      "sourceTextSha256": "341fc436d59c9c63782d0ab240b37d559013e307efbf61694d9eaa46ebc206f1",
+      "question": "下列選項「」中的「散」字，何者讀音與其他三者不同？",
+      "prompt": "下列選項「」中的「散」字，何者讀音與其他三者不同？",
+      "choices": {
+        "A": "分「散」",
+        "B": "解「散」",
+        "C": "「散」兵",
+        "D": "「散」落。"
+      },
+      "correctAnswer": "C",
+      "type": "polyphone",
+      "knowledgePointId": "dry-kp-1675475649",
+      "target": "散",
+      "tags": [
+        "polyphone",
+        "多音字",
+        "第4-6冊群"
+      ],
+      "explanation": "（Ａ）（Ｂ）（Ｄ）ㄙㄢˋ （Ｃ）ㄙㄢˇ",
+      "memoryWall": null,
+      "validation": {
+        "status": "approved",
+        "approvalType": "data-audit"
+      }
+    },
+    {
+      "questionId": "ext-b46-q028",
+      "sourceId": "dry-4-6-028",
+      "sourceFile": "public/lab/data/dry-run/questions-001-100.json",
+      "source": {
+        "bookGroup": "4-6",
+        "questionNo": 28,
+        "page": 4,
+        "document": "03_第4-6冊_會考形音義_教用卷.pdf"
+      },
+      "sourceTextSha256": "d67ecbdc005ad7e5702b0fae9e2b142025db064c1659d586fbb2545a3b2a31f0",
+      "question": "下列詞語，何者用字完全正確？",
+      "prompt": "下列詞語，何者用字完全正確？",
+      "choices": {
+        "A": "卑恭屈膝",
+        "B": "虎視耽耽",
+        "C": "首屈一指",
+        "D": "故態復明。"
+      },
+      "correctAnswer": "C",
+      "type": "shape",
+      "knowledgePointId": "dry-kp-c19543af7b",
+      "target": "首屈一指",
+      "tags": [
+        "shape",
+        "字形",
+        "第4-6冊群"
+      ],
+      "explanation": "（Ａ）卑「躬」屈膝 （Ｂ）虎視「眈眈」 （Ｄ）故態復「萌」",
+      "memoryWall": null,
+      "validation": {
+        "status": "approved",
+        "approvalType": "data-audit"
+      }
+    },
+    {
+      "questionId": "ext-b46-q029",
+      "sourceId": "dry-4-6-029",
+      "sourceFile": "public/lab/data/dry-run/questions-001-100.json",
+      "source": {
+        "bookGroup": "4-6",
+        "questionNo": 29,
+        "page": 4,
+        "document": "03_第4-6冊_會考形音義_教用卷.pdf"
+      },
+      "sourceTextSha256": "cf955d1846f0436e4d98b05f0d5c1151c4bb70520e1a90ce8443e5f568dfcb42",
+      "question": "下列詞語， 何者用字錯誤？",
+      "prompt": "下列詞語， 何者用字錯誤？",
+      "choices": {
+        "A": "輕車簡從",
+        "B": "祖先祠堂",
+        "C": "風景決佳",
+        "D": "梵宇僧樓。"
+      },
+      "correctAnswer": "C",
+      "type": "shape",
+      "knowledgePointId": "dry-kp-009cc955d1",
+      "target": "風景決佳",
+      "tags": [
+        "shape",
+        "字形",
+        "第4-6冊群"
+      ],
+      "explanation": "（Ｃ）決→絕",
+      "memoryWall": null,
+      "validation": {
+        "status": "approved",
+        "approvalType": "data-audit"
+      }
+    },
+    {
+      "questionId": "ext-b46-q030",
+      "sourceId": "dry-4-6-030",
+      "sourceFile": "public/lab/data/dry-run/questions-001-100.json",
+      "source": {
+        "bookGroup": "4-6",
+        "questionNo": 30,
+        "page": 4,
+        "document": "03_第4-6冊_會考形音義_教用卷.pdf"
+      },
+      "sourceTextSha256": "426a3c737a56f5f84c162671d9e3e42e3785995027fb528146f7fbfe7543aebc",
+      "question": "下列選項 「」 中的字，何組讀音前後相同？",
+      "prompt": "下列選項 「」 中的字，何組讀音前後相同？",
+      "choices": {
+        "A": "管 「夷」 吾／ 「夷」 為平地",
+        "B": "「空」乏其身／「空」口無憑",
+        "C": "行「拂」亂其所為／法家「拂」士",
+        "D": "「曾」 益其所不能／「曾」幾何時。"
+      },
+      "correctAnswer": "A",
+      "type": "pronunciation",
+      "knowledgePointId": "dry-kp-aacfeafb4e",
+      "target": "夷",
+      "tags": [
+        "pronunciation",
+        "字音",
+        "第4-6冊群"
+      ],
+      "explanation": "（Ａ）ㄧˊ （Ｂ）ㄎㄨㄥˋ／ㄎㄨㄥ （Ｃ）ㄈㄨˊ／ㄅㄧˋ （Ｄ）ㄗㄥ／ㄘㄥˊ",
+      "memoryWall": null,
+      "validation": {
+        "status": "approved",
+        "approvalType": "data-audit"
+      }
+    },
+    {
+      "questionId": "ext-b46-q031",
+      "sourceId": "dry-4-6-031",
+      "sourceFile": "public/lab/data/dry-run/questions-001-100.json",
+      "source": {
+        "bookGroup": "4-6",
+        "questionNo": 31,
+        "page": 4,
+        "document": "03_第4-6冊_會考形音義_教用卷.pdf"
+      },
+      "sourceTextSha256": "4d532ad8793350e0b484621c181912405607d2e822180b17701fa6cfe32177fc",
+      "question": "下列文句，何者用字完全正確？",
+      "prompt": "下列文句，何者用字完全正確？",
+      "choices": {
+        "A": "這本小說一出板就造成轟動",
+        "B": "颱風的影響範圍正逐漸闊大",
+        "C": "古老的民遙彷彿先民的呼喚",
+        "D": "他堅毅的精神值得我們效法。"
+      },
+      "correctAnswer": "D",
+      "type": "shape",
+      "knowledgePointId": "dry-kp-c656c81456",
+      "target": "他堅毅的精神值得我們效法。",
+      "tags": [
+        "shape",
+        "字形",
+        "第4-6冊群"
+      ],
+      "explanation": "（Ａ）出「版」 （Ｂ）「擴」大 （Ｃ）民「謠」",
+      "memoryWall": null,
+      "validation": {
+        "status": "approved",
+        "approvalType": "data-audit"
+      }
+    },
+    {
+      "questionId": "ext-b46-q032",
+      "sourceId": "dry-4-6-032",
+      "sourceFile": "public/lab/data/dry-run/questions-001-100.json",
+      "source": {
+        "bookGroup": "4-6",
+        "questionNo": 32,
+        "page": 4,
+        "document": "03_第4-6冊_會考形音義_教用卷.pdf"
+      },
+      "sourceTextSha256": "0020e5d6e0c2ade2218d2c5a8fa7f833d21f632bd60fc53f438b6853c432c3d8",
+      "question": "下列文句，何者用字完全正確？",
+      "prompt": "下列文句，何者用字完全正確？",
+      "choices": {
+        "A": "他怒不可扼的跑出家門",
+        "B": "沒有守飾搭配， 也無損你的美麗",
+        "C": "警察終於揪出嫌犯",
+        "D": "正因為出身韓微，我更應該努力。"
+      },
+      "correctAnswer": "C",
+      "type": "shape",
+      "knowledgePointId": "dry-kp-3c1f08e95e",
+      "target": "警察終於揪出嫌犯",
+      "tags": [
+        "shape",
+        "字形",
+        "第4-6冊群"
+      ],
+      "explanation": "（Ａ）怒不可「遏」 （Ｂ）「首」飾 （Ｄ）「寒」微",
+      "memoryWall": null,
+      "validation": {
+        "status": "approved",
+        "approvalType": "data-audit"
+      }
+    },
+    {
+      "questionId": "ext-b46-q033",
+      "sourceId": "dry-4-6-033",
+      "sourceFile": "public/lab/data/dry-run/questions-001-100.json",
+      "source": {
+        "bookGroup": "4-6",
+        "questionNo": 33,
+        "page": 4,
+        "document": "03_第4-6冊_會考形音義_教用卷.pdf"
+      },
+      "sourceTextSha256": "74eab928e11bfddc33d8e42ce96ad8375e6af697a534fc4c494b26c33d52d563",
+      "question": "下列選項 「」 中的字， 何者去掉部首後， 讀音與原本相同？",
+      "prompt": "下列選項 「」 中的字， 何者去掉部首後， 讀音與原本相同？",
+      "choices": {
+        "A": "「赴」 湯蹈火",
+        "B": "「繽」紛多彩",
+        "C": "「浩」瀚的天空",
+        "D": "「睥」睨眾生。"
+      },
+      "correctAnswer": "B",
+      "type": "confusable",
+      "knowledgePointId": "dry-kp-6ada4a487b",
+      "target": "繽",
+      "tags": [
+        "confusable",
+        "易混字",
+        "第4-6冊群"
+      ],
+      "explanation": "（Ａ）ㄈㄨˋ／ㄅㄨˇ （Ｂ）ㄅㄧㄣ （Ｃ）ㄏㄠˋ／ㄍㄠˋ或ㄍㄨˋ （Ｄ）ㄅㄧˋ／ ㄅㄟ",
+      "memoryWall": null,
+      "validation": {
+        "status": "approved",
+        "approvalType": "data-audit"
+      }
+    },
+    {
+      "questionId": "ext-b46-q035",
+      "sourceId": "dry-4-6-035",
+      "sourceFile": "public/lab/data/dry-run/questions-001-100.json",
+      "source": {
+        "bookGroup": "4-6",
+        "questionNo": 35,
+        "page": 4,
+        "document": "03_第4-6冊_會考形音義_教用卷.pdf"
+      },
+      "sourceTextSha256": "12030c72b55f35eea84b58d99252ab1e7b102acf0f9fbc9541f56044d44c7d74",
+      "question": "下列選項「」中的字，何者字義說明錯誤？",
+      "prompt": "下列選項「」中的字，何者字義說明錯誤？",
+      "choices": {
+        "A": "「糝」上了這草：加入",
+        "B": "探春「信」的小使：消息",
+        "C": "「恣」你嘗新：任憑",
+        "D": "正「衝」著寬廣的大道： 向、對。"
+      },
+      "correctAnswer": "A",
+      "type": "meaning",
+      "knowledgePointId": "dry-kp-e498b23d49",
+      "target": "糝",
+      "tags": [
+        "meaning",
+        "字義",
+        "第4-6冊群"
+      ],
+      "explanation": "（Ａ）撒落",
+      "memoryWall": null,
+      "validation": {
+        "status": "approved",
+        "approvalType": "data-audit"
+      }
+    },
+    {
+      "questionId": "ext-b46-q036",
+      "sourceId": "dry-4-6-036",
+      "sourceFile": "public/lab/data/dry-run/questions-001-100.json",
+      "source": {
+        "bookGroup": "4-6",
+        "questionNo": 36,
+        "page": 5,
+        "document": "03_第4-6冊_會考形音義_教用卷.pdf"
+      },
+      "sourceTextSha256": "f319b496457e26ad6b58f2fa79d5e3a6dcc72516cbe7878723d8ac4348748cb3",
+      "question": "「走」字有許多意思，可當洩漏、離開、奔跑、交往、到處遊蕩等。下列何者採用的意思是「離開」？",
+      "prompt": "「走」字有許多意思，可當洩漏、離開、奔跑、交往、到處遊蕩等。下列何者採用的意思是「離開」？",
+      "choices": {
+        "A": "他的情緒低落，我們最好「走」開，讓他靜靜",
+        "B": "這事居然「走」漏風聲，想必團隊中藏有內鬼",
+        "C": "俠客總是帶著寶劍「走」江湖，到處行俠仗義",
+        "D": "切勿在潮溼的道路上奔「走」，以免發生意外。"
+      },
+      "correctAnswer": "A",
+      "type": "polysemy",
+      "knowledgePointId": "dry-kp-879da7e8f2",
+      "target": "走",
+      "tags": [
+        "polysemy",
+        "一字多義",
+        "第4-6冊群"
+      ],
+      "explanation": "（Ａ）離開 （Ｂ）洩漏 （Ｃ）到處遊蕩 （Ｄ）奔跑",
+      "memoryWall": null,
+      "validation": {
+        "status": "approved",
+        "approvalType": "data-audit"
+      }
+    },
+    {
+      "questionId": "ext-b46-q037",
+      "sourceId": "dry-4-6-037",
+      "sourceFile": "public/lab/data/dry-run/questions-001-100.json",
+      "source": {
+        "bookGroup": "4-6",
+        "questionNo": 37,
+        "page": 5,
+        "document": "03_第4-6冊_會考形音義_教用卷.pdf"
+      },
+      "sourceTextSha256": "817aa09de72c654381c7fb6201395eab9ac9de09a078cc349cfd52f21c581f72",
+      "question": "下列選項 「」 中的字， 何者讀音說明正確？",
+      "prompt": "下列選項 「」 中的字， 何者讀音說明正確？",
+      "choices": {
+        "A": "「煥」 發：ㄨㄢˋ",
+        "B": "筆 「耕」： ㄍㄥ",
+        "C": "煎「熬」：ㄠˇ",
+        "D": "怪「譎」：ㄐㄩˊ。"
+      },
+      "correctAnswer": "B",
+      "type": "pronunciation",
+      "knowledgePointId": "dry-kp-affe5af532",
+      "target": "耕",
+      "tags": [
+        "pronunciation",
+        "字音",
+        "第4-6冊群"
+      ],
+      "explanation": "（Ａ）ㄏㄨㄢˋ （Ｃ）ㄠˊ （Ｄ）ㄐㄩㄝˊ",
+      "memoryWall": null,
+      "validation": {
+        "status": "approved",
+        "approvalType": "data-audit"
+      }
+    },
+    {
+      "questionId": "ext-b46-q038",
+      "sourceId": "dry-4-6-038",
+      "sourceFile": "public/lab/data/dry-run/questions-001-100.json",
+      "source": {
+        "bookGroup": "4-6",
+        "questionNo": 38,
+        "page": 5,
+        "document": "03_第4-6冊_會考形音義_教用卷.pdf"
+      },
+      "sourceTextSha256": "14583c4411db7289f950a3fe60bc1e820f0f453101fc2c41e036a8dc4b97ab2d",
+      "question": "下列「」中的字詞，何者解釋錯誤？",
+      "prompt": "下列「」中的字詞，何者解釋錯誤？",
+      "choices": {
+        "A": "昨夜見「軍帖」：徵兵的文書",
+        "B": "西市買鞍「韉」：馬鞍下面的墊子",
+        "C": "「朔氣」傳金柝：北方的寒氣",
+        "D": "出郭相「扶將」：扶持將軍。"
+      },
+      "correctAnswer": "D",
+      "type": "meaning",
+      "knowledgePointId": "dry-kp-5a38fcd8e3",
+      "target": "扶將",
+      "tags": [
+        "meaning",
+        "字義",
+        "第4-6冊群"
+      ],
+      "explanation": "（Ｄ）扶持",
+      "memoryWall": null,
+      "validation": {
+        "status": "approved",
+        "approvalType": "data-audit"
+      }
+    },
+    {
+      "questionId": "ext-b46-q039",
+      "sourceId": "dry-4-6-039",
+      "sourceFile": "public/lab/data/dry-run/questions-001-100.json",
+      "source": {
+        "bookGroup": "4-6",
+        "questionNo": 39,
+        "page": 5,
+        "document": "03_第4-6冊_會考形音義_教用卷.pdf"
+      },
+      "sourceTextSha256": "81b7a7a38d0b4e1b7200acb36234ba874e5155e198d3ffe071551e91b9d8d9b5",
+      "question": "下列選項 「」 中的字， 何者讀音前後相同？",
+      "prompt": "下列選項 「」 中的字， 何者讀音前後相同？",
+      "choices": {
+        "A": "崇 「禎」 皇帝／一 「幀」 字畫",
+        "B": "「擁」毳衣／交通「壅」塞",
+        "C": "霧凇「沆」碭／引「吭」高歌",
+        "D": "語「焉」不詳／「嫣」然一笑。"
+      },
+      "correctAnswer": "D",
+      "type": "pronunciation",
+      "knowledgePointId": "dry-kp-3f9f37ca2b",
+      "target": "焉／嫣",
+      "tags": [
+        "pronunciation",
+        "字音",
+        "第4-6冊群"
+      ],
+      "explanation": "（Ａ）ㄓㄣ／ㄓㄥˋ （Ｂ）ㄩㄥˇ／ㄩㄥ （Ｃ）ㄏㄤˋ／ㄏㄤˊ （Ｄ）ㄧㄢ",
+      "memoryWall": null,
+      "validation": {
+        "status": "approved",
+        "approvalType": "data-audit"
+      }
+    },
+    {
+      "questionId": "ext-b46-q040",
+      "sourceId": "dry-4-6-040",
+      "sourceFile": "public/lab/data/dry-run/questions-001-100.json",
+      "source": {
+        "bookGroup": "4-6",
+        "questionNo": 40,
+        "page": 5,
+        "document": "03_第4-6冊_會考形音義_教用卷.pdf"
+      },
+      "sourceTextSha256": "259bcab5e4bf183df582fc9cdc6b6d268e03c1ec86c95c8796aceded3fb86ebc",
+      "question": "「互吐情意」的「吐」字是「發出、說出」的意思。下列選項中的「吐」字何者也是一樣的意思？",
+      "prompt": "「互吐情意」的「吐」字是「發出、說出」的意思。下列選項中的「吐」字何者也是一樣的意思？",
+      "choices": {
+        "A": "吐痰",
+        "B": "吐哺",
+        "C": "談吐",
+        "D": "一吐為快。"
+      },
+      "correctAnswer": "D",
+      "type": "polysemy",
+      "knowledgePointId": "dry-kp-caf76fd61a",
+      "target": "互吐情意",
+      "tags": [
+        "polysemy",
+        "一字多義",
+        "第4-6冊群"
+      ],
+      "explanation": "（Ａ）（Ｂ）使東西從口中出來 （Ｃ）文詞、言詞",
+      "memoryWall": null,
+      "validation": {
+        "status": "approved",
+        "approvalType": "data-audit"
+      }
+    },
+    {
+      "questionId": "ext-b46-q041",
+      "sourceId": "dry-4-6-041",
+      "sourceFile": "public/lab/data/dry-run/questions-001-100.json",
+      "source": {
+        "bookGroup": "4-6",
+        "questionNo": 41,
+        "page": 5,
+        "document": "03_第4-6冊_會考形音義_教用卷.pdf"
+      },
+      "sourceTextSha256": "f7f5266b70d2bdb6bfce4d437cba5c9bcc5316cd1fd59e3ada86f0b1648f6788",
+      "question": "（甲）小桃的座右「ㄇㄧㄥˊ」是「今日事，今日畢」 （乙）他的動作很協「ㄊㄧㄠˊ」，快邀請他加入田徑隊 （丙）伊布上次說的那個笑話，令人拍「ㄢˋ」叫絕。上列「」中的注音寫成國字後，依序為下列何組字？",
+      "prompt": "（甲）小桃的座右「ㄇㄧㄥˊ」是「今日事，今日畢」 （乙）他的動作很協「ㄊㄧㄠˊ」，快邀請他加入田徑隊 （丙）伊布上次說的那個笑話，令人拍「ㄢˋ」叫絕。上列「」中的注音寫成國字後，依序為下列何組字？",
+      "choices": {
+        "A": "明、條、岸",
+        "B": "名、 條、案",
+        "C": "銘、調、案",
+        "D": "銘、調、按。"
+      },
+      "correctAnswer": "C",
+      "type": "shape",
+      "knowledgePointId": "dry-kp-a2fb31b5b9",
+      "target": "ㄇㄧㄥˊ",
+      "tags": [
+        "shape",
+        "字形",
+        "第4-6冊群"
+      ],
+      "explanation": "",
+      "memoryWall": null,
+      "validation": {
+        "status": "approved",
+        "approvalType": "data-audit"
+      }
+    },
+    {
+      "questionId": "ext-b46-q042",
+      "sourceId": "dry-4-6-042",
+      "sourceFile": "public/lab/data/dry-run/questions-001-100.json",
+      "source": {
+        "bookGroup": "4-6",
+        "questionNo": 42,
+        "page": 5,
+        "document": "03_第4-6冊_會考形音義_教用卷.pdf"
+      },
+      "sourceTextSha256": "04d709b511851049847296c77edb33a5bfe035735bd083daf24abd774ef1bedc",
+      "question": "「卻道海棠依舊」的「道」字意思是「說」，下列選項中的「道」字，何者意思與之相同？",
+      "prompt": "「卻道海棠依舊」的「道」字意思是「說」，下列選項中的「道」字，何者意思與之相同？",
+      "choices": {
+        "A": "朝聞 「道」，夕死可矣",
+        "B": "頭頭是 「道」",
+        "C": "老莊之 「道」",
+        "D": "一語「道」破。"
+      },
+      "correctAnswer": "D",
+      "type": "polysemy",
+      "knowledgePointId": "dry-kp-5e252e501c",
+      "target": "道",
+      "tags": [
+        "polysemy",
+        "一字多義",
+        "第4-6冊群"
+      ],
+      "explanation": "（Ａ）真理 （Ｂ）方法、道理 （Ｃ）思想、學說",
+      "memoryWall": null,
+      "validation": {
+        "status": "approved",
+        "approvalType": "data-audit"
+      }
+    },
+    {
+      "questionId": "ext-b46-q043",
+      "sourceId": "dry-4-6-043",
+      "sourceFile": "public/lab/data/dry-run/questions-001-100.json",
+      "source": {
+        "bookGroup": "4-6",
+        "questionNo": 43,
+        "page": 5,
+        "document": "03_第4-6冊_會考形音義_教用卷.pdf"
+      },
+      "sourceTextSha256": "94c586a74db67b744ae237ebc37b959528e012961fbd8d85a3d9fa108fb52173",
+      "question": "下列選項「」中的字表示各種「看」的狀態，何者使用正確？",
+      "prompt": "下列選項「」中的字表示各種「看」的狀態，何者使用正確？",
+      "choices": {
+        "A": "俯「瞻」大地",
+        "B": "「瞥」準獵物",
+        "C": "登高遠「眺」",
+        "D": "掉頭不「瞰」。"
+      },
+      "correctAnswer": "C",
+      "type": "meaning",
+      "knowledgePointId": "dry-kp-e969dfe56c",
+      "target": "眺",
+      "tags": [
+        "meaning",
+        "字義",
+        "第4-6冊群"
+      ],
+      "explanation": "（Ａ） 向上或向前看。宜作 「俯 『瞰』 大地」 （Ｂ） 眼光掠過、很快的看一下。宜作 「『瞄』 準獵物」 （Ｃ）遠望 （Ｄ）從高處往下看。宜作「掉頭不『顧』」",
+      "memoryWall": null,
+      "validation": {
+        "status": "approved",
+        "approvalType": "data-audit"
+      }
+    },
+    {
+      "questionId": "ext-b46-q044",
+      "sourceId": "dry-4-6-044",
+      "sourceFile": "public/lab/data/dry-run/questions-001-100.json",
+      "source": {
+        "bookGroup": "4-6",
+        "questionNo": 44,
+        "page": 6,
+        "document": "03_第4-6冊_會考形音義_教用卷.pdf"
+      },
+      "sourceTextSha256": "d83219ff65477544ad4a7bc9c45f1831340b5d022ecf89aadbbfddb5de96ae9b",
+      "question": "下列文句，何者用字完全正確？",
+      "prompt": "下列文句，何者用字完全正確？",
+      "choices": {
+        "A": "泉水激石，冷冷作響",
+        "B": "重流飄蕩，任意東西",
+        "C": "負勢兢上，互相軒邈",
+        "D": "經綸世務者，窺谷忘返。"
+      },
+      "correctAnswer": "D",
+      "type": "shape",
+      "knowledgePointId": "dry-kp-605e639053",
+      "target": "經綸世務者，窺谷忘返。",
+      "tags": [
+        "shape",
+        "字形",
+        "第4-6冊群"
+      ],
+      "explanation": "（Ａ）冷→泠 （Ｂ）重→從 （Ｃ）兢→競",
+      "memoryWall": null,
+      "validation": {
+        "status": "approved",
+        "approvalType": "data-audit"
+      }
+    },
+    {
+      "questionId": "ext-b46-q045",
+      "sourceId": "dry-4-6-045",
+      "sourceFile": "public/lab/data/dry-run/questions-001-100.json",
+      "source": {
+        "bookGroup": "4-6",
+        "questionNo": 45,
+        "page": 6,
+        "document": "03_第4-6冊_會考形音義_教用卷.pdf"
+      },
+      "sourceTextSha256": "39f28e09af142284d19e4ae5207903bb09c8ef4eac80b26ec507a39adf6ba21b",
+      "question": "下列選項「」中的字，何者讀音說明正確？",
+      "prompt": "下列選項「」中的字，何者讀音說明正確？",
+      "choices": {
+        "A": "「行」旅：ㄒㄧㄥˊ",
+        "B": "搭 「載」：ㄗㄞˇ",
+        "C": "行腳「僧」：ㄗㄥ",
+        "D": "顛「簸」：ㄅㄛ。"
+      },
+      "correctAnswer": "A",
+      "type": "pronunciation",
+      "knowledgePointId": "dry-kp-6456651023",
+      "target": "行",
+      "tags": [
+        "pronunciation",
+        "字音",
+        "第4-6冊群"
+      ],
+      "explanation": "（Ｂ）ㄗㄞˋ （Ｃ）ㄙㄥ （Ｄ）ㄅㄛˇ",
+      "memoryWall": null,
+      "validation": {
+        "status": "approved",
+        "approvalType": "data-audit"
+      }
+    },
+    {
+      "questionId": "ext-b46-q046",
+      "sourceId": "dry-4-6-046",
+      "sourceFile": "public/lab/data/dry-run/questions-001-100.json",
+      "source": {
+        "bookGroup": "4-6",
+        "questionNo": 46,
+        "page": 6,
+        "document": "03_第4-6冊_會考形音義_教用卷.pdf"
+      },
+      "sourceTextSha256": "c9b1e92225eccbfefd4afb4ad4803bfc74619827767ce2627f8530278a6f3f55",
+      "question": "下列文句，何者用字完全正確？",
+      "prompt": "下列文句，何者用字完全正確？",
+      "choices": {
+        "A": "國難當前，他毅然放下事業，勇敢奔赴沙場， 為國怔戰",
+        "B": "收到高中同學的結婚喜貼，猛然驚覺自己已過而立之年",
+        "C": "既然事情已經告一段落，我就先告詞了",
+        "D": "擔任外交官，不卑不亢是基本的素養。"
+      },
+      "correctAnswer": "D",
+      "type": "shape",
+      "knowledgePointId": "dry-kp-4cc749a8c3",
+      "target": "擔任外交官，不卑不亢是基本的素養。",
+      "tags": [
+        "shape",
+        "字形",
+        "第4-6冊群"
+      ],
+      "explanation": "（Ａ）怔→征 （Ｂ）貼→帖 （Ｃ）詞→辭",
+      "memoryWall": null,
+      "validation": {
+        "status": "approved",
+        "approvalType": "data-audit"
+      }
+    },
+    {
+      "questionId": "ext-b46-q047",
+      "sourceId": "dry-4-6-047",
+      "sourceFile": "public/lab/data/dry-run/questions-001-100.json",
+      "source": {
+        "bookGroup": "4-6",
+        "questionNo": 47,
+        "page": 6,
+        "document": "03_第4-6冊_會考形音義_教用卷.pdf"
+      },
+      "sourceTextSha256": "dae20f9110e30c97e33c9f8aeec6152bfbd4a06bb185f1b9a7a0eff4467e26be",
+      "question": "下列文句「」中的字，何者用字完全正確？",
+      "prompt": "下列文句「」中的字，何者用字完全正確？",
+      "choices": {
+        "A": "為人處事，「究」該待人誠懇寬厚，不刻薄",
+        "B": "既往不「救」，對於過去的事情不再去追究",
+        "C": "並且不念「咎」 惡，不計較對方以往的過失",
+        "D": "別怨天尤人，方能內省不「疚」，泰然自得。"
+      },
+      "correctAnswer": "D",
+      "type": "shape",
+      "knowledgePointId": "dry-kp-ca873da5db",
+      "target": "疚",
+      "tags": [
+        "shape",
+        "字形",
+        "第4-6冊群"
+      ],
+      "explanation": "（Ａ）就 （Ｂ）咎 （Ｃ）舊",
+      "memoryWall": null,
+      "validation": {
+        "status": "approved",
+        "approvalType": "data-audit"
+      }
+    },
+    {
+      "questionId": "ext-b46-q048",
+      "sourceId": "dry-4-6-048",
+      "sourceFile": "public/lab/data/dry-run/questions-001-100.json",
+      "source": {
+        "bookGroup": "4-6",
+        "questionNo": 48,
+        "page": 6,
+        "document": "03_第4-6冊_會考形音義_教用卷.pdf"
+      },
+      "sourceTextSha256": "da1d20c4b2400e91d21f6bcf8264de4dd0aa20c5526ea1ce8038ed51dccc085c",
+      "question": "下列選項中的「色」字，何者指「臉色」？",
+      "prompt": "下列選項中的「色」字，何者指「臉色」？",
+      "choices": {
+        "A": "五光十「色」",
+        "B": "相形失「色」",
+        "C": "和顏悅「色」",
+        "D": "「色」藝絕佳。"
+      },
+      "correctAnswer": "C",
+      "type": "polysemy",
+      "knowledgePointId": "dry-kp-8f99c579c3",
+      "target": "色",
+      "tags": [
+        "polysemy",
+        "一字多義",
+        "第4-6冊群"
+      ],
+      "explanation": "（Ａ）物體表面的色彩 （Ｂ）光彩 （Ｄ）姿色",
+      "memoryWall": null,
+      "validation": {
+        "status": "approved",
+        "approvalType": "data-audit"
+      }
+    },
+    {
+      "questionId": "ext-b46-q049",
+      "sourceId": "dry-4-6-049",
+      "sourceFile": "public/lab/data/dry-run/questions-001-100.json",
+      "source": {
+        "bookGroup": "4-6",
+        "questionNo": 49,
+        "page": 6,
+        "document": "03_第4-6冊_會考形音義_教用卷.pdf"
+      },
+      "sourceTextSha256": "ef306cd08020090cd28d1be4fd68157d88dab1fcb920b5092424d4df50966238",
+      "question": "下列各組形近字， 何者讀音並非完全相同？",
+      "prompt": "下列各組形近字， 何者讀音並非完全相同？",
+      "choices": {
+        "A": "縵／蔓／漫",
+        "B": "炫／眩／泫",
+        "C": "縷／屢／褸",
+        "D": "夸／誇／垮。"
+      },
+      "correctAnswer": "D",
+      "type": "confusable",
+      "knowledgePointId": "dry-kp-13e18af660",
+      "target": "夸／誇／垮。",
+      "tags": [
+        "confusable",
+        "易混字",
+        "第4-6冊群"
+      ],
+      "explanation": "（Ａ）ㄇㄢˋ （Ｂ）ㄒㄩㄢˋ （Ｃ）ㄌㄩˇ （Ｄ）ㄎㄨㄚ／ㄎㄨㄚ／ㄎㄨㄚˇ",
+      "memoryWall": null,
+      "validation": {
+        "status": "approved",
+        "approvalType": "data-audit"
+      }
+    },
+    {
+      "questionId": "ext-b46-q050",
+      "sourceId": "dry-4-6-050",
+      "sourceFile": "public/lab/data/dry-run/questions-001-100.json",
+      "source": {
+        "bookGroup": "4-6",
+        "questionNo": 50,
+        "page": 6,
+        "document": "03_第4-6冊_會考形音義_教用卷.pdf"
+      },
+      "sourceTextSha256": "65b9c6883e5b30d85342a8363ddb06d648c4af9130831227a4752386086b65f9",
+      "question": "「清晨雨『ㄕㄨ』風驟，擾人清夢。不久，外頭天候轉晴，陽光灑落，鳥兒啁啾，遂起床盥洗『ㄕㄨ』妝，步行至巷口咖啡廳，點一杯拿鐵及鬆餅，享受『ㄕㄨ』服放鬆的時光。」 這段文字中的注音寫成國字後， 依序應填入下列何者？",
+      "prompt": "「清晨雨『ㄕㄨ』風驟，擾人清夢。不久，外頭天候轉晴，陽光灑落，鳥兒啁啾，遂起床盥洗『ㄕㄨ』妝，步行至巷口咖啡廳，點一杯拿鐵及鬆餅，享受『ㄕㄨ』服放鬆的時光。」 這段文字中的注音寫成國字後， 依序應填入下列何者？",
+      "choices": {
+        "A": "疏／梳／舒",
+        "B": "甦／梳／紓",
+        "C": "疏／漱／舒",
+        "D": "甦／漱／紓。"
+      },
+      "correctAnswer": "A",
+      "type": "shape",
+      "knowledgePointId": "dry-kp-87bdb6e95c",
+      "target": "ㄕㄨ",
+      "tags": [
+        "shape",
+        "字形",
+        "第4-6冊群"
+      ],
+      "explanation": "",
+      "memoryWall": null,
+      "validation": {
+        "status": "approved",
+        "approvalType": "data-audit"
+      }
+    }
+  ]
+}

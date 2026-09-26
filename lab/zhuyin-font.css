@@ -1,0 +1,14 @@
+:root{
+  --zhuyin-font:"Microsoft JhengHei","Microsoft JhengHei UI","PingFang TC","Noto Sans TC","Noto Sans CJK TC",sans-serif;
+}
+
+.zhuyin,
+.bopomofo{
+  display:inline-block;
+  font-family:var(--zhuyin-font);
+  font-variant-east-asian:normal;
+  font-feature-settings:normal;
+  letter-spacing:.04em;
+  line-height:1.35;
+  white-space:nowrap;
+}

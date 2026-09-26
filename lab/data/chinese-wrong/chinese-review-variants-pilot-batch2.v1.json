@@ -1,0 +1,1217 @@
+{
+  "schemaVersion": 1,
+  "purpose": "review-variant-quality-pilot-batch2",
+  "variants": [
+    {
+      "variantId": "zh-Q10-L1-v1",
+      "coreId": "chinese-wrong-2026-09-22-q10",
+      "sourceQuestionNo": 10,
+      "level": "L1",
+      "pool": "word",
+      "subtype": "meaning",
+      "targetWeakSkill": "合音詞／字詞實際語意辨識",
+      "question": "小寧說：「我倆輪流保管鑰匙。」這裡的「倆」還原後，最符合哪個意思？",
+      "choices": {
+        "A": "兩個，指我和另一人",
+        "B": "兩次，指保管的次數",
+        "C": "兩邊，指鑰匙放置的位置",
+        "D": "兩樣，指不同種類的鑰匙"
+      },
+      "correctAnswer": "A",
+      "explanation": "「倆」是「兩個」的合音；「我倆」指包括說話者在內的兩個人，不是次數、方位或種類。",
+      "choiceAnalysis": {
+        "A": "正確還原為兩個，並配合人稱「我」判斷是兩人。",
+        "B": "把人數誤認為輪流的次數。",
+        "C": "輪流保管未說明兩個位置；倆不是兩邊的合音。",
+        "D": "倆指兩個，不表示兩樣或兩種。"
+      },
+      "designNote": "以人稱中的常見合音詞先練還原與指稱，未沿用原題整套詞語配置。",
+      "qualityCheck": {
+        "sameWeakSkill": true,
+        "notSurfaceRewrite": true,
+        "singleBestAnswer": true,
+        "distractorsPlausible": true
+      },
+      "status": "pilot"
+    },
+    {
+      "variantId": "zh-Q10-L2-v1",
+      "coreId": "chinese-wrong-2026-09-22-q10",
+      "sourceQuestionNo": 10,
+      "level": "L2",
+      "pool": "word",
+      "subtype": "meaning",
+      "targetWeakSkill": "合音詞／字詞實際語意辨識",
+      "question": "下列「合音詞 → 還原形式 → 語意」的配對，哪一項完全正確？",
+      "choices": {
+        "A": "倆 → 兩次 → 動作發生的次數",
+        "B": "仨 → 三個 → 數量為三",
+        "C": "甭 → 不能 → 沒有能力做到",
+        "D": "諸（付諸行動）→ 之乎 → 詢問是否行動"
+      },
+      "correctAnswer": "B",
+      "explanation": "仨表示三個。其他選項分別把量詞成分換成次數、把不必換成能力不足，以及把非疑問語境中的諸還原錯誤。",
+      "choiceAnalysis": {
+        "A": "倆還原為兩個，不是兩次，數量與次數不同。",
+        "B": "仨是三個的合音，來源與語意相符。",
+        "C": "甭表示不用、不必，不能逕解為沒有能力。",
+        "D": "付諸行動的諸為之於，表示付之於行動，不是句末疑問用法。"
+      },
+      "designNote": "比較四組來源及語意；「不用／不能」和諸的語境還原構成合理干擾，不出單純注音題。",
+      "qualityCheck": {
+        "sameWeakSkill": true,
+        "notSurfaceRewrite": true,
+        "singleBestAnswer": true,
+        "distractorsPlausible": true
+      },
+      "status": "pilot"
+    },
+    {
+      "variantId": "zh-Q10-L3-v1",
+      "coreId": "chinese-wrong-2026-09-22-q10",
+      "sourceQuestionNo": 10,
+      "level": "L3",
+      "pool": "word",
+      "subtype": "meaning",
+      "targetWeakSkill": "合音詞／字詞實際語意辨識",
+      "question": "小安問：「這份表格要自己印嗎？」承辦人回答：「現場已備好，你甭帶。」下列還原與理解何者最符合這段對話？",
+      "choices": {
+        "A": "甭是不能，表示小安沒有能力列印",
+        "B": "甭是不准，表示現場禁止攜入紙張",
+        "C": "甭是不用，表示已有備份，不必自行攜帶",
+        "D": "甭是不曾，表示小安過去沒有帶過表格"
+      },
+      "correctAnswer": "C",
+      "explanation": "現場已備好是免除攜帶需要的原因，所以甭還原為不用，表示不必帶；並未說無能力或禁止。",
+      "choiceAnalysis": {
+        "A": "前文只詢問是否需要自印，沒有列印能力不足的訊息。",
+        "B": "承辦人免除準備的需要，沒有訂立禁止攜帶的規定。",
+        "C": "把已備好與不必帶相連，還原及語意均正確。",
+        "D": "對話處理接下來的準備，不是在描述過去是否帶過。"
+      },
+      "designNote": "把同一否定字放回問答與原因鏈，區分不必、禁止、不能及未曾；須理解語境中的必要性。",
+      "qualityCheck": {
+        "sameWeakSkill": true,
+        "notSurfaceRewrite": true,
+        "singleBestAnswer": true,
+        "distractorsPlausible": true
+      },
+      "status": "pilot"
+    },
+    {
+      "variantId": "zh-Q10-Boss-v1",
+      "coreId": "chinese-wrong-2026-09-22-q10",
+      "sourceQuestionNo": 10,
+      "level": "Boss",
+      "pool": "word",
+      "subtype": "meaning",
+      "targetWeakSkill": "合音詞／字詞實際語意辨識",
+      "question": "下列四則語句的「字形 → 還原 → 語境解釋」，哪一組全部正確？",
+      "choices": {
+        "A": "「我們仨都到了」：仨 → 三個 → 說話者以外另有三人到了",
+        "B": "「你甭替我排隊」：甭 → 不用 → 對方沒有排隊的能力",
+        "C": "「我倆各帶一本」：倆 → 兩次 → 每人分兩次帶書",
+        "D": "「把構想付諸行動」：諸 → 之於 → 將構想落實於行動"
+      },
+      "correctAnswer": "D",
+      "explanation": "付諸行動可還原為付之於行動，之承接構想，於引出行動。其餘選項不是只看來源即可，要核對人數、必要性或量詞語意。",
+      "choiceAnalysis": {
+        "A": "仨還原為三個雖對，但我們仨的總數含說話者，並非另有三人。",
+        "B": "甭還原為不用雖對，表示不需要，不等於無能力。",
+        "C": "倆是兩個；我倆指兩人，不能還原為兩次。",
+        "D": "來源、承接的內容和落實的方向均與句意相符。"
+      },
+      "designNote": "四組不同詞各檢查來源與句中作用；兩個干擾保留正確還原卻扭曲語意，避免只背詞源即可作答。",
+      "qualityCheck": {
+        "sameWeakSkill": true,
+        "notSurfaceRewrite": true,
+        "singleBestAnswer": true,
+        "distractorsPlausible": true
+      },
+      "status": "pilot"
+    },
+    {
+      "variantId": "zh-Q14-L1-v1",
+      "coreId": "chinese-wrong-2026-09-22-q14",
+      "sourceQuestionNo": 14,
+      "level": "L1",
+      "pool": "form",
+      "subtype": "couplet",
+      "targetWeakSkill": "字數、詞性、結構與語意對仗",
+      "question": "本題只比較字數、詞性與基本結構，不評平仄。要與「春風送暖」相對，下列哪一聯最合適？",
+      "choices": {
+        "A": "明月照高樓",
+        "B": "明亮又溫暖",
+        "C": "秋雨添涼",
+        "D": "清晨的微風"
+      },
+      "correctAnswer": "C",
+      "explanation": "春風／秋雨都是名詞，送／添都是動詞，暖／涼相對應，且上下均為四字。",
+      "choiceAnalysis": {
+        "A": "五字，與四字的上聯不等長。",
+        "B": "四字但由形容詞並列，無法對應上聯的名詞主語與動作。",
+        "C": "字數相等，主語、動作與冷暖意義均能對應。",
+        "D": "五字且是名詞短語，不是主語加動作的結構。"
+      },
+      "designNote": "用常見天氣語彙檢查最基本的字數及詞性，明示本題不評平仄，避免混入未要求的聲律條件。",
+      "qualityCheck": {
+        "sameWeakSkill": true,
+        "notSurfaceRewrite": true,
+        "singleBestAnswer": true,
+        "distractorsPlausible": true
+      },
+      "status": "pilot"
+    },
+    {
+      "variantId": "zh-Q14-L2-v1",
+      "coreId": "chinese-wrong-2026-09-22-q14",
+      "sourceQuestionNo": 14,
+      "level": "L2",
+      "pool": "form",
+      "subtype": "couplet",
+      "targetWeakSkill": "字數、詞性、結構與語意對仗",
+      "question": "只比較字數、詞性、結構與語意，不評平仄。上聯「青山迎遠客」，下聯「□□送歸舟」，空格填入何者最工整？",
+      "choices": {
+        "A": "碧水",
+        "B": "慢慢",
+        "C": "送別",
+        "D": "清澈的河水"
+      },
+      "correctAnswer": "A",
+      "explanation": "青山與碧水均為顏色修飾名詞的二字結構；迎對送，遠客對歸舟，構成景物迎送的呼應。",
+      "choiceAnalysis": {
+        "A": "二字名詞短語，能對青山並作送歸舟的主語。",
+        "B": "二字副詞，只修飾動作，不能對應青山的主語。",
+        "C": "二字動詞，不能在此取代景物主語與青山相對。",
+        "D": "雖是名詞短語但五字，填入後破壞五字一聯的長度。"
+      },
+      "designNote": "缺詞題同時篩選二字、名詞性主語與景物迎送，不以字數一項作為全部判準。",
+      "qualityCheck": {
+        "sameWeakSkill": true,
+        "notSurfaceRewrite": true,
+        "singleBestAnswer": true,
+        "distractorsPlausible": true
+      },
+      "status": "pilot"
+    },
+    {
+      "variantId": "zh-Q14-L3-v1",
+      "coreId": "chinese-wrong-2026-09-22-q14",
+      "sourceQuestionNo": 14,
+      "level": "L3",
+      "pool": "form",
+      "subtype": "couplet",
+      "targetWeakSkill": "字數、詞性、結構與語意對仗",
+      "question": "下列四組候選上下聯，哪一組對應最工整？本題不評平仄。",
+      "choices": {
+        "A": "清風搖翠竹／夜裡賞荷花",
+        "B": "清風搖翠竹／翠竹迎風舞",
+        "C": "清風搖翠竹／窗邊的燈火",
+        "D": "清風搖翠竹／明月照青山"
+      },
+      "correctAnswer": "D",
+      "explanation": "四組每聯都是五字。明月照青山與清風搖翠竹同為二字主語、單字動詞、二字賓語，景物也相呼應。",
+      "choiceAnalysis": {
+        "A": "夜裡是時間語，賞荷花省略主語；與清風作主語的結構不對應。",
+        "B": "翠竹雖可對清風，但迎風是修飾舞的成分，不是搖翠竹的動賓結構。",
+        "C": "窗邊的燈火是完整名詞短語，沒有對應搖的主要動詞。",
+        "D": "清風／明月、搖／照、翠竹／青山逐層相對，結構與語意均合。"
+      },
+      "designNote": "所有候選同為五字且可理解，不在題幹列出詞性提示，要求自行辨別時間語、偏正短語及主動賓結構。",
+      "qualityCheck": {
+        "sameWeakSkill": true,
+        "notSurfaceRewrite": true,
+        "singleBestAnswer": true,
+        "distractorsPlausible": true
+      },
+      "status": "pilot"
+    },
+    {
+      "variantId": "zh-Q14-Boss-v1",
+      "coreId": "chinese-wrong-2026-09-22-q14",
+      "sourceQuestionNo": 14,
+      "level": "Boss",
+      "pool": "form",
+      "subtype": "couplet",
+      "targetWeakSkill": "字數、詞性、結構與語意對仗",
+      "question": "學校要題寫一副表現「教師引導、學生探索，師生共同成長」的對聯。上聯為「勤師授業開新境」，下列哪一聯在字數、詞性、句法及主題上最完整呼應？本題不評平仄。",
+      "choices": {
+        "A": "學子求知更聰明",
+        "B": "求知學子啟遠程",
+        "C": "學子求知啟遠程",
+        "D": "商人售貨獲豐收"
+      },
+      "correctAnswer": "C",
+      "explanation": "學子／求知／啟遠程對應勤師／授業／開新境，均為人物主語接兩組動作，並以師生的教學與探索呼應指定主題。",
+      "choiceAnalysis": {
+        "A": "末段更聰明是程度副詞加形容詞，不能對應開新境的動賓結構。",
+        "B": "求知修飾學子，整體先形成求知學子這個名詞短語；不像上聯人物接兩組動作。",
+        "C": "七字相等，人物、動作與開展前景的意義逐層對應，亦符合師生主題。",
+        "D": "字數與動作結構相近，但商業售貨的內容未呼應教師引導與學生探索。"
+      },
+      "designNote": "四個候選皆七字；分別放入詞性、句法與指定語境的干擾，必須按字數→詞性→結構→語意檢查，不能只憑字數或詩意。",
+      "qualityCheck": {
+        "sameWeakSkill": true,
+        "notSurfaceRewrite": true,
+        "singleBestAnswer": true,
+        "distractorsPlausible": true
+      },
+      "status": "rejected",
+      "rejectionReason": "unnatural-source-line"
+    },
+    {
+      "variantId": "zh-Q14-Boss-v2",
+      "coreId": "chinese-wrong-2026-09-22-q14",
+      "sourceQuestionNo": 14,
+      "level": "Boss",
+      "pool": "form",
+      "subtype": "couplet",
+      "targetWeakSkill": "字數、詞性、結構與語意對仗",
+      "question": "學校要用一副對聯表現「教師培育人才、學生求知立志」。上聯為「良師授業育英才」，下列哪一聯在字數、詞性、句法結構與語意上最完整呼應？本題不評平仄。",
+      "choices": {
+        "A": "學子求知志氣高",
+        "B": "求知學子展壯志",
+        "C": "學子求知展壯志",
+        "D": "農夫播種盼豐收"
+      },
+      "correctAnswer": "C",
+      "explanation": "良師／授業／育英才與學子／求知／展壯志，都是人物名詞接兩組動賓結構。兩聯各七字，從教師教導、培育人才，呼應學生求知、展現志向，符合指定主題。",
+      "choiceAnalysis": {
+        "A": "七字且符合求學主題，但末段志氣高是名詞加形容詞的主謂結構；志氣不能對應動詞育，高也不能對應名詞英才，詞性與結構不合。",
+        "B": "七字且內容切題，但求知學子是由求知修飾學子的名詞短語，全句成為求知學子／展壯志，不能對應良師／授業／育英才的句法安排。",
+        "C": "學子對良師、求知對授業、展壯志對育英才，字數、短語詞性、動賓結構及師生主題均能呼應。",
+        "D": "農夫／播種／盼豐收的字數與句法可以對應，但農事收成沒有呼應題目指定的師生教學與立志主題。"
+      },
+      "designNote": "上聯採自然的教學語句，不創造勤師之類生硬稱呼。四個候選均七字，A以詞性不對應為主要干擾，B改變修飾與動作的句法關係，D保留結構卻偏離指定主題。只按字數→詞性→結構→語意判斷，不評平仄。",
+      "qualityCheck": {
+        "sameWeakSkill": true,
+        "notSurfaceRewrite": true,
+        "singleBestAnswer": true,
+        "distractorsPlausible": true
+      },
+      "status": "pilot"
+    },
+    {
+      "variantId": "zh-Q17-L1-v1",
+      "coreId": "chinese-wrong-2026-09-22-q17",
+      "sourceQuestionNo": 17,
+      "level": "L1",
+      "pool": "form",
+      "subtype": "literaryKnowledge",
+      "targetWeakSkill": "人物、作品、名句配對",
+      "question": "「床前明月光，疑是地上霜」是哪位詩人的代表詩句？",
+      "choices": {
+        "A": "李白",
+        "B": "杜甫",
+        "C": "王維",
+        "D": "白居易"
+      },
+      "correctAnswer": "A",
+      "explanation": "這兩句出自李白〈靜夜思〉，以月光引出夜間思鄉。",
+      "choiceAnalysis": {
+        "A": "李白是〈靜夜思〉作者，配對正確。",
+        "B": "杜甫同為唐代大詩人，但不是這兩句的作者。",
+        "C": "王維有許多山水詩，不能因此把月夜詩句都歸給他。",
+        "D": "白居易亦有抒情作品，但這兩句屬於李白。"
+      },
+      "designNote": "以常見名句建立人物指紋，使用同為唐代詩人的干擾，不沿用原題對聯。",
+      "qualityCheck": {
+        "sameWeakSkill": true,
+        "notSurfaceRewrite": true,
+        "singleBestAnswer": true,
+        "distractorsPlausible": true
+      },
+      "status": "pilot"
+    },
+    {
+      "variantId": "zh-Q17-L2-v1",
+      "coreId": "chinese-wrong-2026-09-22-q17",
+      "sourceQuestionNo": 17,
+      "level": "L2",
+      "pool": "form",
+      "subtype": "literaryKnowledge",
+      "targetWeakSkill": "人物、作品、名句配對",
+      "question": "展覽要把作品與人物關懷放在同一張介紹卡上。下列哪組配對全部正確？",
+      "choices": {
+        "A": "李白—〈春望〉—國破之際的憂思",
+        "B": "王維—〈靜夜思〉—月夜思鄉",
+        "C": "杜甫—〈春望〉—戰亂中的家國憂思",
+        "D": "白居易—〈桃花源記〉—描寫理想村落"
+      },
+      "correctAnswer": "C",
+      "explanation": "杜甫〈春望〉把國家破敗、戰亂及思念家人相連；作者、作品和關懷方向三者一致。",
+      "choiceAnalysis": {
+        "A": "〈春望〉與國破憂思相符，但作者是杜甫，不是李白。",
+        "B": "月夜思鄉符合〈靜夜思〉，但作者是李白，不是王維。",
+        "C": "杜甫、〈春望〉與家國憂思均能相互驗證。",
+        "D": "理想村落符合〈桃花源記〉，但作者是陶淵明，不是白居易。"
+      },
+      "designNote": "讓干擾保留正確作品內容但配錯人物，須交叉核對作者與關懷，不能只辨作品主題。",
+      "qualityCheck": {
+        "sameWeakSkill": true,
+        "notSurfaceRewrite": true,
+        "singleBestAnswer": true,
+        "distractorsPlausible": true
+      },
+      "status": "pilot"
+    },
+    {
+      "variantId": "zh-Q17-L3-v1",
+      "coreId": "chinese-wrong-2026-09-22-q17",
+      "sourceQuestionNo": 17,
+      "level": "L3",
+      "pool": "form",
+      "subtype": "literaryKnowledge",
+      "targetWeakSkill": "人物、作品、名句配對",
+      "question": "某位東晉詩人離開官場後回歸田園，筆下常見耕作、菊花與南山，並表現不受世俗拘束的生活追求。最可能是哪一位？",
+      "choices": {
+        "A": "王維",
+        "B": "陶淵明",
+        "C": "杜甫",
+        "D": "蘇軾"
+      },
+      "correctAnswer": "B",
+      "explanation": "東晉、辭官歸田與田園意象相合，指向陶淵明；不能只因出現自然景物就選任何山水詩人。",
+      "choiceAnalysis": {
+        "A": "王維擅長山水田園詩，但屬唐代，不符合東晉的時代條件。",
+        "B": "時代、生活選擇和代表意象都與陶淵明相符。",
+        "C": "杜甫是唐代詩人，其重要指紋是戰亂與民生，不符合題示身分。",
+        "D": "蘇軾是宋代文人，時代不合，也不能把貶居生活直接等同東晉辭官歸田。"
+      },
+      "designNote": "不給作品名；以時代、人生選擇和意象三層交叉定位，避免看見山水就選王維。",
+      "qualityCheck": {
+        "sameWeakSkill": true,
+        "notSurfaceRewrite": true,
+        "singleBestAnswer": true,
+        "distractorsPlausible": true
+      },
+      "status": "pilot"
+    },
+    {
+      "variantId": "zh-Q17-Boss-v1",
+      "coreId": "chinese-wrong-2026-09-22-q17",
+      "sourceQuestionNo": 17,
+      "level": "Boss",
+      "pool": "form",
+      "subtype": "literaryKnowledge",
+      "targetWeakSkill": "人物、作品、名句配對",
+      "question": "一份文人介紹記載：他身處北宋，曾被貶到黃州；當地的江景成為他思考歷史與人生的材料，筆下既有氣勢開闊的詞，也有赤壁遊覽相關的賦。這份介紹最可能屬於誰？",
+      "choices": {
+        "A": "歐陽修",
+        "B": "王安石",
+        "C": "辛棄疾",
+        "D": "蘇軾"
+      },
+      "correctAnswer": "D",
+      "explanation": "北宋、黃州貶居與赤壁創作相互支持，指向蘇軾。豪放或貶謫單一線索不足，須把時代與創作經驗連起來。",
+      "choiceAnalysis": {
+        "A": "歐陽修是北宋文人，也有貶謫經歷，但題示黃州與赤壁創作並非他的指紋。",
+        "B": "王安石同為北宋重要文人，但不符合黃州貶居及赤壁賦的組合。",
+        "C": "辛棄疾的詞也有豪放氣勢，但屬南宋，不能只憑文風配對。",
+        "D": "北宋身分、黃州經歷及赤壁相關詞賦能共同定位蘇軾。"
+      },
+      "designNote": "以同時代文人和同類詞風設干擾；整合時代、生平、創作場景，不靠生僻作品。",
+      "qualityCheck": {
+        "sameWeakSkill": true,
+        "notSurfaceRewrite": true,
+        "singleBestAnswer": true,
+        "distractorsPlausible": true
+      },
+      "status": "pilot"
+    },
+    {
+      "variantId": "zh-Q18-L1-v1",
+      "coreId": "chinese-wrong-2026-09-22-q18",
+      "sourceQuestionNo": 18,
+      "level": "L1",
+      "pool": "form",
+      "subtype": "seasonalImagery",
+      "targetWeakSkill": "季節意象與節令線索辨識",
+      "question": "按照傳統四季的節令安排，日記寫「清明時節，家人一同掃墓」，主要指向哪個季節？",
+      "choices": {
+        "A": "春",
+        "B": "夏",
+        "C": "秋",
+        "D": "冬"
+      },
+      "correctAnswer": "A",
+      "explanation": "清明是春季的節令，能作為本題的直接時間線索。",
+      "choiceAnalysis": {
+        "A": "清明位於春季，配對正確。",
+        "B": "夏季不是清明所屬季節。",
+        "C": "不可把掃墓行為本身當成秋季線索，題目已給清明日期。",
+        "D": "是否穿厚衣不在材料中；節令清明屬春，不是冬。"
+      },
+      "designNote": "以明確節令暖身，不重播原題詩句，也不把任一植物當唯一標準。",
+      "qualityCheck": {
+        "sameWeakSkill": true,
+        "notSurfaceRewrite": true,
+        "singleBestAnswer": true,
+        "distractorsPlausible": true
+      },
+      "status": "pilot"
+    },
+    {
+      "variantId": "zh-Q18-L2-v1",
+      "coreId": "chinese-wrong-2026-09-22-q18",
+      "sourceQuestionNo": 18,
+      "level": "L2",
+      "pool": "form",
+      "subtype": "seasonalImagery",
+      "targetWeakSkill": "季節意象與節令線索辨識",
+      "question": "北半球溫帶某地的日記寫道：「清晨還需薄外套，連續幾週卻一天比一天暖；放學後留在戶外看書，天黑的時間也比上月晚。」整體最符合哪個季節的變化？",
+      "choices": {
+        "A": "冬：天氣寒冷，白晝持續縮短",
+        "B": "秋：天氣回暖，白晝持續拉長",
+        "C": "春：天氣回暖，白晝逐漸拉長",
+        "D": "夏：天氣轉涼，白晝逐漸縮短"
+      },
+      "correctAnswer": "C",
+      "explanation": "要合看回暖的趨勢與白晝漸長，而不是只看薄外套。兩項變化放在北半球溫帶的季節脈絡，最符合春季。",
+      "choiceAnalysis": {
+        "A": "材料給的是連續回暖及較晚天黑，不能套成寒冷且日短。",
+        "B": "秋季的通常趨勢是轉涼與日短，和題示組合不符。",
+        "C": "季節名稱與兩個觀察趨勢都能對應。",
+        "D": "選項所說轉涼與日短沒有對應原文。"
+      },
+      "designNote": "把短期衣著線索與連續觀察分開，需同時核對溫度走向和日照時間；單次穿外套或晚天黑都不足定季節。",
+      "qualityCheck": {
+        "sameWeakSkill": true,
+        "notSurfaceRewrite": true,
+        "singleBestAnswer": true,
+        "distractorsPlausible": true
+      },
+      "status": "pilot"
+    },
+    {
+      "variantId": "zh-Q18-L3-v1",
+      "coreId": "chinese-wrong-2026-09-22-q18",
+      "sourceQuestionNo": 18,
+      "level": "L3",
+      "pool": "form",
+      "subtype": "seasonalImagery",
+      "targetWeakSkill": "季節意象與節令線索辨識",
+      "question": "一篇古風日記寫：「上回端午與兄別，轉眼又過三個農曆月。今夜月圓，院裡雖仍有花，夜風已須添衣。」依時間推算再核對語境，這一夜最可能在哪個季節？",
+      "choices": {
+        "A": "春",
+        "B": "夏",
+        "C": "秋",
+        "D": "冬"
+      },
+      "correctAnswer": "C",
+      "explanation": "端午在農曆五月，約三個農曆月後是八月，屬秋季；月圓與漸涼的夜風也相容。不能單憑院裡有花判春。",
+      "choiceAnalysis": {
+        "A": "有花不等於春；需先用端午與三個月的時間關係推算。",
+        "B": "端午本身在夏，但日記寫的是又過三個月的現在。",
+        "C": "五月推至八月，再核對夜涼語境，最符合秋季。",
+        "D": "需添衣不必然是冬，時間推算也未到冬月。"
+      },
+      "designNote": "先還原節令月份，再分清回憶與眼前時間，最後以氣候核對；花只是背景，不作絕對判據。",
+      "qualityCheck": {
+        "sameWeakSkill": true,
+        "notSurfaceRewrite": true,
+        "singleBestAnswer": true,
+        "distractorsPlausible": true
+      },
+      "status": "pilot"
+    },
+    {
+      "variantId": "zh-Q18-Boss-v1",
+      "coreId": "chinese-wrong-2026-09-22-q18",
+      "sourceQuestionNo": 18,
+      "level": "Boss",
+      "pool": "form",
+      "subtype": "seasonalImagery",
+      "targetWeakSkill": "季節意象與節令線索辨識",
+      "question": "依傳統農曆分季，下列四則自編短句，括號中的季節指「敘述當下」，不是回憶或畫中景物。哪一組配對正確？",
+      "choices": {
+        "A": "臘月圍爐，他展開新畫，紙上荷花正盛。（夏）",
+        "B": "正月燈下，她重讀去歲重陽登高的詩，想起滿山黃葉。（秋）",
+        "C": "清明已過，雨絲打濕新展的柳葉，燕子掠過田畔。（春）",
+        "D": "中秋夜，他想起元宵賞燈時曾借出的厚衣。（冬）"
+      },
+      "correctAnswer": "C",
+      "explanation": "清明之後的新柳、燕子與春季時間相合。其他三項都把畫中或回憶中的意象誤當敘述當下。",
+      "choiceAnalysis": {
+        "A": "荷花在畫裡；當下是臘月，不能用畫中花季覆蓋冬季日期。",
+        "B": "黃葉與重陽屬過去的回憶；當下正月通常按傳統農曆分季屬春。",
+        "C": "節令與眼前物候均指向春，並未混入另一個時間層。",
+        "D": "元宵與厚衣是回想；敘述當下為中秋，屬秋季。"
+      },
+      "designNote": "四段各有意象與時間層。荷花、黃葉、厚衣具誘因，但須分辨當下、回憶與畫面，不能套花季表。",
+      "qualityCheck": {
+        "sameWeakSkill": true,
+        "notSurfaceRewrite": true,
+        "singleBestAnswer": true,
+        "distractorsPlausible": true
+      },
+      "status": "pilot"
+    },
+    {
+      "variantId": "zh-Q19-L1-v1",
+      "coreId": "chinese-wrong-2026-09-22-q19",
+      "sourceQuestionNo": 19,
+      "level": "L1",
+      "pool": "reading",
+      "subtype": "inference",
+      "targetWeakSkill": "文言關鍵詞與價值判斷",
+      "material": "友有過，子明不責其人，惟勸其改。",
+      "materialOrigin": "original-pilot-fiction",
+      "question": "友有過，子明不責其人，惟勸其改。\n\n句中的「惟」最接近下列哪個意思？",
+      "choices": {
+        "A": "已經",
+        "B": "只",
+        "C": "反而",
+        "D": "將要"
+      },
+      "correctAnswer": "B",
+      "explanation": "惟在這裡限定所做的事，意為只；子明只勸朋友改正，沒有責罵其人。",
+      "choiceAnalysis": {
+        "A": "已經表示時間上的完成，不能表達後句的限定。",
+        "B": "只符合不責其人、僅勸改正的語意。",
+        "C": "反而表轉折，不能取代惟的限定作用。",
+        "D": "將要表未來，原文沒有這種時間指向。"
+      },
+      "designNote": "自編短文言，先辨常見限制詞；為後續判斷態度與證據範圍建立基礎。",
+      "qualityCheck": {
+        "sameWeakSkill": true,
+        "notSurfaceRewrite": true,
+        "singleBestAnswer": true,
+        "distractorsPlausible": true
+      },
+      "status": "pilot"
+    },
+    {
+      "variantId": "zh-Q19-L2-v1",
+      "coreId": "chinese-wrong-2026-09-22-q19",
+      "sourceQuestionNo": 19,
+      "level": "L2",
+      "pool": "reading",
+      "subtype": "inference",
+      "targetWeakSkill": "文言關鍵詞與價值判斷",
+      "material": "生獻文於師。師曰：「辭尚未工，然所言有據，且能自改，吾甚取之。」或問是否可傳於眾，師曰：「宜再修，勿以一長掩其未善。」生乃受教，留稿待改。",
+      "materialOrigin": "original-pilot-fiction",
+      "question": "生獻文於師。師曰：「辭尚未工，然所言有據，且能自改，吾甚取之。」或問是否可傳於眾，師曰：「宜再修，勿以一長掩其未善。」生乃受教，留稿待改。\n\n老師對文章的態度，哪一項最符合原文？",
+      "choices": {
+        "A": "欣賞有據與能改，仍認為需要修訂",
+        "B": "既然有一長，便認為全文無須更動",
+        "C": "認定學生不會寫文章，拒絕再看",
+        "D": "只求辭句華美，不在意內容依據"
+      },
+      "correctAnswer": "A",
+      "explanation": "取之是肯定長處，宜再修與未善保留對不足的判斷；肯定不等於全面通過，也非全盤否定。",
+      "choiceAnalysis": {
+        "A": "同時包含所言有據、能自改的肯定與宜再修的保留。",
+        "B": "把局部肯定擴大成全文通過，忽略宜再修。",
+        "C": "原文肯定學生的長處，並無拒絕再看的意思。",
+        "D": "老師明言所言有據值得肯定，不是只重詞句。"
+      },
+      "designNote": "以兩次評語區分局部肯定與仍待改進，需引用具體態度證據。",
+      "qualityCheck": {
+        "sameWeakSkill": true,
+        "notSurfaceRewrite": true,
+        "singleBestAnswer": true,
+        "distractorsPlausible": true
+      },
+      "status": "pilot"
+    },
+    {
+      "variantId": "zh-Q19-L3-v1",
+      "coreId": "chinese-wrong-2026-09-22-q19",
+      "sourceQuestionNo": 19,
+      "level": "L3",
+      "pool": "reading",
+      "subtype": "inference",
+      "targetWeakSkill": "文言關鍵詞與價值判斷",
+      "material": "里人欲省燈油，議入夜即閉書舍。老者曰：「省費固善，然遠來者晝作，惟夜可讀。可減空室之燈，不可盡閉其門。」眾乃留一室，約以輪值。",
+      "materialOrigin": "original-pilot-fiction",
+      "question": "里人欲省燈油，議入夜即閉書舍。老者曰：「省費固善，然遠來者晝作，惟夜可讀。可減空室之燈，不可盡閉其門。」眾乃留一室，約以輪值。\n\n下列哪項最能推論老者的立場？",
+      "choices": {
+        "A": "認為凡節省費用的提議都不值得採用",
+        "B": "主張書舍每個房間整夜照明，不計成本",
+        "C": "希望遠來者停止白天工作，以便日間讀書",
+        "D": "承認節省有價值，但須保留夜讀者的需要"
+      },
+      "correctAnswer": "D",
+      "explanation": "省費固善表明接受目標；可減空室之燈與不可盡閉其門則區分手段，主張兼顧費用與使用需求。",
+      "choiceAnalysis": {
+        "A": "把反對全部關門擴大為反對所有節費方案。",
+        "B": "老者明說可以減空室照明，不是每間全開。",
+        "C": "指出晝作是說明限制，並未要求讀者改變工作。",
+        "D": "同時涵蓋肯定節費及保留夜讀空間兩個訊息。"
+      },
+      "designNote": "不直接翻譯短文，要求從目標與手段的區分推論價值取捨；干擾含過度否定、範圍擴大及無據延伸。",
+      "qualityCheck": {
+        "sameWeakSkill": true,
+        "notSurfaceRewrite": true,
+        "singleBestAnswer": true,
+        "distractorsPlausible": true
+      },
+      "status": "pilot"
+    },
+    {
+      "variantId": "zh-Q19-Boss-v1",
+      "coreId": "chinese-wrong-2026-09-22-q19",
+      "sourceQuestionNo": 19,
+      "level": "Boss",
+      "pool": "reading",
+      "subtype": "inference",
+      "targetWeakSkill": "文言關鍵詞與價值判斷",
+      "material": "鄉人議修橋，甲欲用新法，謂可省木；乙守舊法，謂歷年安穩。里長令各試於淺溝，載石以驗。新橋省木而雨後稍搖，舊橋穩固而費木較多。里長曰：「甲之意可取，然今未可使眾人冒險；乙法亦非永不可改。姑循舊法渡人，命匠續試新法，俟其堅固而後用。」眾問何日可成，里長曰：「須視試驗，不以約日迫之。」",
+      "materialOrigin": "original-pilot-fiction",
+      "question": "鄉人議修橋，甲欲用新法，謂可省木；乙守舊法，謂歷年安穩。里長令各試於淺溝，載石以驗。新橋省木而雨後稍搖，舊橋穩固而費木較多。里長曰：「甲之意可取，然今未可使眾人冒險；乙法亦非永不可改。姑循舊法渡人，命匠續試新法，俟其堅固而後用。」眾問何日可成，里長曰：「須視試驗，不以約日迫之。」\n\n下列哪項判斷沒有超出原文能支持的範圍？",
+      "choices": {
+        "A": "里長肯定新法省木，因此認為節省木材應優先於行人安全",
+        "B": "里長暫用較穩的舊法，仍讓新法接受檢驗後再決定是否採用",
+        "C": "里長暫採舊法，表示他認定傳統方法永遠優於新的方法",
+        "D": "里長願意繼續試新法，可知新橋在下一次測試必能通過"
+      },
+      "correctAnswer": "B",
+      "explanation": "里長區分眼前渡人與後續研發：先重安全，仍容許新法改良；俟其堅固、須視試驗都是條件，並非永久否定或保證成功。",
+      "choiceAnalysis": {
+        "A": "肯定省木是局部事實，但不可使眾冒險顯示不能把節省凌駕安全。",
+        "B": "暫用舊法、續試新法與依結果決定，三者都有直接依據。",
+        "C": "把姑循舊法的暫時決定推成永久價值排序，與亦非永不可改不合。",
+        "D": "續試只是給改良機會，不能推成下一次必過的成果保證。"
+      },
+      "designNote": "約百餘字自編材料；四個選項皆接觸真實評語，三個干擾各把局部肯定、暫時選擇或試驗機會擴大，測證據邊界。",
+      "qualityCheck": {
+        "sameWeakSkill": true,
+        "notSurfaceRewrite": true,
+        "singleBestAnswer": true,
+        "distractorsPlausible": true
+      },
+      "status": "pilot"
+    },
+    {
+      "variantId": "zh-Q26-L1-v1",
+      "coreId": "chinese-wrong-2026-09-22-q26",
+      "sourceQuestionNo": 26,
+      "level": "L1",
+      "pool": "reading",
+      "subtype": "rhetoricInterpretation",
+      "targetWeakSkill": "從字面進到語氣／反諷／寫作效果",
+      "material": "團隊把報告上的「逾期案件」改名為「持續服務案件」。小林看著原封未動的文件說：「換個標題，效率果然立刻提高了。」",
+      "materialOrigin": "original-pilot-fiction",
+      "question": "團隊把報告上的「逾期案件」改名為「持續服務案件」。小林看著原封未動的文件說：「換個標題，效率果然立刻提高了。」\n\n小林真正想表達什麼？",
+      "choices": {
+        "A": "改標題確實使案件處理速度提高",
+        "B": "持續服務表示所有案件都已完成",
+        "C": "只改名稱沒有改善案件延誤的實況",
+        "D": "報告不應記錄尚未完成的案件"
+      },
+      "correctAnswer": "C",
+      "explanation": "文件原封未動與口頭所說效率提高形成落差，小林是在批評換名不等於改善，而非稱讚改名成果。",
+      "choiceAnalysis": {
+        "A": "把表面肯定當真，忽略文件未動。",
+        "B": "新名稱不代表已完成，原文沒有結案證據。",
+        "C": "同時對照標題變動與工作未動，符合真正意圖。",
+        "D": "小林批評表面改善，並未主張隱藏未完成案件。"
+      },
+      "designNote": "以制度用語包裝作為簡短語境，不靠單一驚嘆詞，要求對照話語與現況。",
+      "qualityCheck": {
+        "sameWeakSkill": true,
+        "notSurfaceRewrite": true,
+        "singleBestAnswer": true,
+        "distractorsPlausible": true
+      },
+      "status": "pilot"
+    },
+    {
+      "variantId": "zh-Q26-L2-v1",
+      "coreId": "chinese-wrong-2026-09-22-q26",
+      "sourceQuestionNo": 26,
+      "level": "L2",
+      "pool": "reading",
+      "subtype": "rhetoricInterpretation",
+      "targetWeakSkill": "從字面進到語氣／反諷／寫作效果",
+      "material": "服務中心推出「一站辦妥」方案，先請民眾到甲窗口領表，再到乙窗口確認，最後回甲窗口補章。宣傳冊說流程已大幅簡化。我把走過的路線畫在冊子背面，想來這一站的範圍，比我原先理解的寬廣得多。",
+      "materialOrigin": "original-pilot-fiction",
+      "question": "服務中心推出「一站辦妥」方案，先請民眾到甲窗口領表，再到乙窗口確認，最後回甲窗口補章。宣傳冊說流程已大幅簡化。我把走過的路線畫在冊子背面，想來這一站的範圍，比我原先理解的寬廣得多。\n\n末句配合前文，主要產生什麼效果？",
+      "choices": {
+        "A": "強調大樓空間充足，讓辦事者活動自在",
+        "B": "用委婉調侃凸顯宣傳與實際往返的落差",
+        "C": "介紹各窗口位置，幫民眾規劃最短路線",
+        "D": "主張所有分工都應取消，改由一人辦理"
+      },
+      "correctAnswer": "B",
+      "explanation": "前文列出多次往返，末句把一站說得異常寬廣，是以含蓄語氣質疑簡化宣傳，並非單純介紹地點。",
+      "choiceAnalysis": {
+        "A": "寬廣是調侃流程，不是在稱讚建築空間。",
+        "B": "往返事實與宣傳口號互相對照，形成委婉的質疑。",
+        "C": "畫路線不是提供完整導覽，重點在流程仍反覆。",
+        "D": "文字沒有主張取消所有分工，這超出作者態度。"
+      },
+      "designNote": "材料同時有口號、三步流程與末句回應，須理解整段才能判語氣與效果。",
+      "qualityCheck": {
+        "sameWeakSkill": true,
+        "notSurfaceRewrite": true,
+        "singleBestAnswer": true,
+        "distractorsPlausible": true
+      },
+      "status": "pilot"
+    },
+    {
+      "variantId": "zh-Q26-L3-v1",
+      "coreId": "chinese-wrong-2026-09-22-q26",
+      "sourceQuestionNo": 26,
+      "level": "L3",
+      "pool": "reading",
+      "subtype": "rhetoricInterpretation",
+      "targetWeakSkill": "從字面進到語氣／反諷／寫作效果",
+      "material": "公園管理處宣布完成「寧靜提升計畫」。為免球聲，球場封了；為免孩童奔跑，遊戲區也鎖了。公告旁，一位祖父牽著孫子站了許久，最後轉身離開。我坐在空椅上，聽見自己的鞋底磨過地面，終於體會到這份寧靜的周到：連需要公園的人，也一併替我們排除了。",
+      "materialOrigin": "original-pilot-fiction",
+      "question": "公園管理處宣布完成「寧靜提升計畫」。為免球聲，球場封了；為免孩童奔跑，遊戲區也鎖了。公告旁，一位祖父牽著孫子站了許久，最後轉身離開。我坐在空椅上，聽見自己的鞋底磨過地面，終於體會到這份寧靜的周到：連需要公園的人，也一併替我們排除了。\n\n作者對這項計畫的態度，何者最符合全文？",
+      "choices": {
+        "A": "認同排除使用者是維護公園的必要代價",
+        "B": "欣賞管理周到，認為居民應另尋休閒去處",
+        "C": "反對所有降低噪音的措施，不接受任何管理",
+        "D": "質疑只追求安靜的做法，忽略公園服務人的目的"
+      },
+      "correctAnswer": "D",
+      "explanation": "周到表面是肯定，卻接上把需要公園的人排除；祖孫離去與空椅說明作者質疑手段傷害原本服務目的。",
+      "choiceAnalysis": {
+        "A": "把敘述表面的周到當成贊同，忽略人被排除的批評。",
+        "B": "居民離去在文中是代價，並非作者推薦的安排。",
+        "C": "批評的是此計畫的取捨，不能擴大成反對任何降噪或管理。",
+        "D": "由封閉設施、祖孫離去與末句一起推得，證據最完整。"
+      },
+      "designNote": "題幹不提示修辭名稱；需跨行動、人物反應與表面肯定辨真正立場，避免只見誇張就判斷。",
+      "qualityCheck": {
+        "sameWeakSkill": true,
+        "notSurfaceRewrite": true,
+        "singleBestAnswer": true,
+        "distractorsPlausible": true
+      },
+      "status": "pilot"
+    },
+    {
+      "variantId": "zh-Q26-Boss-v1",
+      "coreId": "chinese-wrong-2026-09-22-q26",
+      "sourceQuestionNo": 26,
+      "level": "Boss",
+      "pool": "reading",
+      "subtype": "rhetoricInterpretation",
+      "targetWeakSkill": "從字面進到語氣／反諷／寫作效果",
+      "material": "學校舉辦閱讀週，入口擺著各班借書排行榜。為方便統計，每人先掃三次代碼：一次證明到場，一次登記借書，一次領取完成徽章。孩子們捧著手機排隊，輪到櫃臺時，翻書的時間已所剩無幾。成果報告列出整齊的數字，卻沒有一欄詢問學生讀到了什麼。我想，這次活動確實教會了大家一件事：只要每個步驟都留下紀錄，閱讀就能在還沒真正開始之前，先宣告圓滿完成。",
+      "materialOrigin": "original-pilot-fiction",
+      "question": "學校舉辦閱讀週，入口擺著各班借書排行榜。為方便統計，每人先掃三次代碼：一次證明到場，一次登記借書，一次領取完成徽章。孩子們捧著手機排隊，輪到櫃臺時，翻書的時間已所剩無幾。成果報告列出整齊的數字，卻沒有一欄詢問學生讀到了什麼。我想，這次活動確實教會了大家一件事：只要每個步驟都留下紀錄，閱讀就能在還沒真正開始之前，先宣告圓滿完成。\n\n下列哪項最完整說明作者的真正態度及末段的寫作效果？",
+      "choices": {
+        "A": "列舉掃碼程序，是為了稱讚數位工具讓學生更深入理解書本",
+        "B": "描寫閱讀活動，主要在介紹借書排行榜與徽章的使用方法",
+        "C": "用紀錄齊全卻少有閱讀的落差，質疑把可統計的程序當成閱讀成果",
+        "D": "把閱讀寫成可以完成的事物，是為了主張所有閱讀都無法留下成果"
+      },
+      "correctAnswer": "C",
+      "explanation": "表面寫圓滿完成，實際用沒時間翻書、沒問讀到什麼來否定這種成果認定；程序完整與實質學習不足的落差構成批評效果。",
+      "choiceAnalysis": {
+        "A": "列舉手法確實存在，但將用途誤判為稱讚；材料反而指出閱讀時間被壓縮。",
+        "B": "活動介紹是表面內容，未回答真正態度與末段作用。",
+        "C": "同時交代評量主題、批評對象及語句落差造成的效果。",
+        "D": "把批評此活動的成果認定擴大成所有閱讀無成果，也未掌握末段對程序的質疑。"
+      },
+      "designNote": "在自編長材料中分開表面流程、活動主題、手法與立場；干擾有真實內容卻誤判作用，正答須連結前文證據與結尾。",
+      "qualityCheck": {
+        "sameWeakSkill": true,
+        "notSurfaceRewrite": true,
+        "singleBestAnswer": true,
+        "distractorsPlausible": true
+      },
+      "status": "pilot"
+    },
+    {
+      "variantId": "zh-Q28-L1-v1",
+      "coreId": "chinese-wrong-2026-09-22-q28",
+      "sourceQuestionNo": 28,
+      "level": "L1",
+      "pool": "logic",
+      "subtype": "semanticConsistency",
+      "targetWeakSkill": "句意前後矛盾與語意一致性判斷",
+      "question": "下列哪一句的前後語意有明顯衝突？",
+      "choices": {
+        "A": "他一向準時，今天也提早到場。",
+        "B": "她從未參加過這項比賽，今年已是第三次參賽。",
+        "C": "雖然下雨，活動仍在室內照常舉行。",
+        "D": "他先整理資料，再開始撰寫報告。"
+      },
+      "correctAnswer": "B",
+      "explanation": "從未參加表示零次，第三次參賽表示已有前次經驗，同一人的參賽紀錄前後衝突。",
+      "choiceAnalysis": {
+        "A": "準時與提早到場不衝突。",
+        "B": "從未與第三次對同一經驗作出不相容描述。",
+        "C": "下雨與室內照常舉辦可以並存。",
+        "D": "兩個步驟先後合理，無矛盾。"
+      },
+      "designNote": "L1 用明確語意衝突建立檢查習慣，四句無錯字提示。",
+      "qualityCheck": {
+        "sameWeakSkill": true,
+        "notSurfaceRewrite": true,
+        "singleBestAnswer": true,
+        "distractorsPlausible": true
+      },
+      "status": "pilot"
+    },
+    {
+      "variantId": "zh-Q28-L2-v1",
+      "coreId": "chinese-wrong-2026-09-22-q28",
+      "sourceQuestionNo": 28,
+      "level": "L2",
+      "pool": "logic",
+      "subtype": "semanticConsistency",
+      "targetWeakSkill": "句意前後矛盾與語意一致性判斷",
+      "question": "下列哪一句的詞語與整句語意不相符？",
+      "choices": {
+        "A": "為免遺漏，他逐項核對清單，最後才封箱。",
+        "B": "兩組討論後各退一步，終於取得共識。",
+        "C": "她為減少緊張，先在空教室反覆練習。",
+        "D": "主持人為節省時間，請來賓長話短說，把每個細節都鉅細靡遺地交代。"
+      },
+      "correctAnswer": "D",
+      "explanation": "長話短說要求精簡重點；鉅細靡遺要求大小細節無一遺漏，與此處節時、精簡的指示相衝。",
+      "choiceAnalysis": {
+        "A": "核對清單有助避免遺漏，目的與行為相符。",
+        "B": "各退一步可促成共識，語意一致。",
+        "C": "練習與降低緊張之間沒有句意矛盾。",
+        "D": "需理解長話短說與鉅細靡遺的範圍，才能看出指示彼此抵觸。"
+      },
+      "designNote": "將衝突藏在詞語的實際語義，而非直接正反詞；須連接目的與執行方式。",
+      "qualityCheck": {
+        "sameWeakSkill": true,
+        "notSurfaceRewrite": true,
+        "singleBestAnswer": true,
+        "distractorsPlausible": true
+      },
+      "status": "pilot"
+    },
+    {
+      "variantId": "zh-Q28-L3-v1",
+      "coreId": "chinese-wrong-2026-09-22-q28",
+      "sourceQuestionNo": 28,
+      "level": "L3",
+      "pool": "logic",
+      "subtype": "semanticConsistency",
+      "targetWeakSkill": "句意前後矛盾與語意一致性判斷",
+      "question": "活動規定：「只有完成報名的人，才可以領取入場證。」下列哪項推論不能只根據這條規定成立？",
+      "choices": {
+        "A": "阿文尚未報名，所以目前不能領入場證。",
+        "B": "小梅依規定取得入場證，可知她已完成報名。",
+        "C": "小青已完成報名，所以她一定已經領到入場證。",
+        "D": "阿宏若要依規定領證，就必須先完成報名。"
+      },
+      "correctAnswer": "C",
+      "explanation": "報名是領證的必要條件，但完成報名不代表領取動作已發生。小青可能尚未前往領證。",
+      "choiceAnalysis": {
+        "A": "未滿足必要條件，依規定不能領證，推論成立。",
+        "B": "依規定能取得證件者必先完成報名，方向正確。",
+        "C": "把符合資格推成行動已完成，超出條件句能支持的內容。",
+        "D": "把必要條件改述為先報名，符合規定。"
+      },
+      "designNote": "用條件與實際發生的差異測隱晦邏輯；不需要補充外部活動規則。",
+      "qualityCheck": {
+        "sameWeakSkill": true,
+        "notSurfaceRewrite": true,
+        "singleBestAnswer": true,
+        "distractorsPlausible": true
+      },
+      "status": "pilot"
+    },
+    {
+      "variantId": "zh-Q28-Boss-v1",
+      "coreId": "chinese-wrong-2026-09-22-q28",
+      "sourceQuestionNo": 28,
+      "level": "Boss",
+      "pool": "logic",
+      "subtype": "semanticConsistency",
+      "targetWeakSkill": "句意前後矛盾與語意一致性判斷",
+      "question": "下列文句都沒有錯別字，哪一句的結論與前文依據最相稱、語意最嚴謹？",
+      "choices": {
+        "A": "學校增設自習室後，期末平均成績提高，可見這次進步完全是自習室造成的。",
+        "B": "持有借書證才能借書；小林持有借書證，因此他今天一定已經借了書。",
+        "C": "公車加開一個班次，乘客多了一種搭乘選擇；平均等候時間是否縮短，仍須實際觀察。",
+        "D": "問卷訪問二十位騎車通勤者，多數希望增加停車格，因此全市居民最需要的設施就是停車格。"
+      },
+      "correctAnswer": "C",
+      "explanation": "C 只確認班次增加帶來選擇，將尚未測量的等候效果留待觀察。其他選項各從相關推唯一原因、從資格推已發生、從局部樣本推全體需求。",
+      "choiceAnalysis": {
+        "A": "時間上先後或同時變動，不能排除其他原因；完全歸因於自習室超出證據。",
+        "B": "借書證是必要資格，不保證今天已執行借書行動。",
+        "C": "區分已知變化與未驗證效果，結論沒有超出依據。",
+        "D": "樣本僅涵蓋少數騎車通勤者，不能代表全市居民，更不能排定全體最需要的設施。"
+      },
+      "designNote": "四句表面流暢；三個干擾分別是因果過度、條件誤推與範圍擴大。正答保留證據界線，Boss 不用明顯正反詞或錯字提示。",
+      "qualityCheck": {
+        "sameWeakSkill": true,
+        "notSurfaceRewrite": true,
+        "singleBestAnswer": true,
+        "distractorsPlausible": true
+      },
+      "status": "pilot"
+    },
+    {
+      "variantId": "zh-Q32-L1-v1",
+      "coreId": "chinese-wrong-2026-09-22-q32",
+      "sourceQuestionNo": 32,
+      "level": "L1",
+      "pool": "form",
+      "subtype": "genre",
+      "targetWeakSkill": "詩歌體裁與形式特徵判斷",
+      "material": "溪邊聞鳥語，山外見雲飛。\n小徑通村舍，斜陽照客衣。",
+      "materialOrigin": "original-pilot-fiction",
+      "question": "溪邊聞鳥語，山外見雲飛。\n小徑通村舍，斜陽照客衣。\n\n這首自編短詩，就每句字數而言，屬於哪一種形式？",
+      "choices": {
+        "A": "四句，每句五字",
+        "B": "四句，每句七字",
+        "C": "八句，每句五字",
+        "D": "八句，每句七字"
+      },
+      "correctAnswer": "A",
+      "explanation": "逗號或句號前各為一句，共四句；溪邊聞鳥語等每句皆五字。排成兩行不等於只有兩句。",
+      "choiceAnalysis": {
+        "A": "句數與每句字數都正確。",
+        "B": "把五字誤數為七字。",
+        "C": "全詩四句，不是八句。",
+        "D": "句數及每句字數都不符合。"
+      },
+      "designNote": "只辨基本句數與字數，未因五言四句便自行宣稱符合近體格律。",
+      "qualityCheck": {
+        "sameWeakSkill": true,
+        "notSurfaceRewrite": true,
+        "singleBestAnswer": true,
+        "distractorsPlausible": true
+      },
+      "status": "pilot"
+    },
+    {
+      "variantId": "zh-Q32-L2-v1",
+      "coreId": "chinese-wrong-2026-09-22-q32",
+      "sourceQuestionNo": 32,
+      "level": "L2",
+      "pool": "form",
+      "subtype": "genre",
+      "targetWeakSkill": "詩歌體裁與形式特徵判斷",
+      "material": "白日依山盡，黃河入海流。\n欲窮千里目，更上一層樓。",
+      "materialOrigin": "public-domain-poem",
+      "materialAuthor": "王之渙",
+      "materialTitle": "登鸛雀樓",
+      "referenceUrls": [
+        "https://zh.wikisource.org/wiki/登鸛雀樓_(王之渙)"
+      ],
+      "question": "白日依山盡，黃河入海流。\n欲窮千里目，更上一層樓。\n\n王之渙〈登鸛雀樓〉如上。哪一項分別就「內容」與「形式」作出正確說明？",
+      "choices": {
+        "A": "內容寫登樓望遠；形式因為寫景，所以必為七言。",
+        "B": "內容包含眼前景物與登高望遠的想法；形式為四句，每句五字。",
+        "C": "內容只有山河描寫，沒有行動或想法；形式為四句，每句五字。",
+        "D": "內容可引出更進一步的啟發；形式有八句，屬五言律詩。"
+      },
+      "correctAnswer": "B",
+      "explanation": "前兩句寫所見，後兩句提出想看得更遠而登高的想法；形式另以四句、每句五字核對，不能由主題推字數。",
+      "choiceAnalysis": {
+        "A": "寫景是內容，與五言七言沒有必然關係；本詩每句五字。",
+        "B": "內容與形式各有文本依據，沒有互相替代。",
+        "C": "句數字數雖對，但欲窮與更上含願望與行動，不是只有景物。",
+        "D": "內容啟發可以成立，但全詩四句，不是八句律詩。"
+      },
+      "designNote": "正答須同時通過內容與形式兩層核對；干擾保留其中一層的正確資訊。",
+      "qualityCheck": {
+        "sameWeakSkill": true,
+        "notSurfaceRewrite": true,
+        "singleBestAnswer": true,
+        "distractorsPlausible": true
+      },
+      "status": "pilot"
+    },
+    {
+      "variantId": "zh-Q32-L3-v1",
+      "coreId": "chinese-wrong-2026-09-22-q32",
+      "sourceQuestionNo": 32,
+      "level": "L3",
+      "pool": "form",
+      "subtype": "genre",
+      "targetWeakSkill": "詩歌體裁與形式特徵判斷",
+      "material": "雨歇青山外，雲開古渡頭。\n孤舟隨水遠，客夢逐波流。",
+      "materialOrigin": "original-pilot-fiction",
+      "question": "雨歇青山外，雲開古渡頭。\n孤舟隨水遠，客夢逐波流。\n\n關於這首自編短詩，下列哪一項說明有誤？本題只依提供的文字判斷。",
+      "choices": {
+        "A": "前兩句以雨歇、雲開等景物組成畫面。",
+        "B": "客夢逐波流把客人的思緒和水流聯繫起來。",
+        "C": "全詩四句，每句五字，字數整齊。",
+        "D": "全詩是八句的五言律詩，因為景物描寫中帶有情思。"
+      },
+      "correctAnswer": "D",
+      "explanation": "全詩明明四句，不能說成八句律詩；景中有情是內容或寫法，並不能決定律詩的形式。",
+      "choiceAnalysis": {
+        "A": "前兩句確有雨、山、雲與渡口景象，說明成立。",
+        "B": "客夢與逐波流連在一起，可理解為情思依附流水，說明有據。",
+        "C": "逐句數字可確認四句五字，說明正確。",
+        "D": "把內容有情思當作體裁依據，又錯判句數，是形式說明的錯誤。"
+      },
+      "designNote": "以自編短詩區分寫法與句數；只考可由材料核對的形式，不要求把未驗格律的作品命名為近體。",
+      "qualityCheck": {
+        "sameWeakSkill": true,
+        "notSurfaceRewrite": true,
+        "singleBestAnswer": true,
+        "distractorsPlausible": true
+      },
+      "status": "rejected",
+      "rejectionReason": "difficulty-too-close-to-L1"
+    },
+    {
+      "variantId": "zh-Q32-L3-v2",
+      "coreId": "chinese-wrong-2026-09-22-q32",
+      "sourceQuestionNo": 32,
+      "level": "L3",
+      "pool": "form",
+      "subtype": "genre",
+      "targetWeakSkill": "詩歌體裁與形式特徵判斷",
+      "material": "春眠不覺曉，處處聞啼鳥。\n夜來風雨聲，花落知多少。",
+      "materialOrigin": "public-domain-poem",
+      "question": "春眠不覺曉，處處聞啼鳥。\n夜來風雨聲，花落知多少。\n\n閱讀孟浩然〈春曉〉，下列對內容與形式的說明，哪一項兩部分都正確？",
+      "choices": {
+        "A": "詩人由聞鳥轉到關心落花，自然流露感受；因此可判為不受近體格律約束的古體詩。",
+        "B": "全詩為五言絕句；末句記錄詩人走到庭院後，清點落花所得的結果。",
+        "C": "詩人回想夜間風雨，擔心花朵凋落；既是絕句，前後兩聯也都必須對仗。",
+        "D": "詩人從晨起聞鳥聯想到昨夜風雨，流露惜花之情；全詩為五言絕句，體裁判斷不能只靠惜花的內容。"
+      },
+      "correctAnswer": "D",
+      "explanation": "詩中先寫晨起聞鳥，再回想昨夜風雨，末句以疑問流露對落花的關心，沒有實際清點的記錄。〈春曉〉為五言絕句；情感自然或描寫惜花不能用來判定古體，絕句也不要求兩聯一律對仗。",
+      "choiceAnalysis": {
+        "A": "內容描述成立，但自然流露感受不是古體詩的形式依據；不能因前半正確就接受後半的體裁結論。",
+        "B": "五言絕句的形式判斷正確，但花落知多少是在疑問落花的情況，不能解讀為已到庭院清點完畢。",
+        "C": "回想風雨、關心落花符合詩意，但絕句沒有前後兩聯都必須對仗的要求，形式結論錯誤。",
+        "D": "晨起、回想與惜花均有文本支持，五言絕句的體裁也正確，並把內容解讀與形式判斷分開核對。"
+      },
+      "designNote": "使用可核對的孟浩然〈春曉〉，不以錯報句數作陷阱。A與C是內容成立但形式推論錯；B是形式正確但內容超出文本；D兩層皆成立。學生須核對疑問語氣、情感與基本體裁知識，不能只數句數。",
+      "qualityCheck": {
+        "sameWeakSkill": true,
+        "notSurfaceRewrite": true,
+        "singleBestAnswer": true,
+        "distractorsPlausible": true
+      },
+      "status": "pilot",
+      "materialAuthor": "孟浩然",
+      "materialTitle": "春曉",
+      "referenceUrls": [
+        "https://zh.wikisource.org/zh-hant/春曉_(孟浩然)"
+      ]
+    },
+    {
+      "variantId": "zh-Q32-Boss-v1",
+      "coreId": "chinese-wrong-2026-09-22-q32",
+      "sourceQuestionNo": 32,
+      "level": "Boss",
+      "pool": "form",
+      "subtype": "genre",
+      "targetWeakSkill": "詩歌體裁與形式特徵判斷",
+      "material": "國破山河在，城春草木深。\n感時花濺淚，恨別鳥驚心。\n烽火連三月，家書抵萬金。\n白頭搔更短，渾欲不勝簪。",
+      "materialOrigin": "public-domain-poem",
+      "materialAuthor": "杜甫",
+      "materialTitle": "春望",
+      "referenceUrls": [
+        "https://zh.wikisource.org/zh-hant/春望"
+      ],
+      "question": "國破山河在，城春草木深。\n感時花濺淚，恨別鳥驚心。\n烽火連三月，家書抵萬金。\n白頭搔更短，渾欲不勝簪。\n\n杜甫〈春望〉是一首五言律詩。形式提示：律詩通常八句，兩句一聯，中間兩聯須對仗，押韻有規則，但不是每句都押同韻。綜合詩文與提示，下列哪項說明全部正確？",
+      "choices": {
+        "A": "花鳥牽動憂思，家書寄託思親；全詩每句五字，中間兩聯的對應也符合所示體裁要求。",
+        "B": "全詩以戰亂與思親交織情感；因為前後情意連貫，可不受律詩八句與對仗規則限制。",
+        "C": "詩中有景物也有家國憂思；八句分成四聯，所以四聯的作品應稱為四句絕句。",
+        "D": "花鳥與家書都能引出情感；既屬律詩，八句句末就必須全部押同一個韻。"
+      },
+      "correctAnswer": "A",
+      "explanation": "內容可由感時、恨別、烽火與家書支持；形式逐句五字，共八句，中間兩聯在句法上形成對應。其他選項的內容部分雖合理，形式結論卻有誤。",
+      "choiceAnalysis": {
+        "A": "內容及形式各有詩文和提示支持，兩層都正確。",
+        "B": "情意連貫不能取消題示律詩形式；把內容成立當成不需形式限制。",
+        "C": "兩句才是一聯，四聯為八句，不能和四句絕句混同。",
+        "D": "題示已說不是每句都押同韻；律詩身份不能推出全句同韻。"
+      },
+      "designNote": "完整提供詩文、體裁與必要規則；每個選項都混合內容和形式，學生需分層核對，不能因情感解釋正確就全盤接受。",
+      "qualityCheck": {
+        "sameWeakSkill": true,
+        "notSurfaceRewrite": true,
+        "singleBestAnswer": true,
+        "distractorsPlausible": true
+      },
+      "status": "rejected",
+      "rejectionReason": "rule-scaffolding-too-strong"
+    },
+    {
+      "variantId": "zh-Q32-Boss-v2",
+      "coreId": "chinese-wrong-2026-09-22-q32",
+      "sourceQuestionNo": 32,
+      "level": "Boss",
+      "pool": "form",
+      "subtype": "genre",
+      "targetWeakSkill": "詩歌體裁與形式特徵判斷",
+      "material": "國破山河在，城春草木深。\n感時花濺淚，恨別鳥驚心。\n烽火連三月，家書抵萬金。\n白頭搔更短，渾欲不勝簪。",
+      "materialOrigin": "public-domain-poem",
+      "materialAuthor": "杜甫",
+      "materialTitle": "春望",
+      "referenceUrls": [
+        "https://zh.wikisource.org/zh-hant/春望"
+      ],
+      "question": "國破山河在，城春草木深。\n感時花濺淚，恨別鳥驚心。\n烽火連三月，家書抵萬金。\n白頭搔更短，渾欲不勝簪。\n\n閱讀杜甫〈春望〉，下列對詩意、寫法與形式的綜合說明，哪一項全部正確？",
+      "choices": {
+        "A": "花鳥牽動憂思，家書寄託思親；全詩為五言律詩，中間兩聯的詞語與句法相互對應。",
+        "B": "家書抵萬金以誇飾表現家人消息的珍貴；全詩為五言律詩，因此首尾兩聯也必須像中間兩聯一樣對仗。",
+        "C": "感時與恨別分別連結時局之憂和離別之苦；花濺淚與鳥驚心都表現悲情，因此不能構成對仗。",
+        "D": "全詩以五字句組成八句律詩；家書抵萬金承接烽火連三月，主要說明戰亂造成寄信費用大幅上漲。"
+      },
+      "correctAnswer": "A",
+      "explanation": "感時、恨別與家書把家國憂思和思親相連。全詩為五言律詩，中間兩聯可核對詞語、句法的對應。律詩首尾兩聯可以對仗，但不一律強制；對仗也不要求意思相反。家書抵萬金強調消息珍貴，不是在報告寄信價格。",
+      "choiceAnalysis": {
+        "A": "花鳥與家書的情感解讀有據，五言律詩及中間兩聯的形式判斷也成立，內容、體裁與結構三層均正確。",
+        "B": "誇飾與思親的解讀正確，但把中間兩聯的對仗要求擴張到首尾兩聯；首尾可以對仗，並非必須。",
+        "C": "時局之憂與離別之苦的解讀正確，但對仗看詞語和句法的相應，不要求情感相反；同樣悲傷不能否定對仗。",
+        "D": "五字八句及律詩體裁的判斷正確，但把萬金當成寄信費用。上下句連結的是戰亂中家人消息難得，不是運費漲價的說明。"
+      },
+      "designNote": "保留完整詩文，題幹不提供律詩句數、對仗或押韻規則。四項都混合至少兩個層次；B為寫法正確但形式條件過度推廣，C為情意正確但誤認對仗須語意相反，D為形式正確但把誇飾當實價。須逐層核對，不能因半句成立就接受整項。",
+      "qualityCheck": {
+        "sameWeakSkill": true,
+        "notSurfaceRewrite": true,
+        "singleBestAnswer": true,
+        "distractorsPlausible": true
+      },
+      "status": "pilot"
+    }
+  ],
+  "referenceNotes": [
+    {
+      "scope": "Q10：倆／仨的合音與數量意義",
+      "urls": [
+        "https://chinese.nchu.edu.tw/files/users/189/44-3.pdf",
+        "https://dict.mini.moe.edu.tw/SearchIndex/word_detail?dictSearchField=%E5%80%86&wordID=D0003069",
+        "https://chardb.iis.sinica.edu.tw/char/6874"
+      ]
+    },
+    {
+      "scope": "Q10：甭的還原與用義",
+      "urls": [
+        "https://dict.revised.moe.edu.tw/dictView.jsp?ID=302&la=1&powerMode=0"
+      ]
+    },
+    {
+      "scope": "Q17：蘇軾黃州與赤壁創作",
+      "urls": [
+        "https://digitalarchive.npm.gov.tw/Collection/Detail/882?dep=P"
+      ]
+    },
+    {
+      "scope": "Q17：陶淵明歸田與田園詩",
+      "urls": [
+        "https://market.cloud.edu.tw/resources/web/1594837"
+      ]
+    },
+    {
+      "scope": "Q17／Q32：杜甫春望原文及體裁",
+      "urls": [
+        "https://zh.wikisource.org/zh-hant/春望"
+      ]
+    },
+    {
+      "scope": "Q32：王之渙登鸛雀樓原文",
+      "urls": [
+        "https://zh.wikisource.org/wiki/登鸛雀樓_(王之渙)"
+      ]
+    }
+  ]
+}
