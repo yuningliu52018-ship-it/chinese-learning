@@ -1,3 +1,4 @@
+import {loadSeen,excludeSeen} from './daily-mission-seen.js';
 import {unseenQuestions,uniqueCores} from './daily-mission-exposure.js';
 // Compatibility boundary for the existing renderer. The scheduler and bank stay read-only.
 const defaultLoader = async () => (await import('./chinese-wrong-core-scheduler.v1.js')).loadChineseWrongCoreScheduler();
@@ -29,28 +30,29 @@ export function wrongCoreQuota(candidates,state,date){
 
 export async function prepareChineseDailyMission({legacyMission, savedSession=null, restoreLegacy,
   storage, date=new Date(), loader=defaultLoader, timeoutMs=5000,exposure={},extendedMission=[],extendedBank=null}) {
-  const fallback=uniqueCores(unseenQuestions([...extendedMission,...(extendedBank===null?legacy(legacyMission).filter(q=>!q.isFixture):[])],exposure));
+  const seen=loadSeen(storage);
+  const fallback=uniqueCores(unseenQuestions(excludeSeen([...extendedMission,...(extendedBank===null?legacy(legacyMission).filter(q=>!q.isFixture):[])],seen),exposure));
   let timer;
   let scheduler;
   let loadError=null;
   const savedRefs=savedSession?.questionRefs;
-  const oldLegacy = !savedRefs && savedSession?.questionIds?.length===5
+  const oldLegacy = !savedRefs && savedSession?.questionIds?.length>0
     ? savedSession.questionIds.map(id=>({sourceMode:'legacy',id})) : null;
   const refs = savedRefs ?? oldLegacy;
   // Continue valid saved legacy missions without depending on any new module/network request.
-  if(refs?.length===5 && refs.every(r=>r.sourceMode==='legacy'||r.sourceMode==='extended')) {
+  if(refs?.length>0 && refs.every(r=>r.sourceMode==='legacy'||r.sourceMode==='extended')) {
     try {
       const restored=refs.map(r=>{
         if(r.sourceMode==='extended')return extendedBank.resolve(r.id);
         const q=restoreLegacy([r.id])[0];if(!q)throw Error('Saved legacy question unavailable');
         return {...q,sourceMode:'legacy',missionRole:r.missionRole||q.missionRole,role:r.role||q.role};
       });
-      if(restored.length===5)return {mission:restored,missionMode:'legacy',scheduler:null,resumed:true};
+      if(restored.length===refs.length)return {mission:restored,missionMode:'legacy',scheduler:null,resumed:true};
     } catch { /* Retry restoration below; never replace an unavailable saved task. */ }
   }
   try {
     scheduler=await Promise.race([loader(),new Promise((_,reject)=>{timer=setTimeout(()=>reject(Error('WrongCore load timeout')),timeoutMs);})]);
-    if(refs?.length===5){
+    if(refs?.length>0){
       const restored=refs.map(r=>{
         if(r.sourceMode==='extended') return extendedBank.resolve(r.id);
         if(r.sourceMode==='wrongCore') return adaptWrongCoreQuestion(scheduler.resolveApprovedVariant(r));
@@ -67,7 +69,7 @@ export async function prepareChineseDailyMission({legacyMission, savedSession=nu
     const state=scheduler.loadChineseWrongCoreState(storage);
     const scheduled=scheduler.buildChineseWrongCoreMission({date,learningState:state,missionSize:12});
     if(!scheduled.questions.length)return {mission:fallback.slice(0,5),missionMode:'legacy',scheduler,resumed:false};
-    const candidates=uniqueCores(unseenQuestions(scheduled.questions.map(r=>adaptWrongCoreQuestion(scheduler.resolveApprovedVariant(r))),exposure));
+    const candidates=uniqueCores(unseenQuestions(excludeSeen(scheduled.questions.map(r=>adaptWrongCoreQuestion(scheduler.resolveApprovedVariant(r))),seen),exposure));
     // On load failure use available WrongCore before emergency Legacy. Healthy pools use the normal quota.
     const quota=extendedBank===null?5:wrongCoreQuota(candidates,state,date);
     const wrong=candidates.slice(0,quota);
@@ -75,7 +77,7 @@ export async function prepareChineseDailyMission({legacyMission, savedSession=nu
     return {mission:[...wrong,...unseenQuestions(fallback,{todaySeenCoreIds:wrong.map(q=>q.coreId)}).slice(0,5-wrong.length)],missionMode:'wrongCore',scheduler,resumed:false};
   } catch(error) {
     loadError=error;
-    if(refs?.length===5)return {mission:[],missionMode:savedSession.missionMode,scheduler:null,resumed:true,unavailable:true,fallbackReason:String(error.message||error)};
+    if(refs?.length>0)return {mission:[],missionMode:savedSession.missionMode,scheduler:null,resumed:true,unavailable:true,fallbackReason:String(error.message||error)};
     return {mission:fallback.slice(0,5),missionMode:'legacy',scheduler:null,resumed:false,fallbackReason:String(loadError.message||loadError)};
   } finally {clearTimeout(timer);}
 }
