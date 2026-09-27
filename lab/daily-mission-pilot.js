@@ -43,7 +43,7 @@ export async function loadPilotBank(fetcher=fetch,{baseUrl=privateBankBase(),see
  try{
   return await Promise.race([(async()=>{
    const manifest=await request('/manifest');
-   if(manifest.totalQuestions!==30||!Array.isArray(manifest.questionIds)||new Set(manifest.questionIds).size!==30||manifest.questionIds.some(id=>!validId(id)))throw Error('Private manifest invalid');
+   if(manifest?.version!=='v1'||manifest.bankId!=='chinese-private-pilot'||!Number.isSafeInteger(manifest.totalQuestions)||manifest.totalQuestions<1||manifest.totalQuestions>10000||!Array.isArray(manifest.questionIds)||manifest.questionIds.length!==manifest.totalQuestions||new Set(manifest.questionIds).size!==manifest.totalQuestions||manifest.questionIds.some(id=>typeof id!=='string'||!validId(id)))throw Error('Private manifest invalid');
    if(ids.some(id=>!manifest.questionIds.includes(id)))throw Error('Unknown saved private ID');
    const drawn=restoreOnly?{questions:[]}:await request('/questions/draw',{count:30,seenQuestionIds});
    const restored=ids.length?(await request('/questions/resolve',{questionIds:ids})).questions:[];

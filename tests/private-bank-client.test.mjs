@@ -9,7 +9,7 @@ const lab=new URL('../lab/',import.meta.url);
 // Synthetic transport fixtures only; no textbook questions, answers or explanations.
 const fixture=n=>({id:`CHI-PUNC-${String(n).padStart(3,'0')}`,question:'Transport fixture '+n,choices:{A:'one',B:'two',C:'three',D:'four'},answer:'B',explanation:'Synthetic fixture explanation',source:'test fixture',sourceQuestionNumber:n,tags:['test-only'],image:null});
 const raw=Array.from({length:30},(_,i)=>fixture(i+1));
-const manifest={totalQuestions:30,questionIds:raw.map(q=>q.id)};
+const manifest={version:'v1',bankId:'chinese-private-pilot',totalQuestions:30,questionIds:raw.map(q=>q.id)};
 const response=data=>({ok:true,json:async()=>data});
 const memory=()=>{const m=new Map();return {get length(){return m.size},key:i=>[...m.keys()][i],getItem:k=>m.get(k)||null,setItem:(k,v)=>m.set(k,v)}};
 const online=(calls=[])=>async(url,options)=>{calls.push({url,body:options.body?JSON.parse(options.body):null});if(url.endsWith('/manifest'))return response(manifest);const b=JSON.parse(options.body);return response({questions:url.endsWith('/questions/resolve')?raw.filter(q=>b.questionIds.includes(q.id)):raw.filter(q=>!b.seenQuestionIds.includes(q.id))});};
@@ -31,3 +31,31 @@ for(const remaining of [0,1,4,5])test(`formal remaining ${remaining} never fills
 test('saved mission resumes unchanged even when its question is Seen',async()=>{const storage=memory(),bank=createPilotBank({questions:raw.slice(0,2)},PRIVATE_BANK_BASE);markSeen(storage,raw[0]);const result=await prepareChineseDailyMission({legacyMission:[],extendedBank:bank,storage,savedSession:{questionRefs:bank.questions.map(q=>({sourceMode:'extended',id:q.id}))},restoreLegacy:()=>[]});assert.ok(result.resumed);assert.deepEqual(result.mission.map(q=>q.id),raw.slice(0,2).map(q=>q.id))});
 test('V2.1 public practice can use permanent Seen questions',()=>{const storage=memory(),q={id:'ext-fixture',knowledgePointId:'test',sourceMode:'extended'};markSeen(storage,q);assert.equal(buildExtendedPractice({bank:{questions:[q]},state:{},legacyQuestions:[],date:'2026-09-27'}).length,1)});
 test('public repository does not contain Pilot data/crops',async()=>{for(const p of ['./data/chinese-pilot/chinese-import-pilot.v1.json','./question-assets/CHI-CALLI-002.png','./question-assets/CHI-CALLI-004.png','./question-assets/CHI-LIUSHU-003.png'])await assert.rejects(readFile(new URL(p,lab)),{code:'ENOENT'})});
+
+for(const total of [30,130,520])test(`variable manifest ${total} accepts synthetic IDs and retains bounded draw`,async()=>{
+ const questions=Array.from({length:total},(_,i)=>fixture(i+1)),calls=[];
+ const result=await loadPilotBank(async(url,options)=>{calls.push(url);if(url.endsWith('/manifest'))return response({...manifest,totalQuestions:total,questionIds:questions.map(q=>q.id)});assert.equal(JSON.parse(options.body).count,30);return response({questions:questions.slice(-30)});});
+ assert.equal(result.privateAvailable,true);assert.equal(result.questions.length,30);assert.equal(result.questions.at(-1).id,questions.at(-1).id);assert.equal(calls.length,2);
+});
+const invalidManifests={
+ 'count mismatch':{...manifest,totalQuestions:31},
+ 'duplicate IDs':{...manifest,questionIds:[raw[0].id,...manifest.questionIds.slice(0,29)]},
+ 'malformed ID':{...manifest,questionIds:['INVALID',...manifest.questionIds.slice(1)]},
+ 'non-string ID':{...manifest,questionIds:[null,...manifest.questionIds.slice(1)]},
+ 'wrong version':{...manifest,version:'v2'},
+ 'wrong bankId':{...manifest,bankId:'other-bank'},
+ 'zero count':{...manifest,totalQuestions:0},
+ 'negative count':{...manifest,totalQuestions:-1},
+ 'fractional count':{...manifest,totalQuestions:30.5},
+ 'string count':{...manifest,totalQuestions:'30'},
+ 'excessive count':{...manifest,totalQuestions:10001},
+ 'null manifest':null
+};
+for(const [name,value] of Object.entries(invalidManifests))test(`manifest rejects ${name} before draw`,async()=>{
+ let calls=0;const result=await loadPilotBank(async url=>{calls++;assert.ok(url.endsWith('/manifest'));return response(value)});
+ assert.equal(result.privateAvailable,false);assert.deepEqual(result.questions,[]);assert.equal(calls,1);
+});
+for(const restoreOnly of [false,true])test(`${restoreOnly?'resolve':'draw'} retains per-question schema validation`,async()=>{
+ const result=await loadPilotBank(async url=>response(url.endsWith('/manifest')?manifest:{questions:[{...raw[0],answer:'X'}]}),restoreOnly?{restoreOnly:true,restoreIds:[raw[0].id]}:{});
+ assert.equal(result.privateAvailable,false);assert.deepEqual(result.questions,[]);
+});
