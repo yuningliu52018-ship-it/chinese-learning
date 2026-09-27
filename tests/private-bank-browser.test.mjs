@@ -52,6 +52,12 @@ test('C.3 browser integration at Pages origin with live Tailnet API', {skip:!pro
  const savedMission=qs=>({started:true,index:0,answers:[],completed:false,questionIds:qs.map(q=>q.id),questionRefs:qs.map(q=>({sourceMode:'extended',id:q.id}))});
  const session=page=>page.evaluate(k=>JSON.parse(localStorage.getItem(k)),key);
  const snapshot=page=>page.evaluate(({key,seenKey})=>[localStorage.getItem(key),localStorage.getItem(seenKey),localStorage.getItem('chineseExtendedQuestionState.v1')],{key,seenKey});
+ const assertRestored=(before,after,index,completed=false)=>{
+  const previous=JSON.parse(before[0]),current=JSON.parse(after[0]);
+  assert.equal(current.index,index);assert.equal(current.completed,completed);
+  assert.deepEqual({...current,index:previous.index,completed:previous.completed},previous);
+  assert.deepEqual(after.slice(1),before.slice(1));
+ };
  const overflow=async page=>assert.equal(await page.evaluate(()=>document.documentElement.scrollWidth-innerWidth),0);
  async function answer(page,q,correct=true){await page.locator('.option').first().waitFor();const a='ABCD'.indexOf(q.answer);await page.locator('.option').nth(correct?a:(a+1)%4).click();await page.locator('.original-explanation').waitFor();assert.equal(await page.locator('.original-explanation').textContent(),q.explanation);assert.ok((await page.locator('.feedback').textContent()).includes('正確答案：'+q.answer));assert.ok(await page.evaluate(({id,seenKey})=>JSON.parse(localStorage.getItem(seenKey)).questionIds.includes(id),{id:q.id,seenKey}));await overflow(page)}
  try{
@@ -61,16 +67,21 @@ test('C.3 browser integration at Pages origin with live Tailnet API', {skip:!pro
   const q1=raw.find(q=>q.id===first.questionIds[0]),q2=raw.find(q=>q.id===first.questionIds[1]);
   await answer(p.page,q1,true);results[3]='PASS';
   const feedbackSnapshot=await snapshot(p.page);const drawBefore=p.control.calls.filter(u=>u.endsWith('/draw')).length;
-  await p.page.reload();await p.page.locator('.original-explanation').waitFor();assert.deepEqual(await snapshot(p.page),feedbackSnapshot);
-  await p.page.locator('.feedback .primary').click();await p.page.locator('.options').waitFor();assert.equal((await session(p.page)).index,1);
+  await p.page.reload();await p.page.locator('.options').waitFor();assertRestored(feedbackSnapshot,await snapshot(p.page),1);
   const step2=await snapshot(p.page);await p.page.reload();await p.page.locator('.options').waitFor();assert.deepEqual(await snapshot(p.page),step2);assert.equal(await p.page.locator('.source').textContent(),q2.question);assert.equal(p.control.calls.filter(u=>u.endsWith('/draw')).length,drawBefore);results[8]='PASS';
   p.control.offline=true;await p.page.reload();await p.page.locator('.options').waitFor();assert.deepEqual(await snapshot(p.page),step2);assert.equal(await p.page.locator('.source').textContent(),q2.question);results[9]='PASS';
-  await answer(p.page,q2,false);results[4]=results[6]='PASS';p.control.offline=false;
+  await answer(p.page,q2,false);results[4]=results[6]='PASS';
+  const secondAnswered=await snapshot(p.page),callsBeforeOffline=p.control.calls.length;
+  await p.page.reload();await p.page.locator('.options').waitFor();assertRestored(secondAnswered,await snapshot(p.page),2);assert.equal(p.control.calls.length,callsBeforeOffline);
+  p.control.offline=false;
   // Finish all five via original feedback and verify practice stays public-only.
-  await p.page.locator('.feedback .primary').click();
-  for(let i=2;i<5;i++){await answer(p.page,raw.find(q=>q.id===first.questionIds[i]),true);await p.page.locator('.feedback .primary').click()}
+  for(let i=2;i<5;i++){await answer(p.page,raw.find(q=>q.id===first.questionIds[i]),true);if(i<4)await p.page.locator('.feedback .primary').click()}
+  const allAnswered=await snapshot(p.page);await p.page.reload();await p.page.locator('.complete').waitFor();assertRestored(allAnswered,await snapshot(p.page),4,true);
   await p.page.locator('.complete').waitFor();await p.page.locator('.replay-button').click();await p.page.locator('.options').waitFor();
   const practice=await p.page.evaluate(()=>JSON.parse(sessionStorage.getItem('116.dailyMission.practice.v1')));assert.ok(practice.questionIds.every(id=>id.startsWith('ext-')));assert.equal(p.control.calls.filter(u=>u.endsWith('/draw')).length,drawBefore);results[16]='PASS';
+  await p.page.locator('.option').first().click();await p.page.locator('.feedback').waitFor();
+  const practiceBefore=await p.page.evaluate(()=>sessionStorage.getItem('116.dailyMission.practice.v1')),formalBeforePracticeReload=await snapshot(p.page);
+  await p.page.reload();await p.page.locator('.feedback').waitFor();assert.equal(await p.page.evaluate(()=>sessionStorage.getItem('116.dailyMission.practice.v1')),practiceBefore);assert.deepEqual(await snapshot(p.page),formalBeforePracticeReload);
   // Isolated QA profile: remove only the saved task so the real scheduler makes the next task.
   await p.page.evaluate(k=>localStorage.removeItem(k),key);await p.page.goto(url);await p.page.locator('.start').click();const next=await session(p.page);assert.ok(next.questionIds.every(id=>!first.questionIds.includes(id)));results[5]='PASS';
   const imageQs=['CHI-CALLI-002','CHI-CALLI-004','CHI-LIUSHU-003'].map(id=>raw.find(q=>q.id===id));
@@ -94,7 +105,32 @@ test('C.3 browser integration at Pages origin with live Tailnet API', {skip:!pro
   // Existing memory-wall deep link / same-tab return and answered resume.
   const wall=await setup({saved:{started:true,index:0,answers:[],completed:false,questionIds:['q-zi'],questionRefs:[{sourceMode:'legacy',id:'q-zi'}]}});
   const bank=await wall.page.evaluate(async()=>{const m=await import('./daily-mission-bank.js');return m.questions.find(q=>q.id==='q-zi')});
-  await wall.page.locator('.option').nth(((bank.answer??bank.correct)+1)%4).click();await wall.page.locator('.memory-link').waitFor();const wallBefore=await snapshot(wall.page);await wall.page.locator('.memory-link').click();await wall.page.locator('.mission-return').waitFor();assert.equal(wall.ctx.pages().length,1);await wall.page.locator('.mission-return').click();await wall.page.locator('.feedback').waitFor();assert.deepEqual(await snapshot(wall.page),wallBefore);results[17]='PASS';await overflow(wall.page);
+  await wall.page.locator('.option').nth(((bank.answer??bank.correct)+1)%4).click();await wall.page.locator('.memory-link').waitFor();const wallBefore=await snapshot(wall.page);await wall.page.locator('.memory-link').click();await wall.page.locator('.mission-return').waitFor();assert.equal(wall.ctx.pages().length,1);await wall.page.locator('.mission-return').click();await wall.page.locator('.complete').waitFor();assertRestored(wallBefore,await snapshot(wall.page),0,true);results[17]='PASS';await overflow(wall.page);
+  // Run the exact UX contract for natural mixed and public-only formal missions.
+  const resumeCases=[];
+  for(const kind of ['public+private','public-only']){
+   const run=await setup({seen:kind==='public-only'?[...wrong,...raw.map(q=>q.id)]:wrong});
+   await run.page.locator('.start').click();await run.page.locator('.options').waitFor();
+   const initial=await session(run.page),initialDraws=run.control.calls.filter(u=>u.endsWith('/draw')).length;
+   assert.equal(initial.questionIds.length,5);
+   assert.equal(initial.questionIds.some(id=>id.startsWith('CHI-')),kind==='public+private');
+   for(let index=0;index<5;index++){
+    const beforeUnanswered=await snapshot(run.page),choicesBefore=await run.page.locator('.option').allTextContents();
+    await run.page.reload();await run.page.locator('.options').waitFor();assert.deepEqual(await snapshot(run.page),beforeUnanswered);assert.deepEqual(await run.page.locator('.option').allTextContents(),choicesBefore);
+    const current=await session(run.page),id=current.questionIds[index],q=id.startsWith('CHI-')?raw.find(q=>q.id===id):publicBank.resolve(id);
+    const expectedChoices=id.startsWith('CHI-')?Object.values(q.choices):q.choices;
+    assert.deepEqual(choicesBefore,expectedChoices.map((c,i)=>String.fromCharCode(65+i)+'　'+c));
+    await run.page.locator('.option').first().click();await run.page.locator('.feedback').waitFor();
+    const answered=await snapshot(run.page);
+    if(index===1)run.control.offline=true;
+    await run.page.reload();await run.page.locator(index===4?'.complete':'.options').waitFor();
+    assertRestored(answered,await snapshot(run.page),Math.min(index+1,4),index===4);
+    assert.equal(run.control.calls.filter(u=>u.endsWith('/draw')).length,initialDraws);
+    await overflow(run.page);
+   }
+   resumeCases.push({kind,Q1Reload:'Q2',Q2Reload:'Q3',unansweredReload:'same question',allAnsweredReload:'complete',privateOfflineResume:'PASS',drawsDuringResume:0,immutableFields:'PASS'});
+  }
+  console.log(JSON.stringify({resumeHotfix:resumeCases,practiceFeedbackResume:'unchanged'},null,2));
   results[18]='PASS';assert.deepEqual(errors,[]);assert.deepEqual(notFound,[]);results[19]=results[20]='PASS';
   console.log(JSON.stringify({results,functionalErrors:errors,warnings,new404:notFound,expectedOfflineTransportErrors:transport.length,viewport:'390x844',liveApi:api,userStorageTouched:false},null,2));
   if(process.env.C3_TEST_OUTPUT){await mkdir(process.env.C3_TEST_OUTPUT,{recursive:true});await writeFile(path.join(process.env.C3_TEST_OUTPUT,'browser-results.json'),JSON.stringify({results,functionalErrors:errors,warnings,new404:notFound,expectedOfflineTransportErrors:transport.length},null,2));await mixed.page.screenshot({path:path.join(process.env.C3_TEST_OUTPUT,'390x844.png')})}

@@ -72,6 +72,11 @@ if(savedPractice?.date===today&&savedPractice?.session&&savedPractice.questionId
 }
 
 
+// Restore formal tasks at the first unanswered original; practice keeps its feedback position.
+if(mode==='daily'&&integration.resumed&&!integration.unavailable&&session.started&&!session.completed&&dailyMission.length){
+ const nextIndex=dailyMission.findIndex((question,index)=>!session.answers.some(answer=>answer.index===index&&answer.id===question.id));
+ session={...session,index:nextIndex<0?dailyMission.length-1:nextIndex,completed:nextIndex<0};
+}
 const activeSession=()=>mode==='practice'?practiceSession:session;
 const activeMission=()=>mode==='practice'?practiceMission:dailyMission;
 const persist=()=>{if(mode==='daily')write(sessionKey,session);else writePractice({date:today,session:practiceSession,questionIds:practiceMission.map(question=>question.id),questionRefs:missionReferences(practiceMission),previousPracticeIds})};
