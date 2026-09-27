@@ -1,3 +1,4 @@
+import {loadPilotBank} from './daily-mission-pilot.js';
 import {fairLegacyQuestions,recordLegacyExposure,recordLegacyResult} from './daily-legacy-fairness.js';
 import {unseenQuestions,uniqueCores} from './daily-mission-exposure.js';
 export const EXTENDED_STATE_KEY='chineseExtendedQuestionState.v1';
@@ -27,10 +28,10 @@ export function combineExtendedBanks(banks){
   byId.set(q.id,q);
  }
  const approvedIndex=new Map([...byId].map(([id,q])=>[id,{questionId:id,knowledgePointId:q.knowledgePointId,sourceFile:q.approvedSourceFile}]));
- return {questions:[...byId.values()],approvedIndex,resolve(id){const ref=approvedIndex.get(id),q=byId.get(id);if(!ref||!q||ref.sourceFile!==q.approvedSourceFile)throw Error('Extended approved question unavailable');return q;}};
+ return {questions:[...byId.values()],privateAvailable:banks.some(b=>b.privateAvailable),approvedIndex,resolve(id){const ref=approvedIndex.get(id),q=byId.get(id);if(!ref||!q||ref.sourceFile!==q.approvedSourceFile)throw Error('Extended approved question unavailable');return q;}};
 }
-export async function loadExtendedBank(fetcher=fetch){
- const results=await Promise.allSettled(EXTENDED_BATCHES.map(async batch=>{
+export async function loadExtendedBank(fetcher=fetch,privateOptions={}){
+ const results=await Promise.allSettled([loadPilotBank(fetcher,privateOptions),...EXTENDED_BATCHES.map(async batch=>{
   const controller=new AbortController();const timer=setTimeout(()=>controller.abort(),5000);
   try{
    const load=async url=>{const r=await fetcher(url,{signal:controller.signal});if(!r.ok)throw Error('Extended unavailable');return r.json()};
@@ -43,7 +44,7 @@ export async function loadExtendedBank(fetcher=fetch){
    if(!bank.questions.length)throw Error('Extended approved resolver unavailable');
    return bank;
   }finally{clearTimeout(timer)}
- }));
+ })]);
  const bank=combineExtendedBanks(results.filter(r=>r.status==='fulfilled').map(r=>r.value));
  if(!bank.questions.length)throw Error('All Extended batches unavailable');
  return bank;

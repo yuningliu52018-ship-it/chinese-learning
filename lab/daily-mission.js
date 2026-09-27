@@ -1,3 +1,4 @@
+import {mixPrivateCandidates,privateMissionSnapshot,privateImageUrl,cachePrivateMissionImages} from './daily-mission-pilot.js';
 import {loadSeen,excludeSeen,markSeen} from './daily-mission-seen.js';
 import {buildExtendedPractice,loadExtendedBank,loadExtendedState,selectExtended,reserveExtended,recordExtendedAnswer} from './daily-mission-extended.js';
 import {LEGACY_HISTORY_KEY,fairLegacyQuestions,recordLegacyExposure,recordLegacyResult} from './daily-legacy-fairness.js';
@@ -39,8 +40,9 @@ const scheduledLegacy=scheduleDailyMission({questions:availableLegacy,knowledgeP
 let storage;
 try{storage=localStorage}catch{storage=undefined}
 let extendedBank=null;
-try{extendedBank=await loadExtendedBank()}catch{/* Existing pools remain available. */}
-const extendedMission=selectExtended({bank:extendedBank?{...extendedBank,questions:excludeSeen(extendedBank.questions,loadSeen(storage))}:null,state:loadExtendedState(storage),date:today,exposure});
+const privateRestoreIds=oldRefs.map(r=>r.id).filter(id=>typeof id==='string'&&id.startsWith('CHI-'));
+try{extendedBank=await loadExtendedBank(fetch,{seenQuestionIds:[...loadSeen(storage)],restoreIds:privateRestoreIds,restoreOnly:oldRefs.length>0,snapshots:session?.privateQuestions||[]})}catch{/* Existing pools remain available. */}
+const extendedMission=mixPrivateCandidates(selectExtended({bank:extendedBank?{...extendedBank,questions:excludeSeen(extendedBank.questions,loadSeen(storage))}:null,state:loadExtendedState(storage),date:today,exposure}));
 const integration=await prepareChineseDailyMission({legacyMission:[...scheduledLegacy,...fairLegacyQuestions({questions:availableLegacy,learningState:knowledge,history:legacyHistory,date:today}).filter(q=>!scheduledLegacy.some(s=>s.id===q.id))],savedSession:session,
  restoreLegacy:ids=>materializeMission(ids,questions,knowledgePoints),storage,date:new Date(),exposure,extendedBank,extendedMission});
 const dailyMission=integration.mission;
@@ -51,7 +53,7 @@ if(!integration.resumed){
  const keep=Boolean(integration.fallbackReason&&session?.started&&recorded.length);
  session={started:keep,index:keep?Math.min(recorded.length,Math.max(0,dailyMission.length-1)):0,answers:keep?recorded:[],completed:keep&&recorded.length>=dailyMission.length};
 }
-if(!integration.unavailable)session={...session,missionMode,questionIds:dailyMission.map(q=>q.id),questionRefs:missionReferences(dailyMission)};
+if(!integration.unavailable)session=integration.resumed?{...session,privateQuestions:session.privateQuestions||privateMissionSnapshot(dailyMission)}:{...session,missionMode,questionIds:dailyMission.map(q=>q.id),questionRefs:missionReferences(dailyMission),privateQuestions:privateMissionSnapshot(dailyMission)};
 let mode='daily';
 let practiceSession=null;
 let practiceMission=[];
@@ -81,6 +83,12 @@ const assetPath=path=>`..${path}`;
 const button=(label,className='primary')=>`<button type="button" class="${className}">${label}</button>`;
 
 document.addEventListener('error',event=>{
+ if(event.target instanceof HTMLImageElement&&event.target.classList.contains('material-image')){
+  event.target.hidden=true;
+  app.querySelectorAll('.option').forEach(option=>{option.disabled=true});
+  const slot=app.querySelector('#feedback-slot');if(slot)slot.textContent='原教材圖片暫時無法載入，請重新整理後繼續。';
+  return;
+ }
  if(event.target instanceof HTMLImageElement&&!event.target.dataset.safeFallback){
   event.target.dataset.safeFallback='true';
   event.target.src=assetPath(SAFE_MISSION_IMAGE);
@@ -100,7 +108,7 @@ function renderHome(){
  app.querySelector('.start').addEventListener('click',()=>{
   if(session.completed){renderComplete();return}
   if(!dailyMission.length){app.querySelector('.start').textContent='目前沒有尚未作答的新題';return}
-  reserve(dailyMission);session={...session,started:true};write(sessionKey,session);renderQuestion();
+  reserve(dailyMission);session={...session,started:true};write(sessionKey,session);cachePrivateMissionImages(dailyMission);renderQuestion();
  });
 }
 
@@ -112,11 +120,22 @@ function renderQuestion(){
   <div class="topline"><span>第 ${current.index+1} 關 / ${activeMission().length}</span><span>${formatText(question.missionRole)}</span></div>
   <div class="progress" aria-label="任務進度"><span style="width:${(current.index+1)/activeMission().length*100}%"></span></div>
   <img class="scene" src="${assetPath(resolveMissionImage(question,question.missionRole))}" alt="本題漫畫情境">
-  <p class="role">【情報辨識】</p><h1 class="source${question.sourceMode==='wrongCore'?' wrongcore-text':''}">${formatText(question.stem||question.source)}</h1>
+  <p class="role">【情報辨識】</p><h1 class="source${question.sourceMode==='wrongCore'||question.originalMaterial?' wrongcore-text':''}">${formatText(question.stem||question.source)}</h1>
   <p class="question">${formatText(question.prompt||question.question)}</p>
+  ${question.originalMaterial?`<p class="material-source">${formatText(question.sourceLabel)}</p>`:''}
+  ${question.materialImage?`<img class="material-image" data-private-src="${escapeHtml(question.materialImage)}" alt="本題原教材字形圖">`:''}
   <div class="options">${(question.choices||question.options).map((option,index)=>`<button type="button" class="option" data-index="${index}">${String.fromCharCode(65+index)}　${formatText(option)}</button>`).join('')}</div>
   <div id="feedback-slot"></div>
  </section>`;
+ const material=app.querySelector('.material-image');
+ if(material){
+  app.querySelectorAll('.option').forEach(option=>{option.disabled=true});
+  void privateImageUrl(question.materialImage).then(url=>{
+   if(!material.isConnected){if(url?.startsWith('blob:'))URL.revokeObjectURL(url);return}
+   material.addEventListener('load',()=>{if(!answered)app.querySelectorAll('.option').forEach(option=>{option.disabled=false});if(url?.startsWith('blob:'))URL.revokeObjectURL(url);},{once:true});
+   material.src=url;
+  });
+ }
  if(answered){showFeedback(question,answered);return}
  app.querySelectorAll('.option').forEach(option=>option.addEventListener('click',()=>answerQuestion(Number(option.dataset.index))));
 }
@@ -150,6 +169,11 @@ function answerQuestion(selected){
 function showFeedback(question,answer){
  app.querySelectorAll('.option').forEach(option=>{option.disabled=true});
  const slot=app.querySelector('#feedback-slot');
+ if(question.originalMaterial){
+  slot.innerHTML=`<section class="feedback ${answer.correct?'correct':'wrong'}"><img class="feedback-scene" src="${assetPath(GENERIC_MISSION_IMAGES[answer.correct?'correct':'hint'])}" alt="安妮亞作答回饋"><div><h2>${answer.correct?'✅ 答對':'❌ 答錯'}</h2><p>正確答案：${formatText(question.originalAnswer)}</p><h3>原教材詳解</h3><p class="original-explanation">${formatText(question.explanation)}</p><div class="feedback-actions">${button('下一題')}</div></div></section>`;
+  slot.querySelector('.primary').addEventListener('click',nextQuestion);
+  slot.scrollIntoView({behavior:'smooth',block:'nearest'});return;
+ }
  const correctOption=question.sourceMode==='wrongCore'?`正確答案：${question.choiceKeys[question.answer]}　${question.choices[question.answer]}\n`:'';
  if(answer.correct){
   slot.innerHTML=`<section class="feedback correct success-burst"><img class="feedback-scene" src="${assetPath(GENERIC_MISSION_IMAGES.correct)}" alt="安妮亞答對回饋"><div><h2>✅ 情報正確！</h2><p>${formatText(question.explanation)}</p><div class="feedback-actions">${button('下一關 →')}</div></div></section>`;
@@ -203,9 +227,9 @@ function renderComplete(){
  app.querySelector('.home-button').addEventListener('click',renderHome);
 }
 
-function startPractice(){
+async function startPractice(){
  exposure=mergeExposure(read(exposureKey(today),exposure));
- const candidates=buildExtendedPractice({bank:extendedBank,state:loadExtendedState(storage),legacyQuestions:questions,legacyHistory:read(LEGACY_HISTORY_KEY,legacyHistory),learningState:knowledge,date:today,exposure});
+ const candidates=buildExtendedPractice({bank:extendedBank?{...extendedBank,questions:extendedBank.questions.filter(q=>!q.originalMaterial)}:null,state:loadExtendedState(storage),legacyQuestions:questions,legacyHistory:read(LEGACY_HISTORY_KEY,legacyHistory),learningState:knowledge,date:today,exposure});
  if(!candidates.length){const replay=app.querySelector('.replay-button');if(replay)replay.textContent='目前沒有尚未作答的新題';return}
  practiceMission=candidates;
  reserve(practiceMission);
@@ -230,7 +254,7 @@ function renderPracticeComplete(){
  app.querySelector('.home-button').addEventListener('click',()=>{mode='daily';const url=new URL(location.href);url.searchParams.delete('resume');history.replaceState(null,'',url);renderHome()});
 }
 
-if(session.started&&!integration.unavailable)reserve(dailyMission);
+if(session.started&&!integration.unavailable){reserve(dailyMission);write(sessionKey,session);cachePrivateMissionImages(dailyMission);}
 if(integration.unavailable||practiceUnavailable){app.innerHTML='<section class="screen"><p>原任務暫時無法載入，紀錄已保留。請重新整理後繼續。</p></section>'}
 else if(mode==='practice'){if(practiceSession.completed)renderComplete();else renderQuestion()}
 else if(session.completed) renderComplete();
